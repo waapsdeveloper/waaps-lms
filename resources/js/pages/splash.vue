@@ -1,15 +1,8 @@
 <template>
-
-    <div>
-        <h2>Splash Page</h2>
-    </div>
-    
-
+    <div></div>
 </template>
 
 <script>import Base from './base.vue';
-
-
 
 export default{
     extends: Base,
@@ -17,7 +10,7 @@ export default{
     mounted(){
         setTimeout( () => {
             this.route('/dashboard')
-        }, 5000)
+        }, 500)
     }
 
 
