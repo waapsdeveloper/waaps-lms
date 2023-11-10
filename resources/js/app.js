@@ -8,7 +8,10 @@ import { routes } from './routes';
 
 const router = createRouter({
     history: createWebHistory(),
-    routes: routes
+    routes: routes,
+    base: '/',
+    mode: 'history',
+
 });
 
 const app = createApp(App);

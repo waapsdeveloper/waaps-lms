@@ -1,5 +1,5 @@
 /*-------------------------------------------------------------
-Template Name: Rumbok Learning Managment System 
+Template Name: Rumbok Learning Managment System
 Template URL: rumbok.softtechthemes.com
 Author: SoftTech IT
 Author URL: https://themeforest.net/user/softtech-it/portfolio
@@ -8,8 +8,8 @@ Description: Education learning managment system template
 Tags: education, learning
 Text Domain: rumbok
 -------------------------------------------------------------*/
-/*------------------------------------------------------------- 
-TABLE OF CONTENTS: 
+/*-------------------------------------------------------------
+TABLE OF CONTENTS:
 ---------------------------------------------------------------
 >> Author CSS
 >> Navbar
@@ -17,7 +17,7 @@ TABLE OF CONTENTS:
 >> Footer Section
 >> Breadcrumb Section
 >> Preloader
->> Button 
+>> Button
 >> Form
 >> Accordion
 >> Theme Defalult
@@ -1718,10 +1718,11 @@ img {
 /* Home Page 01 */
 .hero-section {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(80, 190, 70, 0.1)));
+  min-height: 80vh;
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(rgba(80, 190, 70, 0.1)));
   background-image: -webkit-linear-gradient(#ffffff, rgba(80, 190, 70, 0.1));
   background-image: -o-linear-gradient(#ffffff, rgba(80, 190, 70, 0.1));
-  background-image: linear-gradient(#ffffff, rgba(80, 190, 70, 0.1));
+  background-image: linear-gradient(#ffffff, rgba(80, 190, 70, 0.1)); */
   padding: 200px 0; }
   @media (min-width: 768px) and (max-width: 991.98px) {
     .hero-section {
@@ -1739,7 +1740,7 @@ img {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url("../images/hero-bg-shape.png");
+    /* background-image: url("../images/hero-bg-shape.png"); */
     background-repeat: no-repeat; }
   .hero-section .hero-content h1 span {
     color: #50be46; }

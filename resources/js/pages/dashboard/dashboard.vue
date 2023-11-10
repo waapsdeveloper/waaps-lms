@@ -3,33 +3,7 @@
         <CMenu></CMenu>
         <!-- Hero Section Starts -->
         <section class="hero-section">
-            <div class="hero-shape">
-                <img src="assets/images/round-shape-4.png" alt="shape" class="hero-round-shape-4 item-moveTwo">
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 align-self-center">
-                        <div class="hero-content">
-                            <h1>Course LMS, best <span>Online learning</span> Platform</h1>
-                            <span class="hero-tagline">Learn Wherever, Whenever, However Online Classes.</span>
-                            <div class="hero-button">
-                                <a href="course.html" class="template-button">start course</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div class="hero-image">
-                            <div class="hero-small-images">
-                                <img src="assets/images/hero-small-image-1.png" alt="image" class="hero-small-image-1">
-                                <img src="assets/images/hero-small-image-2.png" alt="image" class="hero-small-image-2">
-                                <img src="assets/images/hero-small-image-3.png" alt="image" class="hero-small-image-3">
-                                <img src="assets/images/hero-small-image-4.png" alt="image" class="hero-small-image-4">
-                            </div>
-                            <img src="assets/images/hero-image.png" alt="image">
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </section>
 
         <!-- Feature Section Starts -->
