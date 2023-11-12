@@ -2,7 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\API\RoleController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -17,6 +17,24 @@ use Illuminate\Support\Facades\Route;
 // Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 //     return $request->user();
 // });
+
+
+Route::group(['prefix' => 'roles'], function () {
+    // Index - List all roles
+    Route::get('/', 'RoleController@index');
+
+    // Store - Store a newly created role in the database
+    Route::post('/', 'RoleController@store');
+
+    // Update - Update the specified role in the database
+    Route::put('/{role}', 'RoleController@update');
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{role}', 'RoleController@destroy');
+});
+
+
+
 
 Route::post('/register', 'App\Http\Controllers\API\AuthController@register');
 
