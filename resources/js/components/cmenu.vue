@@ -52,7 +52,14 @@ export default{
     extends: Base,
     name: 'cmenu',
     mounted(){
+        this.subscribe('toggle-menu', this.toggleMenu);
 
+    },
+    methods: {
+        toggleMenu(){
+            let menu = document.querySelector('.main-menu');
+            menu.classList.toggle('active');
+        }
     }
 
 

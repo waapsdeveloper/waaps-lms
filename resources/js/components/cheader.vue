@@ -14,7 +14,7 @@
                                     <i class="fa fa-envelope-open"></i>
                                     <span><a href="#">info@rumbok.com</a></span>
                                 </div>
-                                <div class="menu-toggle-bar">
+                                <div class="menu-toggle-bar" >
                                     <div class="custom-bars">
                                         <div class="custom-bar bar-1"></div>
                                         <div class="custom-bar bar-2"></div>
@@ -26,7 +26,7 @@
                         <div class="col-sm-6">
                             <div class="info-right">
                                 <ul>
-                                    <li class="login-button"><a href="login.html">login</a></li>
+                                    <li class="login-button"><a href="/login">login</a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
@@ -97,7 +97,12 @@ export default{
     extends: Base,
     name: 'cheader',
     mounted(){
-       
+
+    },
+    methods: {
+        toggleMenu(){
+            this.publish('toggle-menu', true)
+        }
     }
 
 

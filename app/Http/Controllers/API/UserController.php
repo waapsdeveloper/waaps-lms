@@ -5,7 +5,8 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
-use Illuminate\Support\Facades\Validator;
+
+
 
 class UserController extends Controller
 {
@@ -26,6 +27,7 @@ class UserController extends Controller
     {
         //
     }
+
 
     /**
      * Store a newly created resource in storage.
@@ -54,8 +56,14 @@ class UserController extends Controller
         ];
 
         $user = User::create($obj);
+        $token = $user->createToken('WaapsLms')->accessToken;
 
-        return self::success('User created successfully', ['data' => $user]);
+
+        $response = [
+            'token' => $token,
+            'user' => $user,
+        ];
+        return self::success('User created successfully', ['data' => $response]);
     }
 
     /**
@@ -80,6 +88,41 @@ class UserController extends Controller
     public function update(Request $request, string $id)
     {
         //
+
+        $data = $request->all();
+
+        $user = User::where('id', $id)->first();
+        if (!$user) {
+            return self::failure('User not found');
+        }
+
+        $validator = Validator::make($data, [
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|unique:users,email',
+            'password' => 'required|string|min:8',
+            'role_id' => 'required|exists:roles,id',
+        ]);
+
+        if ($validator->fails()) {
+            return self::failure($validator->errors()->first());
+        }
+
+
+        $user = Auth::user();
+
+        $user->name = $data['name'];
+        $user->email = $data['email'];
+        $user->password = bcrypt($data['password']);
+        $user->role_id = $data['role_id'];
+
+        $user->save();
+
+
+        $response = [
+            'user' => $user,
+        ];
+        return self::success('User created successfully', ['data' => $response]);
+
     }
 
     /**

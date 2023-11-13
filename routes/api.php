@@ -4,6 +4,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\API\RoleController;
 use App\Http\Controllers\API\UserController;
+use App\Http\Controllers\API\AuthController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -19,6 +20,11 @@ use App\Http\Controllers\API\UserController;
 //     return $request->user();
 // });
 
+Route::group(['prefix' => 'auth'], function () {
+    Route::post('/register', [AuthController::class, 'register']);
+    Route::post('/login', [AuthController::class, 'login']);
+});
+
 
 Route::group(['prefix' => 'roles'], function () {
     // Index - List all roles
@@ -28,14 +34,14 @@ Route::group(['prefix' => 'roles'], function () {
     Route::post('/', [RoleController::class, 'store']);
 
     // Update - Update the specified role in the database
-    Route::put('/{role}', [RoleController::class, 'update']);
+    Route::post('/{id}', [RoleController::class, 'update']);
 
     // Destroy - Remove the specified role from the database
     Route::delete('/{role}', [RoleController::class, 'destroy']);
 
 });
 
-Route::group(['prefix' => 'users'], function () {
+Route::group(['prefix' => 'users', 'middleware'=> ['auth:api']], function () {
     // Index - List all users
     Route::get('/', [UserController::class, 'index']);
 
@@ -43,7 +49,7 @@ Route::group(['prefix' => 'users'], function () {
     Route::post('/', [UserController::class, 'store']);
 
     // Update - Update the specified user in the database
-    Route::put('/{user}', [UserController::class, 'update']);
+    Route::post('/{id}', [UserController::class, 'update']);
 
     // Destroy - Remove the specified user from the database
     Route::delete('/{user}', [UserController::class, 'destroy']);

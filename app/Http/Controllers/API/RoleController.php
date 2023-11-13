@@ -78,8 +78,7 @@ class RoleController extends Controller
     {
         //
 
-        $role = Role::findOrFail($id);
-
+        $role = Role::where('id', $id)->first();
         if (!$role) {
             return self::failure('Role not found');
         }

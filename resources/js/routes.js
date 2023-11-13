@@ -1,14 +1,21 @@
 
 
 import splash from './pages/splash.vue';
+import login from './pages/login.vue';
 import dashboard from './pages/dashboard/dashboard.vue';
+import course from './pages/course/course.vue';
+import coursedetail from './pages/course/coursedetail.vue';
 
 
 
 export const routes = [
     // { path: '/', component: require('./login/login').default },
     { path: '/', name: 'splash', component: splash },
+    { path: '/login', name: 'login', component: login },
+
     { path: '/dashboard', name: 'dashboard', component: dashboard },
+    { path: '/course', name: 'course', component: course },
+    { path: '/course/:id', name: 'coursedetail', component: coursedetail },
     // {
     //     path: '/dashboard',
     //     component: require('./dashboard/dashboard').default,
@@ -21,7 +28,7 @@ export const routes = [
     //         },
     //         {
     //             path: '/properties/:pid/equipment',
-    //             name: 'Equipment', 
+    //             name: 'Equipment',
     //             component: require('./dashboard/pages/equipment-page/equipment').default,
     //             children: [
     //                 // {

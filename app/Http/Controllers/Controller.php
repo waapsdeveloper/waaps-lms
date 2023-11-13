@@ -23,7 +23,7 @@ class Controller extends BaseController
         return response()->json( $returnArray, $code);
     }
 
-    public static function failure($error, $data = [], $code = 400 ){
+    public static function failure($error, $data = [], $code = 409 ){
 
         $msgArray = array(
             'bool' => false,

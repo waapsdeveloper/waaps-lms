@@ -6,7 +6,7 @@
         $(".menu-bar").on('click', function(){
             $(".category-menu").toggleClass("active");
         });
-        
+
         // Main Menu
         $(".menu-toggle-bar").on('click', function(){
             $(".main-menu").toggleClass("active");
@@ -59,7 +59,7 @@
             });
         });
 
-        // CounterUp 
+        // CounterUp
         $('.counter').counterUp({
             delay: 10,
             time: 1500
@@ -91,7 +91,7 @@
             prevArrow: '<i class="prev-arrow fa fa-arrow-left"></i>',
             nextArrow: '<i class="next-arrow fa fa-arrow-right"></i>',
         });
-        
+
         // Blog Details Slider
         $('.blog-details-slider').slick({
             dots: false,
@@ -138,7 +138,7 @@
 			var filterValue = $(this).attr('data-filter');
 			$grid.isotope({ filter: filterValue });
 		});
-		// Course Tab Link Switching 
+		// Course Tab Link Switching
 		$('.course-tab li').on('click', function(event) {
             $(this).siblings('.active').removeClass('active');
             $(this).addClass('active');
@@ -164,36 +164,36 @@
         $('#bar6').barfiller({
             barColor: '#50be46'
         });
-        
+
         // Cart Item Remove
         $('.single-cart-item .template-button').on('click', function(e) {
             $(this).parents('.single-cart-item').hide();
             e.preventDefault();
         });
 
-        // Payment Method Tab 
+        // Payment Method Tab
         $(".payment-tab ul li").on('click', function() {
             var tabClass = $(this).attr("class");
             $(this).addClass("active").siblings().removeClass("active");
             $("." + tabClass + "-content").addClass("active").siblings().removeClass("active");
         });
-        
-        // Login Tab 
+
+        // Login Tab
         $(".login-tab ul li").on('click', function(e) {
             var tabClass = $(this).attr("class");
             $(this).addClass("active").siblings().removeClass("active");
             $("." + tabClass + "-content").addClass("active").siblings().removeClass("active");
             e.preventDefault();
         });
-        
-        // Course Details Tab 
+
+        // Course Details Tab
         $(".course-details-tab ul li").on('click', function() {
             var tabClass = $(this).attr("class");
             $(this).addClass("active").siblings().removeClass("active");
             $("." + tabClass + "-content").addClass("active").siblings().removeClass("active");
         });
-        
-        // Course Video Tab 
+
+        // Course Video Tab
         $(".course-video-tab ul li").on('click', function() {
             var tabClass = $(this).attr("class");
             $(this).addClass("active").siblings().removeClass("active");
@@ -233,7 +233,7 @@
 			var filterValue = $(this).attr('data-filter');
 			$grid.isotope({ filter: filterValue });
 		});
-		// Popular Course Tab Link Switching 
+		// Popular Course Tab Link Switching
 		$('.popular-course-tab li').on('click', function(event) {
             $(this).siblings('.active').removeClass('active');
             $(this).addClass('active');
@@ -251,11 +251,11 @@
             slidesToScroll: 1,
             arrows: false,
             fade: true,
-        }); 
+        });
 
         // CountDown
         $('.countdown').downCount({
-            date: '04/24/2021 12:00:00',
+            date: '11/11/2023 16:00:00',
             offset: +6
         }, function () {
             alert('Countdown done!');
