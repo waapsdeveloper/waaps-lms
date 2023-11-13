@@ -1,8 +1,5 @@
 
 <template>
-  <Cheader></Cheader>
-  <CMenu></CMenu>
-
   <!-- Breadcrumb Section Starts -->
   <section class="breadcrumb-section">
     <div class="breadcrumb-shape">
@@ -904,8 +901,6 @@
       </div>
     </div>
   </section>
-
-  <Cfooter></Cfooter>
 </template>
 
 <script>

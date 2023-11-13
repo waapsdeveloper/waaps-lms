@@ -254,12 +254,12 @@
         });
 
         // CountDown
-        $('.countdown').downCount({
-            date: '11/11/2023 16:00:00',
-            offset: +6
-        }, function () {
-            alert('Countdown done!');
-        });
+        // $('.countdown').downCount({
+        //     date: new Date(),
+        //     offset: +6
+        // }, function () {
+        //     alert('Countdown done!');
+        // });
 
     });
 

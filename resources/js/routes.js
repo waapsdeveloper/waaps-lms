@@ -1,19 +1,30 @@
 
 
 import splash from './pages/splash.vue';
+import parent from './pages/parent.vue';
 import login from './pages/login.vue';
 import dashboard from './pages/dashboard/dashboard.vue';
 import course from './pages/course/course.vue';
 import coursedetail from './pages/course/coursedetail.vue';
-
+import category from './pages/category/category.vue';
 
 
 export const routes = [
     // { path: '/', component: require('./login/login').default },
-    { path: '/', name: 'splash', component: splash },
-    { path: '/login', name: 'login', component: login },
+    {   path: '/',
+        name: 'parent',
+        component: parent,
+        children: [
+            { path: "", name: 'dashboard', component: dashboard },
+            { path: '/login', name: 'login', component: login },
+            { path: '/category', name: 'category', component: category },
+        ]
+    },
 
-    { path: '/dashboard', name: 'dashboard', component: dashboard },
+
+
+
+
     { path: '/course', name: 'course', component: course },
     { path: '/course/:id', name: 'coursedetail', component: coursedetail },
     // {

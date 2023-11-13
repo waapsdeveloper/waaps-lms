@@ -56,7 +56,9 @@
                                     </div>
                                     <div class="category-menu">
                                         <ul>
-                                            <li><a href="web-development.html">web development</a></li>
+                                            <li><a href="/category?type=web">Web Development</a></li>
+                                            <li><a href="/category?type=mobile">Mobile Development</a></li>
+                                            <!-- <li><a href="web-development.html">web development</a></li>
                                             <li><a href="education.html">education</a></li>
                                             <li class="have-submenu"><a href="#">business</a>
                                                 <ul class="sub-menu">
@@ -67,7 +69,7 @@
                                             </li>
                                             <li><a href="marketing.html">marketing</a></li>
                                             <li><a href="photography.html">photography</a></li>
-                                            <li><a href="music.html">music</a></li>
+                                            <li><a href="music.html">music</a></li> -->
                                         </ul>
                                     </div>
                                 </div>

@@ -1,6 +1,4 @@
 <template>
-  <Cheader></Cheader>
-  <CMenu></CMenu>
 
   <section class="breadcrumb-section">
     <div class="breadcrumb-shape">
@@ -146,7 +144,7 @@
       </div>
     </div>
   </section>
-  <Cfooter></Cfooter>
+
 </template>
 
 <script>

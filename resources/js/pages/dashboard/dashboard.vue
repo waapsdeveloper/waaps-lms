@@ -1,6 +1,5 @@
 <template>
-        <Cheader></Cheader>
-        <CMenu></CMenu>
+
         <!-- Hero Section Starts -->
         <section class="hero-section">
 
@@ -1043,7 +1042,7 @@
                 </div>
             </div>
         </section>
-        <Cfooter></Cfooter>
+        
 </template>
 
 <script>
