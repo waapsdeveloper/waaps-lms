@@ -106,10 +106,10 @@ class RoleController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
         //
-        $role = Role::findOrFail($id);
+        $role = Role::where(['id' => $id])->first();
         if (!$role) {
             return self::failure('Role not found');
         }

@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Support\Facades\Validator;
 
 
 
@@ -128,8 +129,20 @@ class UserController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(string $id)
+    public function destroy($id)
     {
-        //
+        // Find the user by ID
+        $user = User::where(['id' => $id])->first();
+
+        // Check if the user was found
+        if (!$user) {
+            return self::failure('User not found');
+        }
+
+        // Delete the user
+        $user->delete();
+
+        // Return success response
+        return self::success('User deleted successfully', ['data' => ['id' => $id]]);
     }
 }

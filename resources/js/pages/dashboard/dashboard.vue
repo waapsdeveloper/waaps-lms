@@ -58,7 +58,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-1.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -70,7 +70,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-2.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -82,7 +82,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-3.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -94,7 +94,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-4.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -106,7 +106,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-5.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -118,7 +118,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-6.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -130,7 +130,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-7.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -142,7 +142,7 @@
                         </div></a>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <a href="course.html"><div class="single-category-item">
+                        <a href="/course"><div class="single-category-item">
                             <div class="category-image">
                                 <img src="assets/images/category-icon-8.png" alt="image">
                                 <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
@@ -232,7 +232,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">user experience design with adobe XD</a></h4>
+                                    <h4><a href="/course-details">user experience design with adobe XD</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -259,8 +259,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -315,7 +315,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">the complete financial analytic course</a></h4>
+                                    <h4><a href="/course-details">the complete financial analytic course</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -342,8 +342,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -398,7 +398,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">user experience design with adobe XD</a></h4>
+                                    <h4><a href="/course-details">user experience design with adobe XD</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -425,8 +425,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -481,7 +481,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">user experience design with adobe XD</a></h4>
+                                    <h4><a href="/course-details">user experience design with adobe XD</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -508,8 +508,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -564,7 +564,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">learn photography from scratch</a></h4>
+                                    <h4><a href="/course-details">learn photography from scratch</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -591,8 +591,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -647,7 +647,7 @@
                                 <span class="heart-icon"><i class="fa fa-heart-o"></i></span>
                                 <span class="title-tag">by instructor</span>
                                 <div class="course-title margin-top-10">
-                                    <h4><a href="course-details.html">learn about microsoft SQL server</a></h4>
+                                    <h4><a href="/course-details">learn about microsoft SQL server</a></h4>
                                 </div>
                                 <div class="course-price-info margin-top-20">
                                     <span class="best-seller">best seller</span>
@@ -674,8 +674,8 @@
                                     <li><i class="fa fa-circle-o"></i><span>Placeat dolore quaerat itaque.</span></li>
                                 </ul>
                                 <div class="preview-button margin-top-20">
-                                    <a href="course-details.html" class="template-button">course preview</a>
-                                    <a href="cart.html" class="template-button margin-left-10">add to cart</a>
+                                    <a href="/course-details" class="template-button">course preview</a>
+                                    <a href="/cart" class="template-button margin-left-10">add to cart</a>
                                 </div>
                             </div>
                         </div>
@@ -971,7 +971,7 @@
                                 </ul>
                             </div>
                             <div class="single-blog-content">
-                                <h4 class="title"><a href="blog.html">Latest News Of wordPress development</a></h4>
+                                <h4 class="title"><a href="/blog">Latest News Of wordPress development</a></h4>
                             </div>
                         </div>
                     </div>
@@ -987,7 +987,7 @@
                                 </ul>
                             </div>
                             <div class="single-blog-content">
-                                <h4 class="title"><a href="blog.html">learn about web development</a></h4>
+                                <h4 class="title"><a href="/blog">learn about web development</a></h4>
                             </div>
                         </div>
                     </div>
@@ -1003,7 +1003,7 @@
                                 </ul>
                             </div>
                             <div class="single-blog-content">
-                                <h4 class="title"><a href="blog.html">learn about user interface Design</a></h4>
+                                <h4 class="title"><a href="/blog">learn about user interface Design</a></h4>
                             </div>
                         </div>
                     </div>
@@ -1042,7 +1042,7 @@
                 </div>
             </div>
         </section>
-        
+
 </template>
 
 <script>

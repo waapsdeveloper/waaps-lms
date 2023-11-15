@@ -9,7 +9,7 @@
                         <div class="col-lg-3 col-md-6">
                             <div class="footer-widget">
                                 <div class="footer-logo">
-                                    <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                                    <a href="/"><img src="assets/images/logo.png" alt="logo"></a>
                                 </div>
                                 <p>Lorem ipsum dolor, sit amet conse adipisicing elit. quidem perspiciatis earum voluptatem enim dolor.</p>
                             </div>
@@ -32,9 +32,9 @@
                                     <h4 class="title">useful links</h4>
                                 </div>
                                 <ul>
-                                    <li><a href="#">about us</a></li>
-                                    <li><a href="#">terms of service</a></li>
-                                    <li><a href="#">legal info</a></li>
+                                    <li><a href="/about">about us</a></li>
+                                    <li><a href="/about">terms of service</a></li>
+                                    <li><a href="/about">legal info</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ export default{
     extends: Base,
     name: 'cfooter',
     mounted(){
-        
+
     }
 
 

@@ -1,45 +1,45 @@
 <template>
         <div class="main-menu">
             <div class="menu-logo">
-                <a href="index.html"><img src="assets/images/logo-both-color.png" alt="logo"></a>
+                <a href="/"><img src="assets/images/logo-both-color.png" alt="logo"></a>
             </div>
             <ul>
-                <li class="have-submenu"><a href="#">home</a>
+                <li class="have-submenu"><a href="/">home</a>
                     <ul class="sub-menu">
-                        <li><a href="index.html">home 01</a></li>
-                        <li><a href="home-2.html">home 02</a></li>
+                        <li><a href="/">home 01</a></li>
+                        <li><a href="/">home 02</a></li>
                     </ul>
                 </li>
-                <li><a href="about.html">about</a></li>
-                <li class="have-submenu"><a href="#">course</a>
+                <li><a href="/about">about</a></li>
+                <li class="have-submenu"><a href="/course">course</a>
                     <ul class="sub-menu">
-                        <li><a href="web-development.html">web development</a></li>
-                        <li><a href="education.html">education</a></li>
-                        <li><a href="business.html">business</a></li>
-                        <li><a href="banking.html">banking</a></li>
-                        <li><a href="corporate.html">corporate</a></li>
-                        <li><a href="consulting.html">consulting</a></li>
-                        <li><a href="marketing.html">marketing</a></li>
-                        <li><a href="photography.html">photography</a></li>
-                        <li><a href="music.html">music</a></li>
+                        <li><a href="/web-development">web development</a></li>
+                        <li><a href="/education">education</a></li>
+                        <li><a href="/business">business</a></li>
+                        <li><a href="/banking">banking</a></li>
+                        <li><a href="/corporate">corporate</a></li>
+                        <li><a href="/consulting">consulting</a></li>
+                        <li><a href="/marketing">marketing</a></li>
+                        <li><a href="/photography">photography</a></li>
+                        <li><a href="/music">music</a></li>
                     </ul>
                 </li>
-                <li><a href="course-details.html">course details</a></li>
-                <li><a href="course-video.html">course video</a></li>
-                <li><a href="package.html">package</a></li>
-                <li><a href="instructor-details.html">instructor details</a></li>
-                <li><a href="cart.html">cart</a></li>
-                <li><a href="purchase.html">purchase</a></li>
+                <li><a href="/course-detail">course details</a></li>
+                <li><a href="/course-video">course video</a></li>
+                <li><a href="/packages">package</a></li>
+                <li><a href="/instructor-details">instructor details</a></li>
+                <li><a href="/cart">cart</a></li>
+                <li><a href="/purchase">purchase</a></li>
                 <li class="have-submenu"><a href="#">blog</a>
                     <ul class="sub-menu">
-                        <li><a href="blog.html">blog</a></li>
-                        <li><a href="blog-details.html">blog details</a></li>
+                        <li><a href="/blog">blog</a></li>
+                        <li><a href="/blog-details">blog details</a></li>
                     </ul>
                 </li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="login.html">log in</a></li>
-                <li><a href="signup.html">sign up</a></li>
-                <li><a href="404.html">404</a></li>
+                <li><a href="/contact">contact</a></li>
+                <li><a href="/login">log in</a></li>
+                <li><a href="/signup">sign up</a></li>
+                <li><a href="/404">404</a></li>
             </ul>
         </div>
 </template>

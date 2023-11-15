@@ -18,7 +18,7 @@
         <div class="col-lg-12">
           <h2>course page</h2>
           <div class="breadcrumb-link margin-top-10">
-            <span><a href="index.html">home</a> / course page</span>
+            <span><a href="/">home</a> / course page</span>
           </div>
         </div>
       </div>

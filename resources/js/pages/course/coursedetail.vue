@@ -19,7 +19,7 @@
         <div class="col-lg-12">
           <h2>course details page</h2>
           <div class="breadcrumb-link margin-top-10">
-            <span><a href="index.html">home</a> / course details page</span>
+            <span><a href="/">home</a> / course details page</span>
           </div>
         </div>
       </div>
@@ -270,16 +270,16 @@
                       >
                         <div class="card-body">
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 01
                             </a>
                             <span class="preview"
-                              ><a href="course-video.html">preview</a></span
+                              ><a href="/course-video">preview</a></span
                             >
                             <span>02:50</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 02
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
@@ -309,37 +309,37 @@
                       >
                         <div class="card-body">
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 01
                             </a>
                             <span class="preview"
-                              ><a href="course-video.html">preview</a></span
+                              ><a href="/course-video">preview</a></span
                             >
                             <span>02:50</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 02
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>03:20</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 03
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>04:10</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/resourcescourse-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 04
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>07:20</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 05
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
@@ -369,30 +369,30 @@
                       >
                         <div class="card-body">
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 01
                             </a>
                             <span class="preview"
-                              ><a href="course-video.html">preview</a></span
+                              ><a href="/course-video">preview</a></span
                             >
                             <span>02:50</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 02
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>03:20</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 03
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>04:10</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 04
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
@@ -422,44 +422,44 @@
                       >
                         <div class="card-body">
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 01
                             </a>
                             <span class="preview"
-                              ><a href="course-video.html">preview</a></span
+                              ><a href="/course-video">preview</a></span
                             >
                             <span>02:50</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 02
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>03:20</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 03
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>04:10</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 04
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>07:20</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 05
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
                             <span>08:40</span>
                           </div>
                           <div class="single-course-video">
-                            <a href="course-video.html" class="button-video">
+                            <a href="/course-video" class="button-video">
                               <i class="fa fa-play-circle"></i> lesson 06
                             </a>
                             <span class="locked"><a href="#">locked</a></span>
@@ -538,7 +538,7 @@
                       </p>
                       <div class="instructor-button margin-top-30">
                         <a
-                          href="instructor-details.html"
+                          href="/instructor-details"
                           class="template-button"
                           >know more</a
                         >

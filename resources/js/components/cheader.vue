@@ -43,7 +43,7 @@
                     <div class="row">
                         <div class="col-lg-3">
                             <div class="header-logo">
-                                <a href="index.html"><img src="assets/images/logo.png" alt="logo"></a>
+                                <a href="/"><img src="assets/images/logo.png" alt="logo"></a>
                             </div>
                         </div>
                         <div class="col-lg-9">
@@ -58,18 +58,18 @@
                                         <ul>
                                             <li><a href="/category?type=web">Web Development</a></li>
                                             <li><a href="/category?type=mobile">Mobile Development</a></li>
-                                            <!-- <li><a href="web-development.html">web development</a></li>
-                                            <li><a href="education.html">education</a></li>
+                                            <!-- <li><a href="/web-development">web development</a></li>
+                                            <li><a href="/education">education</a></li>
                                             <li class="have-submenu"><a href="#">business</a>
                                                 <ul class="sub-menu">
-                                                    <li><a href="banking.html">banking sector</a></li>
-                                                    <li><a href="corporate.html">corporate sector</a></li>
-                                                    <li><a href="consulting.html">consulting</a></li>
+                                                    <li><a href="/banking>banking sector</a></li>
+                                                    <li><a href="/corporate">corporate sector</a></li>
+                                                    <li><a href="/consulting">consulting</a></li>
                                                 </ul>
                                             </li>
-                                            <li><a href="marketing.html">marketing</a></li>
-                                            <li><a href="photography.html">photography</a></li>
-                                            <li><a href="music.html">music</a></li> -->
+                                            <li><a href="/marketing>marketing</a></li>
+                                            <li><a href="/photography">photography</a></li>
+                                            <li><a href="/music">music</a></li> -->
                                         </ul>
                                     </div>
                                 </div>
@@ -80,8 +80,8 @@
                                     </form>
                                 </div>
                                 <div class="header-button">
-                                    <a href="signup.html" class="template-button-2">become student</a>
-                                    <a href="instructor-details.html" class="template-button">instructor</a>
+                                    <a href="/signup" class="template-button-2">become student</a>
+                                    <a href="/instructor-details" class="template-button">instructor</a>
                                 </div>
                             </div>
                         </div>

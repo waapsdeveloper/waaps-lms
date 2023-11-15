@@ -1,6 +1,6 @@
 <template>
-<!-- Breadcrumb Section Starts -->
-<section class="breadcrumb-section">
+          <!-- Breadcrumb Section Starts -->
+          <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
                 <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
                 <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
@@ -605,14 +605,16 @@
         </section>
 </template>
 
-<script>
-export default {
-    name: 'category',
+<script>import Base from './base.vue';
+
+export default{
+    extends: Base,
+    name: 'webdevelopment',
     mounted(){
 
-    },
-    methods: {
-
     }
+
+
+
 }
 </script>
