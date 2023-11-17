@@ -34,23 +34,23 @@ class ResultController extends Controller
     {
         $data = $request->all();
 
-        $validator = Validator::make($request->all(), [
-            'user_id' => 'required|exists:users,id',
-            'instructor_id' => 'required|exists:instructors,id',
-            'training_id' => 'required|exists:trainings,id',
+        $validator = Validator::make($data, [
+            'user_id' => 'required',
+            'instructor_id' => 'required',
+            'training_id' => 'required',
             'title' => 'required|string|max:255',
-            'description' => 'string',
-            'task_percentage' => 'required|numeric|min:0|max:100',
-            'test_percentage' => 'required|numeric|min:0|max:100',
-            'average_percentage' => 'required|numeric|min:0|max:100',
-            'remarks' => 'string',
+            'description' => 'required|string',
+            'task_percentage' => 'required|numeric',
+            'test_percentage' => 'required|numeric',
+            'average_percentage' => 'required|numeric',
+            'remarks' => 'required|string|max:255',
         ]);
 
         if ($validator->fails()) {
             return self::failure($validator->errors()->first());
         }
 
-        $resultData = [
+        $result = Result::create([
             'user_id' => $data['user_id'],
             'instructor_id' => $data['instructor_id'],
             'training_id' => $data['training_id'],
@@ -60,13 +60,10 @@ class ResultController extends Controller
             'test_percentage' => $data['test_percentage'],
             'average_percentage' => $data['average_percentage'],
             'remarks' => $data['remarks'],
-        ];
-
-        $result = Result::create($resultData);
+        ]);
 
         return self::success('Result created successfully', ['data' => $result]);
     }
-
     /**
      * Display the specified resource.
      */
