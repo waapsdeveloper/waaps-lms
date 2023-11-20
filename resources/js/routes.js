@@ -27,6 +27,7 @@ import photography from './pages/photography.vue';
 import purchase from './pages/purchase.vue';
 import signup from './pages/signup.vue';
 import webdevelopment from './pages/webdevelopment.vue';
+import profile from './pages/profile.vue';
 
 
 
@@ -61,6 +62,7 @@ export const routes = [
             { path: '/purchase', name: 'purchase', component: purchase },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
+            { path: '/profile', name: 'profile', component: profile }
 
         ]
     },

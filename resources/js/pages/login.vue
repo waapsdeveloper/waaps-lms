@@ -106,6 +106,8 @@
                       login account
                     </button>
                   </div>
+                  <span
+                      >I don't have an account? <a href="/signup">Signup</a></span>
                 </form>
               </div>
             </div>
