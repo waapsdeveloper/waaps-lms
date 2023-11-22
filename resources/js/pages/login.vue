@@ -38,14 +38,14 @@
             <h3>login to your <span>account!</span></h3>
             <div class="login-tab">
               <div class="tab">
-                <ul>
+                <!-- <ul>
                   <li class="tab-second">
                     <a href="#" class="template-button-2">instructor</a>
                   </li>
                   <li class="tab-three">
                     <a href="#" class="template-button-2">student</a>
                   </li>
-                </ul>
+                </ul> -->
               </div>
             </div>
             <div class="tab-content margin-top-30">
@@ -105,9 +105,9 @@
                     <button @click="validate" class="template-button">
                       login account
                     </button>
-                  </div>
-                  <span
-                      >I don't have an account? <a href="/signup">Signup</a></span>
+                    <span
+                    >I don't have an account? <a href="/signup">Signup</a></span>
+                </div>
                 </form>
               </div>
             </div>
