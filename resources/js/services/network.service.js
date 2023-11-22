@@ -25,6 +25,14 @@ export default class NetworkService {
         return this.axiosGetResponse('/users/profile', null, false, true);
     }
 
+    getAcceptTerms(){
+        return this.axiosGetResponse('/users/accept-terms', null, false, false);
+    }
+
+    acceptTerms(data){
+        return this.axiosPostResponse('/users/accept-terms', data, null, false, true);
+    }
+
 
 
     // Generic Functions

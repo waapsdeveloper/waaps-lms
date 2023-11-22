@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Profile;
+use App\Models\UserTerm;
 use Illuminate\Support\Facades\Validator;
 use Auth;
 
@@ -155,6 +156,35 @@ class UserController extends Controller
         $authUser['profile'] = $profile;
 
         return self::success('User Profile', ['data' => [$authUser]]);
+    }
+
+    public function acceptTerms(Request $request) {
+
+        $data = $request->all();
+        $authUser = Auth::user();
+
+        $validator = Validator::make($data, [
+            'terms_accepted' => 'required|boolean',
+        ]);
+
+        if ($validator->fails()) {
+            return self::failure($validator->errors()->first());
+        }
+
+        $terms = UserTerm::updateOrCreate(
+            ['user_id' => $authUser->id],
+            ['is_accepted' => $data['terms_accepted'] ]
+        );
+
+        return self::success('User Terms updated', ['data' => $terms ]);
+
+    }
+
+    public function getAcceptTerms(){
+
+        $authUser = Auth::user();
+        $terms = UserTerm::where(['user_id' => $authUser->id ])->first();
+        return self::success('User Terms updated', ['data' => $terms ]);
     }
 
 }

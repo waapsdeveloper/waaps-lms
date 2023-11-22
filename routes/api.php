@@ -74,6 +74,9 @@ Route::group(['prefix' => 'users', 'middleware'=> ['auth:api']], function () {
 
     Route::get('/profile', [UserController::class, 'profile']);
 
+    Route::get('/accept-terms', [UserController::class, 'getAcceptTerms']);
+    Route::post('/accept-terms', [UserController::class, 'acceptTerms']);
+
 
 
     // Index - List all users

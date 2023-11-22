@@ -237,123 +237,7 @@
           Launch demo modal
         </button>
 
-        <!-- Modal -->
-        <div
-          class="modal fade"
-          id="exampleModal"
-          tabindex="-1"
-          role="dialog"
-          aria-labelledby="exampleModalLabel"
-          aria-hidden="true"
-        >
-          <div class="modal-dialog" role="document">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">
-                  Terms & Conditions
-                </h5>
-                <!-- <button
-                  type="button"
-                  class="close"
-                  data-dismiss="modal"
-                  aria-label="Close"
-                >
-                  <span aria-hidden="true">&times;</span>
-                </button> -->
-              </div>
-              <div class="modal-body">
-                <h4>
-                  <b><i>Our Terms!</i></b>
-                </h4>
-                <ul class="py-4">
-                  <li>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Quas, in aperiam obcaecati aut asperiores saepe. Aut,
-                    corrupti dicta. Aperiam.
-                  </li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores, sed!
-                  </li>
-                  <li>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Tempora, voluptatem. Inventore?
-                  </li>
-                  <li>Lorem, ipsum dolor.</li>
-                  <div class="lists">
-                    <li>Lorem ipsum dolor sit.</li>
-                    <li>Lorem ipsum dolor sit amet consectetur.</li>
-                    <li>
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Consectetur vel quisquam ducimus dolores facere pariatur.
-                      Qui sint porro sapiente numquam, fugiat veritatis natus
-                      aspernatur asperiores quos magni consequuntur, earum
-                      alias.
-                    </li>
-                    <li>
-                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                      Incidunt nostrum optio perferendis, dolorem blanditiis
-                      neque?
-                    </li>
-                    <li>Lorem, ipsum.</li>
-                    <li>
-                      <i><h3>Agreed!!..</h3></i>
-                    </li>
-                  </div>
-                </ul>
-                <div>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
-                  tenetur molestias dolorem alias laborum itaque, explicabo
-                  aspernatur blanditiis, labore repudiandae, adipisci repellat.
-                  Aliquid fuga veritatis sunt natus laborum architecto
-                  asperiores. Impedit, dolorem suscipit ipsa, reprehenderit
-                  debitis eaque labore veritatis eos similique atque sapiente
-                  voluptates? Incidunt esse temporibus rem iste rerum aliquid
-                  quia eaque quasi exercitationem. Cum temporibus voluptas
-                  tenetur itaque non inventore praesentium fugiat dicta
-                  blanditiis, soluta et rem nesciunt ipsam doloremque assumenda
-                  sequi, libero perferendis? Non, inventore exercitationem natus
-                  quidem veritatis, laudantium iste placeat qui cum quasi
-                  architecto dicta facilis quis laboriosam odit, error fuga
-                  culpa saepe! Natus, laudantium. Lorem ipsum dolor sit amet
-                  consectetur adipisicing elit. Rerum quam eum optio reiciendis
-                  consequuntur. Placeat amet quisquam doloribus quae tenetur
-                  voluptates vero ab quibusdam cumque, aut ipsa ex animi
-                  eligendi rerum, autem nulla architecto ea quas aspernatur.
-                  Quidem maiores dolore numquam. Perspiciatis accusantium quae
-                  totam aut eligendi est eaque cum, at odit obcaecati facere
-                  quibusdam ex officia fugiat nostrum veniam ducimus quaerat
-                  veritatis voluptatum? Deserunt esse culpa iure accusantium
-                  unde laboriosam cum ut a saepe quae facere fugiat ullam
-                  reprehenderit qui nulla nisi minima facilis explicabo omnis
-                  dolores, placeat, incidunt dolor eos eveniet. A temporibus
-                  fuga obcaecati assumenda commodi quam sequi maiores non
-                  voluptatem quod! Dolorum aspernatur obcaecati odio repellat
-                  adipisci, minus aliquid iste consequatur odit voluptate
-                  ducimus esse commodi amet praesentium repellendus voluptates
-                  molestias! Reiciendis maiores architecto optio quos eligendi
-                  laborum enim nihil veritatis dicta amet autem officiis est
-                  incidunt, itaque quis harum? Fugit commodi optio eos deleniti
-                  quod!
-                </div>
-              </div>
-              <div class="modal-footer">
-                <input type="checkbox" /> I agree terms and conditions
-                <button
-                  type="button"
-                  class="btn btn-secondary"
-                  data-dismiss="modal"
-                >
-                  Close
-                </button>
-                <button type="button" class="template-button-2">
-                  Save changes
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+
       </div>
       <div class="instructor-content-bottom margin-top-60">
         <div class="row">
@@ -819,15 +703,177 @@
       </div>
     </div>
   </section>
+
+  <!-- Modal -->
+  <div
+          class="modal fade"
+          id="termsModal"
+          ref="termsModal"
+          tabindex="-1"
+          role="dialog"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">
+                  Terms & Conditions
+                </h5>
+                <button
+                  type="button"
+                  class="close"
+                  data-dismiss="modal"
+                  aria-label="Close"
+                >
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <h4>
+                  <b><i>Our Terms!</i></b>
+                </h4>
+                <ul class="py-4">
+                  <li>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Quas, in aperiam obcaecati aut asperiores saepe. Aut,
+                    corrupti dicta. Aperiam.
+                  </li>
+                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Maiores, sed!
+                  </li>
+                  <li>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Tempora, voluptatem. Inventore?
+                  </li>
+                  <li>Lorem, ipsum dolor.</li>
+                  <div class="lists">
+                    <li>Lorem ipsum dolor sit.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Consectetur vel quisquam ducimus dolores facere pariatur.
+                      Qui sint porro sapiente numquam, fugiat veritatis natus
+                      aspernatur asperiores quos magni consequuntur, earum
+                      alias.
+                    </li>
+                    <li>
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Incidunt nostrum optio perferendis, dolorem blanditiis
+                      neque?
+                    </li>
+                    <li>Lorem, ipsum.</li>
+                    <li>
+                      <i><h3>Agreed!!..</h3></i>
+                    </li>
+                  </div>
+                </ul>
+                <div>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut
+                  tenetur molestias dolorem alias laborum itaque, explicabo
+                  aspernatur blanditiis, labore repudiandae, adipisci repellat.
+                  Aliquid fuga veritatis sunt natus laborum architecto
+                  asperiores. Impedit, dolorem suscipit ipsa, reprehenderit
+                  debitis eaque labore veritatis eos similique atque sapiente
+                  voluptates? Incidunt esse temporibus rem iste rerum aliquid
+                  quia eaque quasi exercitationem. Cum temporibus voluptas
+                  tenetur itaque non inventore praesentium fugiat dicta
+                  blanditiis, soluta et rem nesciunt ipsam doloremque assumenda
+                  sequi, libero perferendis? Non, inventore exercitationem natus
+                  quidem veritatis, laudantium iste placeat qui cum quasi
+                  architecto dicta facilis quis laboriosam odit, error fuga
+                  culpa saepe! Natus, laudantium. Lorem ipsum dolor sit amet
+                  consectetur adipisicing elit. Rerum quam eum optio reiciendis
+                  consequuntur. Placeat amet quisquam doloribus quae tenetur
+                  voluptates vero ab quibusdam cumque, aut ipsa ex animi
+                  eligendi rerum, autem nulla architecto ea quas aspernatur.
+                  Quidem maiores dolore numquam. Perspiciatis accusantium quae
+                  totam aut eligendi est eaque cum, at odit obcaecati facere
+                  quibusdam ex officia fugiat nostrum veniam ducimus quaerat
+                  veritatis voluptatum? Deserunt esse culpa iure accusantium
+                  unde laboriosam cum ut a saepe quae facere fugiat ullam
+                  reprehenderit qui nulla nisi minima facilis explicabo omnis
+                  dolores, placeat, incidunt dolor eos eveniet. A temporibus
+                  fuga obcaecati assumenda commodi quam sequi maiores non
+                  voluptatem quod! Dolorum aspernatur obcaecati odio repellat
+                  adipisci, minus aliquid iste consequatur odit voluptate
+                  ducimus esse commodi amet praesentium repellendus voluptates
+                  molestias! Reiciendis maiores architecto optio quos eligendi
+                  laborum enim nihil veritatis dicta amet autem officiis est
+                  incidunt, itaque quis harum? Fugit commodi optio eos deleniti
+                  quod!
+                </div>
+              </div>
+              <div class="modal-footer">
+                <input type="checkbox" v-model="profile.terms" /> I agree terms and conditions
+
+                <button type="button" class="template-button-2" @click="acceptTerms()">
+                  Save changes
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
 </template>
 
 <script>
 import Base from "./base.vue";
+import { reactive, ref } from "vue";
 
 export default {
   extends: Base,
   name: "profile",
-  mounted() {},
+  setup(){
+
+    let profile = ref({
+      terms: false,
+    });
+    return {profile};
+  },
+
+  mounted() {
+    this.showTerms()
+  },
+  methods: {
+    async showTerms(){
+
+        // get the flag from API to see status
+        const res = await this.network().getAcceptTerms()
+        console.log(res)
+
+        if(res && res.is_accepted){
+            this.profile.terms = true;
+        } else {
+            $("#termsModal").modal('show');
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+    },
+    async acceptTerms(){
+        console.log(this.profile.terms);
+
+        // call API to send data
+        let obj = {
+            terms_accepted: this.profile.terms
+        }
+
+        const res = await this.network().acceptTerms(obj)
+        console.log(res)
+        $("#termsModal").modal('hide');
+    }
+  }
 };
 </script>
 <style>
