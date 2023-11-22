@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
 use Illuminate\Support\Facades\Validator;
-
+use Auth;
 
 
 class UserController extends Controller
@@ -145,4 +145,13 @@ class UserController extends Controller
         // Return success response
         return self::success('User deleted successfully', ['data' => ['id' => $id]]);
     }
+
+    // Custom function
+    public function profile(Request $request){
+
+        $authUser = Auth::user();
+
+        return self::success('User Profile', ['data' => [$authUser]]);
+    }
+
 }

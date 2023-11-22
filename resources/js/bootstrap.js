@@ -8,7 +8,21 @@ import axios from 'axios';
 window.axios = axios;
 
 window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
+window.axios.interceptors.request.use(
+    async function(request) {
 
+        // let token = await sqLiteService.getCurrentUserAuthorizationToken();
+        let token = localStorage.getItem('_token');
+        if(token){
+            request.headers.Authorization = "Bearer " + token;
+        }
+        return request;
+
+    },
+    function(error) {
+        //
+    }
+);
 /**
  * Echo exposes an expressive API for subscribing to channels and listening
  * for events that are broadcast by Laravel. Echo and event broadcasting

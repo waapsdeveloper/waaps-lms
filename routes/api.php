@@ -54,6 +54,7 @@ Route::group(['prefix' => 'auth'], function () {
 });
 
 
+
 Route::group(['prefix' => 'roles'], function () {
     // Index - List all roles
     Route::get('/', [RoleController::class, 'index']);
@@ -70,6 +71,11 @@ Route::group(['prefix' => 'roles'], function () {
 });
 
 Route::group(['prefix' => 'users', 'middleware'=> ['auth:api']], function () {
+
+    Route::get('/profile', [UserController::class, 'profile']);
+
+
+
     // Index - List all users
     Route::get('/', [UserController::class, 'index']);
 
@@ -401,20 +407,20 @@ Route::group(['prefix' => 'training-group-level-task'], function () {
 });
 
 
-Route::group(['prefix' => 'profile'], function () {
-    // Index - List all roles
-    Route::get('/', [ProfileController::class, 'index']);
+// Route::group(['prefix' => 'profile'], function () {
+//     // Index - List all roles
+//     Route::get('/', [ProfileController::class, 'index']);
 
-    // Store - Store a newly created role in the database
-    Route::post('/', [ProfileController::class, 'store']);
+//     // Store - Store a newly created role in the database
+//     Route::post('/', [ProfileController::class, 'store']);
 
-    // Update - Update the specified role in the database
-    Route::post('/{id}', [ProfileController::class, 'update']);
+//     // Update - Update the specified role in the database
+//     Route::post('/{id}', [ProfileController::class, 'update']);
 
-    // Destroy - Remove the specified role from the database
-    Route::delete('/{id}', [ProfileController::class, 'destroy']);
+//     // Destroy - Remove the specified role from the database
+//     Route::delete('/{id}', [ProfileController::class, 'destroy']);
 
-});
+// });
 
 
 Route::group(['prefix' => 'batch'], function () {

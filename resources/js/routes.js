@@ -31,6 +31,63 @@ import profile from './pages/profile.vue';
 import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
 
+// services
+import UserService from './services/user.service';
+const userService = new UserService();
+
+async function inverseAuthGuard(to, from, next) {
+    var isAuthenticated = false;
+    //this is just an example. You will have to find a better or
+    // centralised way to handle you localstorage data handling
+    let user = await sqlite.getActiveUser();
+    if (!user) {
+        next(); // allow to enter route
+    } else {
+        next('/dashboard'); // go to '/login';
+    }
+}
+
+async function AuthGuard(to, from, next) {
+    var isAuthenticated = false;
+    //this is just an example. You will have to find a better or
+    // centralised way to handle you localstorage data handling
+    let flag = await userService.isUserAuthenticated()
+    if (flag) {
+        next(); // allow to enter route
+    } else {
+        next('/'); // go to '/login';
+    }
+}
+
+
+async function StudentAuthGuard(to, from, next) {
+    var isAuthenticated = false;
+    //this is just an example. You will have to find a better or
+    // centralised way to handle you localstorage data handling
+    let flag = await userService.isUserAuthenticated()
+    const role_id = localStorage.getItem('_role_id');
+    if (flag && role_id == 4) {
+        next(); // allow to enter route
+    } else {
+        next('/'); // go to '/login';
+    }
+}
+
+
+async function InstructorAuthGuard(to, from, next) {
+    var isAuthenticated = false;
+    //this is just an example. You will have to find a better or
+    // centralised way to handle you localstorage data handling
+    let flag = await userService.isUserAuthenticated()
+    const role_id = localStorage.getItem('_role_id');
+    if (flag && role_id == 3) {
+        next(); // allow to enter route
+    } else {
+        next('/'); // go to '/login';
+    }
+}
+
+
 
 
 export const routes = [
@@ -41,6 +98,13 @@ export const routes = [
         children: [
             { path: "", name: 'dashboard', component: dashboard },
             { path: '/login', name: 'login', component: login },
+            { path: '/signup', name: 'signup', component: signup },
+
+            { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard, beforeEnter: StudentAuthGuard },
+            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard, beforeEnter: InstructorAuthGuard },
+
+
+
             { path: '/category', name: 'category', component: category },
             { path: '/course', name: 'course', component: course },
             { path: '/404', name: 'errorpage', component: errorpage },
@@ -62,11 +126,10 @@ export const routes = [
             { path: '/packages', name: 'packages', component: packages },
             { path: '/photography', name: 'photography', component: photography },
             { path: '/purchase', name: 'purchase', component: purchase },
-            { path: '/signup', name: 'signup', component: signup },
+
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
             { path: '/profile', name: 'profile', component: profile },
-            { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
-            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard}
+
 
         ]
     },

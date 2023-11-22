@@ -3,6 +3,9 @@ const apiService = new ApiService();
 import UtilityService from "./utility.service";
 const utilityService = new UtilityService();
 
+import UserService from "./user.service";
+const userService = new UserService()
+
 export default class NetworkService {
 
     constructor() {}
@@ -17,6 +20,15 @@ export default class NetworkService {
     signup(data) {
         return this.axiosPostResponse('/auth/register', data, null, false, true);
     }
+
+    getUser() {
+        return this.axiosGetResponse('/users/profile', null, false, true);
+    }
+
+
+
+    // Generic Functions
+    //
 
     axiosGetResponse(key, id = null, showLoader = false, showError = true, contentType = 'application/json') {
         return this.httpResponse('get', key, {}, id, showLoader, showError, contentType);
@@ -100,7 +112,7 @@ export default class NetworkService {
 
                 if(err.status == 401){
                     // redirect it to login page
-                    sqlite.setLogout();
+                    userService.setLogout();
                     this.$router.push({ path: '/', query: {} });
                 }
 
