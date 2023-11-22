@@ -14,6 +14,10 @@ export default class NetworkService {
         return this.axiosPostResponse('/auth/login', data, null, false, true);
     }
 
+    signup(data) {
+        return this.axiosPostResponse('/auth/register', data, null, false, true);
+    }
+
     axiosGetResponse(key, id = null, showLoader = false, showError = true, contentType = 'application/json') {
         return this.httpResponse('get', key, {}, id, showLoader, showError, contentType);
     }
