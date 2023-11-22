@@ -209,6 +209,8 @@ export default {
       return new Promise(async (resolve) => {
         var user = res.user;
         user.token = res.token;
+        localStorage.setItem("_user_id", user.id);
+        localStorage.setItem("_role_id", user.role_id);
         localStorage.setItem("_token", res.token);
         console.log(user, "USER DATA");
         // await this.network().addFcmToken({fcm_token: localStorage.getItem('_fcm_token')});

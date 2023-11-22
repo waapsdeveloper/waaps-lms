@@ -212,12 +212,14 @@ export default {
             console.log(this.auth, "REQUEST DATA!");
             const res = await this.network().signup(this.auth);
             //   console.log(res, "check");
-            //   this.processRequest(res);
+            this.processRequest(res);
         },
         processRequest(res) {
             return new Promise(async (resolve) => {
                 var user = res.user;
                 user.token = res.token;
+                localStorage.setItem("_user_id", user.id);
+                localStorage.setItem("_role_id", user.role_id);
                 localStorage.setItem("_token", res.token);
                 console.log(user, "USER DATA");
                 // await this.network().addFcmToken({fcm_token: localStorage.getItem('_fcm_token')});
