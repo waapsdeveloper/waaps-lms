@@ -65,8 +65,8 @@ export const routes = [
             { path: '/signup', name: 'signup', component: signup },
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
             { path: '/profile', name: 'profile', component: profile },
-            { path: '/studentdashboard', name: 'studentdashboard', component: studentdashboard },
-            { path: '/instructordashboard', name: 'instructordashboard', component: instructordashboard}
+            { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
+            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard}
 
         ]
     },

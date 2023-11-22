@@ -222,6 +222,15 @@ export default {
                 localStorage.setItem("_role_id", user.role_id);
                 localStorage.setItem("_token", res.token);
                 console.log(user, "USER DATA");
+
+                if(user.role_id == 3 ){
+                    this.route('/instructor-dashboard')
+                } else {
+                    this.route('/student-dashboard')
+                }
+
+
+
                 // await this.network().addFcmToken({fcm_token: localStorage.getItem('_fcm_token')});
                 // this.utility().presentSuccessToast("Welcome " + user.name);
                 // await this.sqlite().setUserInDatabase(user);
