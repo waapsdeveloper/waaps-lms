@@ -28,6 +28,8 @@ import purchase from './pages/purchase.vue';
 import signup from './pages/signup.vue';
 import webdevelopment from './pages/webdevelopment.vue';
 import profile from './pages/profile.vue';
+import studentdashboard from './pages/studentdashboard.vue';
+import instructordashboard from './pages/instructordashboard.vue';
 
 
 
@@ -62,7 +64,9 @@ export const routes = [
             { path: '/purchase', name: 'purchase', component: purchase },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
-            { path: '/profile', name: 'profile', component: profile }
+            { path: '/profile', name: 'profile', component: profile },
+            { path: '/studentdashboard', name: 'studentdashboard', component: studentdashboard },
+            { path: '/instructordashboard', name: 'instructordashboard', component: instructordashboard}
 
         ]
     },
