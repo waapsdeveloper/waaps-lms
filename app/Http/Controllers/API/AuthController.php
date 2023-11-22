@@ -23,6 +23,7 @@ class AuthController extends Controller
             'name' => 'required|string|max:255',
             'email' => 'required|email|unique:users,email',
             'password' => 'required|string|min:8',
+            'role' => 'required',
         ]);
 
         if ($validator->fails()) {
@@ -33,7 +34,7 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),
-            'role_id' => 2,
+            'role_id' => $data['role'] == 'instructor' ? 3 : 4,
         ];
 
         $user = User::create($obj);
