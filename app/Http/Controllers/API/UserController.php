@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\User;
+use App\Models\Profile;
 use Illuminate\Support\Facades\Validator;
 use Auth;
 
@@ -150,6 +151,8 @@ class UserController extends Controller
     public function profile(Request $request){
 
         $authUser = Auth::user();
+        $profile = Profile::where(['user_id' => $authUser->id])->first();
+        $authUser['profile'] = $profile;
 
         return self::success('User Profile', ['data' => [$authUser]]);
     }

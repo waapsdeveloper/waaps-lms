@@ -100,6 +100,8 @@ export const routes = [
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
 
+            { path: '/profile', name: 'profile', component: profile, beforeEnter: AuthGuard },
+
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard, beforeEnter: StudentAuthGuard },
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard, beforeEnter: InstructorAuthGuard },
 
@@ -128,7 +130,7 @@ export const routes = [
             { path: '/purchase', name: 'purchase', component: purchase },
 
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
-            { path: '/profile', name: 'profile', component: profile },
+
 
 
         ]

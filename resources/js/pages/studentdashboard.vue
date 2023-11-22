@@ -827,7 +827,37 @@ import Base from "./base.vue";
 export default {
   extends: Base,
   name: "studentdashboard",
-  mounted() {},
+  mounted(){
+        this.isProfileCompleted()
+    },
+    methods: {
+        isProfileCompleted(){
+
+            return new Promise( async resolve => {
+                const res = await this.network().getUser();
+                console.log(res)
+                let user = res[0];
+
+                // check if its profile is incomplete
+                if(!user.profile){
+                    // incomplete
+                    this.redirectToIncomplete()
+                }
+
+                if(user.profile && !user.profile.phone){
+                    // incomplete
+                    this.redirectToIncomplete()
+
+                }
+
+            })
+
+        },
+        redirectToIncomplete(){
+            this.route('/profile')
+        }
+
+    }
 };
 </script>
 <style>
@@ -848,4 +878,3 @@ export default {
   max-width: 55%;
 }
 </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />

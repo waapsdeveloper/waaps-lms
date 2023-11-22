@@ -460,7 +460,19 @@ export default{
     extends: Base,
     name: 'instructordashboard',
     mounted(){
+        isProfileCompleted()
+    },
+    methods: {
+        isProfileCompleted(){
 
+            return new Promise( async resolve => {
+                const res = await this.network().getUser();
+                console.log(res)
+
+            })
+
+
+        }
     }
 
 

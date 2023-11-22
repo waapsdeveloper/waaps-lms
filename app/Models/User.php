@@ -51,5 +51,9 @@ class User extends \TCG\Voyager\Models\User
         return $this->belongsTo('App\Models\Role', 'role_id', 'id');
     }
 
+    public function profile(){
+        return $this->hasOne(Profile::class, 'user_id', 'id');
+    }
+
 
 }
