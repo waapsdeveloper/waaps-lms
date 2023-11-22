@@ -234,7 +234,7 @@ export default {
                 // await this.network().addFcmToken({fcm_token: localStorage.getItem('_fcm_token')});
                 // this.utility().presentSuccessToast("Welcome " + user.name);
                 // await this.sqlite().setUserInDatabase(user);
-                this.route("/course");
+                // this.route("/course");
                 //point to taken
             });
         },

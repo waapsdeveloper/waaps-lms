@@ -216,7 +216,11 @@ export default {
         // await this.network().addFcmToken({fcm_token: localStorage.getItem('_fcm_token')});
         // this.utility().presentSuccessToast("Welcome " + user.name);
         // await this.sqlite().setUserInDatabase(user);
-        this.route("/course");
+        if(user.role_id == 3 ){
+                    this.route('/instructor-dashboard')
+                } else {
+                    this.route('/student-dashboard')
+                }
         //point to taken
       });
     },
