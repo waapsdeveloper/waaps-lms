@@ -852,14 +852,6 @@ export default {
 
 
 
-
-
-
-
-
-
-
-
     },
     async acceptTerms(){
         console.log(this.profile.terms);
