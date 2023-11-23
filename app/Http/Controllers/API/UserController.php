@@ -187,4 +187,46 @@ class UserController extends Controller
         return self::success('User Terms updated', ['data' => $terms ]);
     }
 
+    public function profileDetails(Request $request){
+
+        $data = $request->all();
+
+        $validator = Validator::make($data, [
+            'name' => 'required',
+            'cnic' => 'required',
+            'phone' => 'required',
+            'address' => 'required',
+            'qualification' => 'required',
+
+        ]);
+
+        if ($validator->fails()) {
+            return self::failure($validator->errors()->first());
+        }
+
+        $user = Auth::user();
+        if($data['name']){
+            $user->update([
+                'name' => $data['name']
+            ]);
+        }
+
+        $profile = Profile::updateOrCreate(
+            ['user_id' => $user->id],
+            [
+                'nic' => $data['cnic'],
+                'phone' => $data['phone'],
+                'address' => $data['address'],
+                'qualification' => $data['qualification'],
+
+            ]
+        );
+
+        $user = User::where(['id' => $user->id])->with('profile')->first();
+
+        return self::success('User Terms updated', ['data' => $user ]);
+
+
+    }
+
 }

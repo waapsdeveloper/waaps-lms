@@ -42,7 +42,7 @@
             <div class="instructor-info">
               <h3>john doe</h3>
               <br />
-              <H5>Personal Details <button
+              <h5>Personal Details <button
                       type="button"
                       class="template-button-2 pt-1 pb-1 px-1"
                       data-toggle="modal"
@@ -51,85 +51,7 @@
                       edit
                     </button>
 
-                    <!-- Modal -->
-                    <div
-                      class="modal fade"
-                      id="exampleModalLong"
-                      tabindex="-1"
-                      role="dialog"
-                      aria-labelledby="exampleModalLongTitle"
-                      aria-hidden="true"
-                    >
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
-                              Change Your Detail Here
-                            </h5>
-                            <!-- <button
-                              type="button"
-                              class="close"
-                              data-dismiss="modal"
-                              aria-label="Close"
-                            >
-                              <span aria-hidden="true">&times;</span>
-                            </button> -->
-                          </div>
-                          <div class="modal-body">
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id=""
-                                  >Name:</span
-                                >
-                              </div>
-                              <input type="text" class="form-control" />
-                            </div>
-                            <br />
-
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id=""
-                                  >Phone:</span
-                                >
-                              </div>
-                              <input type="text" class="form-control" />
-                            </div>
-                            <br />
-
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id=""
-                                  >CNIC:</span
-                                >
-                              </div>
-                              <input type="text" class="form-control" />
-                            </div>
-                            <br />
-
-                            <div class="input-group">
-                              <div class="input-group-prepend">
-                                <span class="input-group-text" id=""
-                                  >Address:</span
-                                >
-                              </div>
-                              <input type="text" class="form-control" />
-                            </div>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-secondary"
-                              data-dismiss="modal"
-                            >
-                              Close
-                            </button>
-                            <button type="button" class="template-button-2">
-                              Save changes
-                            </button>
-                          </div>
-                        </div>
-                      </div>
-                    </div></H5>
+                </h5>
 
               <br />
               <table>

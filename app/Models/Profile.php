@@ -16,4 +16,9 @@ class Profile extends Model
         'address',
         'qualification'
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

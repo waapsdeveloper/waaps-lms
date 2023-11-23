@@ -73,9 +73,11 @@ Route::group(['prefix' => 'roles'], function () {
 Route::group(['prefix' => 'users', 'middleware'=> ['auth:api']], function () {
 
     Route::get('/profile', [UserController::class, 'profile']);
-
+    Route::post('/profile-details', [UserController::class, 'profileDetails']);
     Route::get('/accept-terms', [UserController::class, 'getAcceptTerms']);
     Route::post('/accept-terms', [UserController::class, 'acceptTerms']);
+
+
 
 
 

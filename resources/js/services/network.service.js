@@ -33,6 +33,10 @@ export default class NetworkService {
         return this.axiosPostResponse('/users/accept-terms', data, null, false, true);
     }
 
+    saveProfile(data){
+        return this.axiosPostResponse('/users/profile-details', data, null, false, true);
+    }
+
 
 
     // Generic Functions

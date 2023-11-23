@@ -82,7 +82,7 @@
                                   >Name:</span
                                 >
                               </div>
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control" v-model="profile.name" />
                             </div>
                             <br />
 
@@ -92,7 +92,7 @@
                                   >Phone:</span
                                 >
                               </div>
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control" v-model="profile.phone" />
                             </div>
                             <br />
 
@@ -102,7 +102,7 @@
                                   >CNIC:</span
                                 >
                               </div>
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control" v-model="profile.cnic"  />
                             </div>
                             <br />
 
@@ -112,7 +112,15 @@
                                   >Address:</span
                                 >
                               </div>
-                              <input type="text" class="form-control" />
+                              <input type="text" class="form-control" v-model="profile.address"  />
+                            </div>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <span class="input-group-text" id=""
+                                  >Qualification:</span
+                                >
+                              </div>
+                              <input type="text" class="form-control" v-model="profile.qualification"  />
                             </div>
                           </div>
                           <div class="modal-footer">
@@ -123,7 +131,7 @@
                             >
                               Close
                             </button>
-                            <button type="button" class="template-button-2">
+                            <button type="button" class="template-button-2" @click="saveProfileDetail">
                               Save changes
                             </button>
                           </div>
@@ -829,6 +837,11 @@ export default {
 
     let profile = ref({
       terms: false,
+      name: null,
+      phone: null,
+      cnic: null,
+      address: null,
+      qualification: null
     });
     return {profile};
   },
@@ -836,6 +849,10 @@ export default {
   mounted() {
     this.showTerms()
   },
+
+
+
+
   methods: {
     async showTerms(){
 
@@ -849,17 +866,6 @@ export default {
             $("#termsModal").modal('show');
         }
 
-
-
-
-
-
-
-
-
-
-
-
     },
     async acceptTerms(){
         console.log(this.profile.terms);
@@ -872,6 +878,12 @@ export default {
         const res = await this.network().acceptTerms(obj)
         console.log(res)
         $("#termsModal").modal('hide');
+    },
+    async saveProfileDetail(){
+        console.log(this.profile);
+
+        const res = await this.network().saveProfile(this.profile)
+        console.log(res)
     }
   }
 };
