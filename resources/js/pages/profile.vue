@@ -46,7 +46,7 @@
                       type="button"
                       class="template-button-2 pt-1 pb-1 px-1"
                       data-toggle="modal"
-                      data-target="#exampleModalLong"
+                      data-target="#profileModal"
                     >
                       edit
                     </button>
@@ -54,16 +54,16 @@
                     <!-- Modal -->
                     <div
                       class="modal fade"
-                      id="exampleModalLong"
+                      id="profileModal"
                       tabindex="-1"
                       role="dialog"
-                      aria-labelledby="exampleModalLongTitle"
+                      aria-labelledby="profileModalTitle"
                       aria-hidden="true"
                     >
                       <div class="modal-dialog" role="document">
                         <div class="modal-content">
                           <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">
+                            <h5 class="modal-title" id="profileModalTitle">
                               Change Your Detail Here
                             </h5>
                             <!-- <button
@@ -143,23 +143,23 @@
               <table>
                 <tr>
                   <td>Name:</td>
-                  <td>Noor</td>
+                  <td>{{this.profile.name}}</td>
                 </tr>
                 <tr>
                   <td>Phone:</td>
-                  <td>(92) 123-7890</td>
+                  <td>{{this.profile.phone}}</td>
                 </tr>
                 <tr>
                   <td>CNIC:</td>
-                  <td>123-45-6789</td>
+                  <td>{{this.profile.cnic}}</td>
                 </tr>
                 <tr>
                   <td>Address:</td>
-                  <td>
-                    123 Main Street, Cityville
-                    <!-- Button trigger modal -->
-
-                  </td>
+                  <td>{{this.profile.address}}</td>
+                </tr>
+                <tr>
+                  <td>Qualification:</td>
+                  <td>{{this.profile.qualification}}</td>
                 </tr>
               </table>
 
@@ -847,13 +847,31 @@ export default {
   },
 
   mounted() {
-    this.showTerms()
+    this.showTerms();
+    this.getProfile();
   },
 
 
 
 
   methods: {
+    async getProfile(){
+        const res = await this.network().getUser();
+        console.log(res);
+        if(res[0]){
+            let obj = res[0];
+            this.profile.name = obj.name
+
+            if(obj.profile){
+                this.profile.cnic = obj.profile.nic
+                this.profile.address = obj.profile.address
+                this.profile.phone = obj.profile.phone
+                this.profile.qualification = obj.profile.qualification
+            }
+
+
+        }
+    },
     async showTerms(){
 
         // get the flag from API to see status
@@ -884,6 +902,8 @@ export default {
 
         const res = await this.network().saveProfile(this.profile)
         console.log(res)
+        this.getProfile();
+        $("#profileModal").modal('hide')
     }
   }
 };
