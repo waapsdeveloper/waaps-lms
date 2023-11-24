@@ -39,7 +39,8 @@
                 <li><a href="/contact">contact</a></li>
                 <li><a href="/login">log in</a></li>
                 <li><a href="/signup">sign up</a></li>
-                <li><a href="/404">404</a></li>
+                <!-- <li><a href="/404">404</a></li> -->
+                <li><a href="/logout">Logout</a></li>
             </ul>
         </div>
 </template>

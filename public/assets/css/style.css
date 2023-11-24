@@ -385,7 +385,7 @@ img {
   top: -8px; }
 
 .menu-toggle-bar {
-  margin-left: 30px;
+  /* margin-left: 30px; */
   background-color: #50be46;
   display: inline-block;
   text-transform: uppercase;

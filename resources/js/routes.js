@@ -1,6 +1,9 @@
 
 
 import splash from './pages/splash.vue';
+import logout from './pages/logout.vue';
+import onboarding from './pages/onboarding.vue';
+
 import parent from './pages/parent.vue';
 import login from './pages/login.vue';
 import dashboard from './pages/dashboard/dashboard.vue';
@@ -35,15 +38,18 @@ import instructordashboard from './pages/instructordashboard.vue';
 import UserService from './services/user.service';
 const userService = new UserService();
 
-async function inverseAuthGuard(to, from, next) {
+async function inverseDashAuthGuard(to, from, next) {
     var isAuthenticated = false;
     //this is just an example. You will have to find a better or
     // centralised way to handle you localstorage data handling
-    let user = await sqlite.getActiveUser();
-    if (!user) {
-        next(); // allow to enter route
+    let flag = await userService.isUserAuthenticated()
+    const role_id = localStorage.getItem('_role_id');
+    if (flag && role_id == 4) {
+        next('/student-dashboard'); // allow to enter route
+    } if (flag && role_id == 3) {
+        next('/instructor-dashboard'); // allow to enter route
     } else {
-        next('/dashboard'); // go to '/login';
+        next('/'); // go to '/login';
     }
 }
 
@@ -96,11 +102,13 @@ export const routes = [
         name: 'parent',
         component: parent,
         children: [
-            { path: "", name: 'dashboard', component: dashboard },
+            { path: "", name: 'dashboard', component: dashboard, beforeEnter: inverseDashAuthGuard },
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
-
+            { path: '/logout', name: 'logout', component: logout },
             { path: '/profile', name: 'profile', component: profile, beforeEnter: AuthGuard },
+            { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
+
 
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard, beforeEnter: StudentAuthGuard },
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard, beforeEnter: InstructorAuthGuard },
