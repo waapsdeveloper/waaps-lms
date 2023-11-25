@@ -152,9 +152,9 @@
 <script>
 import Base from "./base.vue";
 import { reactive, ref } from "vue";
-import Cheader from "../components/cheader.vue";
+import Cheader from "../components/header/cheader.vue";
 import Cfooter from "../components/cfooter.vue";
-import CMenu from "../components/cmenu.vue";
+import CMenu from "../components/menu/cmenu.vue";
 
 export default {
   extends: Base,

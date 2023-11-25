@@ -102,7 +102,7 @@ export const routes = [
         name: 'parent',
         component: parent,
         children: [
-            { path: "", name: 'dashboard', component: dashboard, beforeEnter: inverseDashAuthGuard },
+            { path: "", name: 'dashboard', component: dashboard,  }, //beforeEnter: inverseDashAuthGuard
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
