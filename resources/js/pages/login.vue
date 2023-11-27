@@ -54,6 +54,7 @@
                 name="email"
                 autocomplete="off"
                 class="form-control bg-transparent"
+                v-model="auth.email"
               />
               <!--end::Email-->
             </div>
@@ -66,6 +67,7 @@
                 name="password"
                 autocomplete="off"
                 class="form-control bg-transparent"
+                v-model="auth.password"
               />
               <!--end::Password-->
             </div>
@@ -90,6 +92,7 @@
                 type="submit"
                 id="kt_sign_in_submit"
                 class="btn btn-primary"
+                @click="validate"
               >
                 <!--begin::Indicator label-->
                 <span class="indicator-label">Sign In</span>
