@@ -12,7 +12,7 @@
         <div class="menu-item" v-for="(links, index) in item.submenu" :key="index">
             <!--begin:Menu link-->
             <a class="menu-link" :href="links.link">
-                <span class="menu-icon">
+                <span class="menu-icon" style="width: 16px;">
                     <!--begin::Svg Icon | path: icons/duotune/general/gen002.svg-->
                     <img style="width: 100%;" :src="links.icon" />
                     <!--end::Svg Icon-->
