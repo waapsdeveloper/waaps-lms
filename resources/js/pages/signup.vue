@@ -37,9 +37,14 @@
 								<!--begin::Login options-->
 								<div class="row g-3 mb-9">
 								</div>
+                                <div class="fv-row mb-8">
+									<!--begin::Email-->
+									<input type="text" placeholder="Name" name="name" autocomplete="off" class="form-control bg-transparent" v-model="auth.name" />
+									<!--end::Email-->
+								</div>
 								<div class="fv-row mb-8">
 									<!--begin::Email-->
-									<input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
+									<input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" v-model="auth.email" />
 									<!--end::Email-->
 								</div>
 								<!--begin::Input group-->
@@ -48,7 +53,7 @@
 									<div class="mb-1">
 										<!--begin::Input wrapper-->
 										<div class="position-relative mb-3">
-											<input class="form-control bg-transparent" type="password" placeholder="Password" name="password" autocomplete="off" />
+											<input class="form-control bg-transparent" type="password" placeholder="Password" name="password" autocomplete="off" v-model="auth.password" />
 											<span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
 												<i class="bi bi-eye-slash fs-2"></i>
 												<i class="bi bi-eye fs-2 d-none"></i>
@@ -73,7 +78,7 @@
 								<!--end::Input group=-->
 								<div class="fv-row mb-8">
 									<!--begin::Repeat Password-->
-									<input placeholder="Repeat Password" name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent" />
+									<input placeholder="Confirm Password" name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent" v-model="auth.confirm_password" />
 									<!--end::Repeat Password-->
 								</div>
 								<!--end::Input group=-->
@@ -90,7 +95,7 @@
 								<div class="d-grid mb-10">
 									<button type="submit" id="kt_sign_up_submit" class="btn btn-primary">
 										<!--begin::Indicator label-->
-										<span class="indicator-label" >Sign up</span>
+										<span class="indicator-label" @click="instructor-dashboard" >Sign up</span>
 										<!--end::Indicator label-->
 										<!--begin::Indicator progress-->
 										<span class="indicator-progress">Please wait...
