@@ -73,82 +73,117 @@ export default {
 
         let menu = ref([
             {
-                title: 'Help',
+                title: 'Features',
                 icon: 'assets/svg/coins/coin.svg',
                 link: '#',
                 submenu: [
                     {
-                        title: 'Components',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Pipeline Projects',
+                        icon: 'assets/svg/avatars/project-management.png',
                         link: '#',
                     },
                     {
-                        title: 'Utilities',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Activities',
+                        icon: 'assets/svg/avatars/activities.png',
                         link: '#',
                     },
                     {
-                        title: 'Layout',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Our MIssion',
+                        icon: 'assets/svg/avatars/target.png',
                         link: '#',
                     },
                     {
-                        title: 'Custom',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Pro Features',
+                        icon: 'assets/svg/avatars/features.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Internships',
+                        icon: 'assets/svg/avatars/internship.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Tests',
+                        icon: 'assets/svg/avatars/test.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Interviews',
+                        icon: 'assets/svg/avatars/interview.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Career Counceling',
+                        icon: 'assets/svg/avatars/chat.png',
                         link: '#',
                     },
                 ]
             },
             {
-                title: 'Help',
+                title: 'Students',
                 icon: 'assets/svg/coins/coin.svg',
                 link: '#',
                 submenu: [
                     {
-                        title: 'Components',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Schedules',
+                        icon: 'assets/svg/avatars/schedule.png',
                         link: '#',
                     },
                     {
-                        title: 'Utilities',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Available Projects',
+                        icon: 'assets/svg/avatars/available-project.png',
                         link: '#',
                     },
                     {
-                        title: 'Layout',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Activity Progress',
+                        icon: 'assets/svg/avatars/form.png',
                         link: '#',
                     },
                     {
-                        title: 'Custom',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Task Management',
+                        icon: 'assets/svg/avatars/task-management.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Reports',
+                        icon: 'assets/svg/avatars/report.png',
                         link: '#',
                     },
                 ]
             },
             {
-                title: 'Components',
+                title: 'Instructors',
                 icon: 'icons/duotune/general/gen002.svg',
                 link: '#',
                 submenu: [
                     {
-                        title: 'Components',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Courses',
+                        icon: 'assets/svg/avatars/courses.png',
                         link: '#',
                     },
                     {
-                        title: 'Utilities',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Batches',
+                        icon: 'assets/svg/avatars/batch.png',
                         link: '#',
                     },
                     {
-                        title: 'Layout',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Schedules',
+                        icon: 'assets/svg/avatars/schedule.png',
                         link: '#',
                     },
                     {
-                        title: 'Custom',
-                        icon: 'icons/duotune/general/gen002.svg',
+                        title: 'Activities',
+                        icon: 'assets/svg/avatars/form.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Tests',
+                        icon: 'assets/svg/avatars/tests.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Results',
+                        icon: 'assets/svg/avatars/analytics.png',
                         link: '#',
                     },
                 ]
