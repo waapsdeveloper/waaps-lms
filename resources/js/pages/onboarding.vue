@@ -691,7 +691,7 @@
 								<!--begin::Actions-->
 								<div class="d-flex flex-stack pt-15">
 									<div class="mr-2">
-										<button type="button" class="btn btn-lg btn-light-primary me-3" data-kt-stepper-action="previous">
+										<button type="button" class="btn btn-lg btn-light-primary me-3" data-kt-stepper-action="previous" @click="gotopreviousStep()">
 										<!--begin::Svg Icon | path: icons/duotune/arrows/arr063.svg-->
 										<span class="svg-icon svg-icon-4 me-1">
 											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -771,8 +771,18 @@ export default {
             this.stepper.goNext(); // go next step
         }
 
-    }
-  }
+
+    },
+    gotopreviousStep(){
+
+
+if(this.stepper){
+    this.stepper.goPrevious(); // go next step
+}
+
+
+}
+  },
 
 };
 </script>
