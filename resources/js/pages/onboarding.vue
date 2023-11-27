@@ -1,7 +1,7 @@
 <template>
 <div class="d-flex flex-column flex-root" id="kt_app_root">
 			<!--begin::Authentication - Multi-steps-->
-			<div class="d-flex flex-column flex-lg-row flex-column-fluid stepper stepper-pills stepper-column stepper-multistep" id="kt_create_account_stepper">
+			<div class="d-flex flex-column flex-lg-row flex-column-fluid stepper stepper-pills stepper-column stepper-multistep" id="kt_stepper_onboarding">
 				<!--begin::Aside-->
 				<div class="d-flex flex-column flex-lg-row-auto w-lg-350px w-xl-500px">
 					<div class="d-flex flex-column position-lg-fixed top-0 bottom-0 w-lg-350px w-xl-500px scroll-y bgi-size-cover bgi-position-center" style="background-image: url(assets/media/misc/auth-bg.png)">
@@ -15,7 +15,7 @@
 						</div>
 						<!--end::Header-->
 						<!--begin::Body-->
-						<div class="d-flex flex-row-fluid justify-content-center p-10">
+						<div class="d-flex flex-row-fluid justify-content-center p-10" >
 							<!--begin::Nav-->
 							<div class="stepper-nav">
 								<!--begin::Step 1-->
@@ -715,7 +715,7 @@
 											<span class="indicator-progress">Please wait...
 											<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 										</button>
-										<button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">Continue
+										<button type="button" @click="gotoNextStep()" class="btn btn-lg btn-primary" data-kt-stepper-action="next">Continue
 										<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
 										<span class="svg-icon svg-icon-4 ms-1">
 											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -742,11 +742,38 @@
 
 <script>
 import Base from "./base.vue";
+import { reactive, ref } from "vue";
 
 export default {
   extends: Base,
   name: "onboarding",
-  
+  setup() {
+    let pageNav = ref({
+      step: 1,
+    });
+
+    let stepper = ref(null);
+
+    return {
+      pageNav,
+      stepper
+    };
+  },
+  mounted(){
+    let element = document.querySelector("#kt_stepper_onboarding");
+    this.stepper = new KTStepper(element);
+  },
+  methods: {
+    gotoNextStep(){
+
+
+        if(this.stepper){
+            this.stepper.goNext(); // go next step
+        }
+
+    }
+  }
+
 };
 </script>
 <style>
