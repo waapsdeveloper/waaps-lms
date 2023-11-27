@@ -4977,7 +4977,7 @@
 
 
 
-                        <div class="d-flex align-items-center" data-kt-search-element="toggle" id="kt_header_search_toggle">
+                        <div class="d-flex align-items-center" @click="gotoLogin()">
                             <div
                                 class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
                                 <img src="assets/svg/avatars/blank.svg" style="width: 100%" />
@@ -5214,6 +5214,9 @@ export default {
         this.auth.token = localStorage.getItem("_token");
     },
     methods: {
+        gotoLogin(){
+            this.$router.push({ name: "login" });
+        },
         toggleMenu() {
             this.publish("toggle-menu", true);
         },
