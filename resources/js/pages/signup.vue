@@ -1,145 +1,117 @@
 <template>
-    <!-- Breadcrumb Section Starts -->
-    <section class="breadcrumb-section">
-        <div class="breadcrumb-shape">
-            <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo" />
-            <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate" />
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2>signup page</h2>
-                    <div class="breadcrumb-link margin-top-10">
-                        <span><a href="/">home</a> / signup page</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Login Section Starts -->
-    <section class="login-section padding-120">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="login-image">
-                        <img src="assets/images/login-image.jpg" alt="image" />
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="login-form">
-                        <h3>signup <span>now</span></h3>
-                        <!-- <div class="google-button">
-                                <a href="#" class="template-button"><i class="fa fa-google"></i> google</a>
-                            </div> -->
-                        <!-- <span class="separator">or</span> -->
-                        <div class="login-tab">
-                            <div class="tab">
-                                <ul>
-                                    <!-- <li class="tab-one active">
-                                            <a href="#" class="template-button-2">admin</a>
-                                        </li> -->
-                                    <li class="tab-second-00" :class="{ active: auth.role == 'instructor' }">
-                                        <a @click="auth.role = 'instructor'" class="template-button-2">instructor</a>
-                                    </li>
-                                    <li class="tab-three-00" :class="{ active: auth.role == 'student' }">
-                                        <a @click="auth.role = 'student'" class="template-button-2">student</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="tab-content margin-top-30">
-                            <div class="tab-one-content lost active">
-                                <form action="#">
-                                    <div class="form-group">
-                                        <label for="signupName"><i class="fa fa-user"></i> Your Name</label>
-                                        <ul class="text-red-500 error" v-if="errors.name">
-                                            <li class="ml-4 text-red-500 list-none error" v-for="error in errors.name"
-                                                :key="error.id">
-                                                {{ error }}
-                                            </li>
-                                        </ul>
-                                        <input v-model="auth.name" type="name" id="signupName" placeholder="Your Name" />
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="signupEmail"><i class="fa fa-envelope"></i> Email Address</label>
-                                        <input v-model="auth.email" type="email" id="signupEmail"
-                                            placeholder="Email Address" />
-                                        <ul class="text-red-500 error" v-if="errors.email.length">
-                                            <li class="ml-4 text-red-500 list-none error" v-for="error in errors.email"
-                                                :key="error.id">
-                                                {{ error }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="signupPassword"><i class="fa fa-lock"></i> Password</label>
-                                        <input v-model="auth.password" type="password" id="signupPassword"
-                                            placeholder="Password" />
-                                        <ul class="text-red-500 error" v-if="errors.password.length">
-                                            <li class="ml-4 text-red-500 list-none error" v-for="error in errors.password"
-                                                :key="error.id">
-                                                {{ error }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="signupConPassword"><i class="fa fa-lock"></i> Confirm Password</label>
-                                        <input v-model="auth.confirm_password" type="password" id="signupConPassword"
-                                            placeholder="Confirm Password" />
-                                        <ul class="text-red-500 error" v-if="errors.confirm_password.length">
-                                            <li class="ml-4 text-red-500 list-none error"
-                                                v-for="error in errors.confirm_password" :key="error.id">
-                                                {{ error }}
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="checkbox-forgotpass-area">
-                                        <div class="checkbox-part">
-                                            <input type="checkbox" id="signupRemember" />
-                                            <label for="signupRemember"> remember me</label>
-                                        </div>
-                                        <div class="forgotpass-part">
-                                            <a href="#">forgot password?</a>
-                                        </div>
-                                    </div>
-                                    <div class="login-button margin-top-20">
-                                        <a @click="validate" class="template-button">Create account</a>
-                                        <span>already have an account? <a href="/login">login</a></span>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- CTA Section Starts -->
-    <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
-        <div class="cta-shape">
-            <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate" />
-        </div>
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="section-title margin-bottom-40">
-                        <h2>enhance your skills with <span>best online course</span></h2>
-                    </div>
-                    <div class="cta-button">
-                        <a href="/about" class="template-button margin-right-20">start teaching</a>
-                        <a href="/about" class="template-button-2">start learning</a>
-                    </div>
-                </div>
-                <div class="col-xl-4 offset-xl-2 col-lg-6">
-                    <div class="cta-image">
-                        <img src="assets/images/cta-image.png" alt="image" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<div class="d-flex flex-column flex-column-fluid flex-lg-row"  style="background-image: url('assets/media/auth/bg4-dark.jpg')">
+				<!--begin::Aside-->
+				<div class="d-flex flex-center w-lg-50 pt-15 pt-lg-0 px-10">
+					<!--begin::Aside-->
+					<div class="d-flex flex-column">
+						<!--begin::Logo-->
+						<a href="../../demo1/dist/index.html" class="mb-7">
+							<img alt="Logo" src="assets/media/logos/custom-3.svg" />
+						</a>
+						<!--end::Logo-->
+						<!--begin::Title-->
+						<h2 class="text-white fw-normal m-0">Branding tools designed for your business</h2>
+						<!--end::Title-->
+					</div>
+					<!--begin::Aside-->
+				</div>
+				<!--begin::Aside-->
+				<!--begin::Body-->
+				<div class="d-flex flex-center w-lg-50 p-10">
+					<!--begin::Card-->
+					<div class="card rounded-3 w-md-550px">
+						<!--begin::Card body-->
+						<div class="card-body p-10 p-lg-20">
+							<!--begin::Form-->
+							<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="../../demo1/dist/authentication/layouts/creative/sign-in.html" action="#">
+								<!--begin::Heading-->
+								<div class="text-center mb-11">
+									<!--begin::Title-->
+									<h1 class="text-dark fw-bolder mb-3">Sign Up</h1>
+									<!--end::Title-->
+									<!--begin::Subtitle-->
+									<div class="text-gray-500 fw-semibold fs-6">Your Social Campaigns</div>
+									<!--end::Subtitle=-->
+								</div>
+								<!--begin::Heading-->
+								<!--begin::Login options-->
+								<div class="row g-3 mb-9">
+								</div>
+								<div class="fv-row mb-8">
+									<!--begin::Email-->
+									<input type="text" placeholder="Email" name="email" autocomplete="off" class="form-control bg-transparent" />
+									<!--end::Email-->
+								</div>
+								<!--begin::Input group-->
+								<div class="fv-row mb-8" data-kt-password-meter="true">
+									<!--begin::Wrapper-->
+									<div class="mb-1">
+										<!--begin::Input wrapper-->
+										<div class="position-relative mb-3">
+											<input class="form-control bg-transparent" type="password" placeholder="Password" name="password" autocomplete="off" />
+											<span class="btn btn-sm btn-icon position-absolute translate-middle top-50 end-0 me-n2" data-kt-password-meter-control="visibility">
+												<i class="bi bi-eye-slash fs-2"></i>
+												<i class="bi bi-eye fs-2 d-none"></i>
+											</span>
+										</div>
+										<!--end::Input wrapper-->
+										<!--begin::Meter-->
+										<div class="d-flex align-items-center mb-3" data-kt-password-meter-control="highlight">
+											<div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+											<div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+											<div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px me-2"></div>
+											<div class="flex-grow-1 bg-secondary bg-active-success rounded h-5px"></div>
+										</div>
+										<!--end::Meter-->
+									</div>
+									<!--end::Wrapper-->
+									<!--begin::Hint-->
+									<div class="text-muted">Use 8 or more characters with a mix of letters, numbers &amp; symbols.</div>
+									<!--end::Hint-->
+								</div>
+								<!--end::Input group=-->
+								<!--end::Input group=-->
+								<div class="fv-row mb-8">
+									<!--begin::Repeat Password-->
+									<input placeholder="Repeat Password" name="confirm-password" type="password" autocomplete="off" class="form-control bg-transparent" />
+									<!--end::Repeat Password-->
+								</div>
+								<!--end::Input group=-->
+								<!--begin::Accept-->
+								<div class="fv-row mb-8">
+									<label class="form-check form-check-inline">
+										<input class="form-check-input" type="checkbox" name="toc" value="1" />
+										<span class="form-check-label fw-semibold text-gray-700 fs-base ms-1">I Accept the
+										<a href="#" class="ms-1 link-primary">Terms</a></span>
+									</label>
+								</div>
+								<!--end::Accept-->
+								<!--begin::Submit button-->
+								<div class="d-grid mb-10">
+									<button type="submit" id="kt_sign_up_submit" class="btn btn-primary">
+										<!--begin::Indicator label-->
+										<span class="indicator-label" >Sign up</span>
+										<!--end::Indicator label-->
+										<!--begin::Indicator progress-->
+										<span class="indicator-progress">Please wait...
+										<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
+										<!--end::Indicator progress-->
+									</button>
+								</div>
+								<!--end::Submit button-->
+								<!--begin::Sign up-->
+								<div class="text-gray-500 text-center fw-semibold fs-6">Already have an Account?
+								<a @click="route('/login')" class="link-primary fw-semibold" style="cursor: pointer;">Sign in</a></div>
+								<!--end::Sign up-->
+							</form>
+							<!--end::Form-->
+						</div>
+						<!--end::Card body-->
+					</div>
+					<!--end::Card-->
+				</div>
+				<!--end::Body-->
+			</div>
 </template>
 
 <script>
