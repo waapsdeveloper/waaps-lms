@@ -74,79 +74,79 @@ export default {
         let menu = ref([
             {
                 title: 'Features',
-                icon: 'assets/svg/coins/coin.svg',
+                icon: '/assets/svg/coins/coin.svg',
                 link: '#',
                 submenu: [
                     {
                         title: 'Pipeline Projects',
-                        icon: 'assets/svg/avatars/project-management.png',
+                        icon: '/assets/svg/avatars/project-management.png',
                         link: '#',
                     },
                     {
                         title: 'Activities',
-                        icon: 'assets/svg/avatars/activities.png',
+                        icon: '/assets/svg/avatars/activities.png',
                         link: '#',
                     },
                     {
                         title: 'Our MIssion',
-                        icon: 'assets/svg/avatars/target.png',
+                        icon: '/assets/svg/avatars/target.png',
                         link: '#',
                     },
                     {
                         title: 'Pro Features',
-                        icon: 'assets/svg/avatars/features.png',
+                        icon: '/assets/svg/avatars/features.png',
                         link: '#',
                     },
                     {
                         title: 'Internships',
-                        icon: 'assets/svg/avatars/internship.png',
+                        icon: '/assets/svg/avatars/internship.png',
                         link: '#',
                     },
                     {
                         title: 'Tests',
-                        icon: 'assets/svg/avatars/test.png',
+                        icon: '/assets/svg/avatars/test.png',
                         link: '#',
                     },
                     {
                         title: 'Interviews',
-                        icon: 'assets/svg/avatars/interview.png',
+                        icon: '/assets/svg/avatars/interview.png',
                         link: '#',
                     },
                     {
                         title: 'Career Counceling',
-                        icon: 'assets/svg/avatars/chat.png',
+                        icon: '/assets/svg/avatars/chat.png',
                         link: '#',
                     },
                 ]
             },
             {
                 title: 'Students',
-                icon: 'assets/svg/coins/coin.svg',
+                icon: '/assets/svg/coins/coin.svg',
                 link: '#',
                 submenu: [
                     {
                         title: 'Schedules',
-                        icon: 'assets/svg/avatars/schedule.png',
+                        icon: '/assets/svg/avatars/schedule.png',
                         link: '#',
                     },
                     {
                         title: 'Available Projects',
-                        icon: 'assets/svg/avatars/available-project.png',
+                        icon: '/assets/svg/avatars/available-project.png',
                         link: '#',
                     },
                     {
                         title: 'Activity Progress',
-                        icon: 'assets/svg/avatars/form.png',
+                        icon: '/assets/svg/avatars/form.png',
                         link: '#',
                     },
                     {
                         title: 'Task Management',
-                        icon: 'assets/svg/avatars/task-management.png',
+                        icon: '/assets/svg/avatars/task-management.png',
                         link: '#',
                     },
                     {
                         title: 'Reports',
-                        icon: 'assets/svg/avatars/report.png',
+                        icon: '/assets/svg/avatars/report.png',
                         link: '#',
                     },
                 ]
@@ -158,32 +158,32 @@ export default {
                 submenu: [
                     {
                         title: 'Courses',
-                        icon: 'assets/svg/avatars/courses.png',
+                        icon: '/assets/svg/avatars/courses.png',
                         link: '#',
                     },
                     {
                         title: 'Batches',
-                        icon: 'assets/svg/avatars/batch.png',
+                        icon: '/assets/svg/avatars/batch.png',
                         link: '#',
                     },
                     {
                         title: 'Schedules',
-                        icon: 'assets/svg/avatars/schedule.png',
+                        icon: '/assets/svg/avatars/schedule.png',
                         link: '#',
                     },
                     {
                         title: 'Activities',
-                        icon: 'assets/svg/avatars/form.png',
+                        icon: '/assets/svg/avatars/form.png',
                         link: '#',
                     },
                     {
                         title: 'Tests',
-                        icon: 'assets/svg/avatars/tests.png',
+                        icon: '/assets/svg/avatars/tests.png',
                         link: '#',
                     },
                     {
                         title: 'Results',
-                        icon: 'assets/svg/avatars/analytics.png',
+                        icon: '/assets/svg/avatars/analytics.png',
                         link: '#',
                     },
                 ]

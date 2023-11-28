@@ -110,13 +110,14 @@ export const routes = [
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
-            {   path: '/profile',
+            {
+                path: '/profile',
                 name: 'profile',
                 component: profile,
                 beforeEnter: AuthGuard,
                 children: [
                     { path: "", name: 'overview', component: profileoverview  },
-                    { path: "/campaigns", name: 'profile-campaigns', component: profilecampaigns  },
+                    { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
 
 
 

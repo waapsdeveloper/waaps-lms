@@ -438,7 +438,7 @@
 										</div>
 									</div>
 									<!--end::Navbar-->
-                                    <router-view name="profile"></router-view>
+                                    <router-view :key="$route.path"></router-view>
 
 								</div>
 								<!--end::Content container-->
@@ -458,10 +458,14 @@
 <script>
 import Base from "../base.vue";
 import { reactive, ref } from "vue";
+import profileCampaigns from "./profile-campaigns.vue";
 
 export default {
   extends: Base,
   name: "profile",
+  components: {
+    profileCampaigns
+  },
   setup(){
 
     let profile = ref({
@@ -514,7 +518,7 @@ export default {
         if(res && res.is_accepted){
             this.profile.terms = true;
         } else {
-            $("#termsModal").modal('show');
+            // show terms page to accept later here
         }
 
     },
