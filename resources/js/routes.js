@@ -34,6 +34,7 @@ import profile from './pages/profile.vue';
 import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
 import addcampaign from './pages/addcampaign.vue';
+import campaign from './pages/campaign.vue';
 
 // services
 import UserService from './services/user.service';
@@ -114,6 +115,7 @@ export const routes = [
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard  },
             { path: '/addcampaign', name: 'addcampaign', component: addcampaign  },
+            { path: '/campaign', name: 'campaign', component: campaign  },
 
 
 
