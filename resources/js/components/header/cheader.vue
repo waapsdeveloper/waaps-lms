@@ -4980,7 +4980,7 @@
                         <div class="d-flex align-items-center" @click="gotoLogin()">
                             <div
                                 class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
-                                <img src="assets/svg/avatars/blank.svg" style="width: 100%" />
+                                <img src="/assets/svg/avatars/blank.svg" style="width: 100%" />
                             </div>
                         </div>
 
@@ -4995,7 +4995,7 @@
                                 <div class="menu-content d-flex align-items-center px-3">
                                     <!--begin::Avatar-->
                                     <div class="symbol symbol-50px me-5">
-                                        <img alt="Logo" src="assets/media/avatars/300-1.jpg" />
+                                        <img alt="Logo" src="/assets/media/avatars/300-1.jpg" />
                                     </div>
                                     <!--end::Avatar-->
                                     <!--begin::Username-->

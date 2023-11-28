@@ -147,7 +147,7 @@
 												<!--begin: Pic-->
 												<div class="me-7 mb-4">
 													<div class="symbol symbol-100px symbol-lg-160px symbol-fixed position-relative">
-														<img src="assets/media/avatars/300-1.jpg" alt="image" />
+														<img src="/assets/media/avatars/300-1.jpg" alt="image" />
 														<div class="position-absolute translate-middle bottom-0 start-100 mb-6 bg-success rounded-circle border border-4 border-body h-20px w-20px"></div>
 													</div>
 												</div>
@@ -405,7 +405,7 @@
 											<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="javascript:void(0)">Overview</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5 active" href="javascript:void(0)"  @click="goto('/profile')">Overview</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
@@ -415,7 +415,7 @@
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="javascript:void(0)" @click="gotoProfileCampaigns()">Campaigns</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="javascript:void(0)" @click="goto('/profile/campaigns')">Campaigns</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
@@ -488,8 +488,8 @@ export default {
 
 
   methods: {
-    async gotoProfileCampaigns(){
-        this.route('profile/campaigns');
+    async goto(url){
+        this.route(url);
     },
 
     async getProfile(){
