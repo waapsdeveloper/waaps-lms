@@ -30,11 +30,13 @@ import photography from './pages/photography.vue';
 import purchase from './pages/purchase.vue';
 import signup from './pages/signup.vue';
 import webdevelopment from './pages/webdevelopment.vue';
-import profile from './pages/profile.vue';
+import profile from './pages/profile/profile.vue';
 import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
 import addcampaign from './pages/addcampaign.vue';
 import campaign from './pages/campaign.vue';
+import profileoverview from './pages/profile/profile-overview.vue';
+import profilecampaigns from './pages/profile/profile-campaigns.vue';
 
 // services
 import UserService from './services/user.service';
@@ -108,7 +110,25 @@ export const routes = [
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
-            { path: '/profile', name: 'profile', component: profile, beforeEnter: AuthGuard },
+            {   path: '/profile',
+                name: 'profile',
+                component: profile,
+                beforeEnter: AuthGuard,
+                children: [
+                    { path: "", name: 'overview', component: profileoverview  },
+                    { path: "/campaigns", name: 'profile-campaigns', component: profilecampaigns  },
+
+
+
+                ]
+             },
+
+
+
+
+
+
+
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
 
 
