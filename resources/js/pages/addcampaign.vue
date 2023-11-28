@@ -1,6 +1,6 @@
 <template>
 
-    <div class="modal-content modal-rounded">
+    <div class="modal-content modal-rounded" id="modal_addcampaign">
 					<!--begin::Modal header-->
 					<div class="modal-header py-7 d-flex justify-content-between">
 						<!--begin::Modal title-->
@@ -78,7 +78,7 @@
 											</label>
 											<!--end::Label-->
 											<!--begin::Image input placeholder-->
-										
+
 											<!--end::Image input placeholder-->
 											<!--begin::Image input-->
 											<div class="image-input image-input-empty image-input-outline image-input-placeholder" data-kt-image-input="true">
@@ -665,7 +665,7 @@
 											<span class="indicator-progress">Please wait...
 											<span class="spinner-border spinner-border-sm align-middle ms-2"></span></span>
 										</button>
-										<button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next">Continue
+										<button type="button" class="btn btn-lg btn-primary" data-kt-stepper-action="next" @click="gotoNextStep()">Continue
 										<!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
 										<span class="svg-icon svg-icon-3 ms-1 me-0">
 											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -689,14 +689,40 @@
 
 <style>.image-input-placeholder { background-image: url('assets/media/svg/files/blank-image.svg'); } [data-theme="dark"] .image-input-placeholder { background-image: url('assets/media/svg/files/blank-image-dark.svg'); }</style>
 
-<script>import Base from './base.vue';
+<script>
+import Base from "./base.vue";
+import { reactive, ref } from "vue";
 
-export default{
-    extends: Base,
-    name: 'addcampaign',
-    mounted(){
+export default {
+  extends: Base,
+  name: "addcampaign",
+  setup() {
+    let pageNav = ref({
+      step: 1,
+    });
 
-    }
+    let stepper = ref(null);
 
-}
+    return {
+      pageNav,
+      stepper,
+    };
+  },
+  mounted() {
+    let element = document.querySelector("#modal_addcampaign");
+    this.stepper = new KTStepper(element);
+  },
+  methods: {
+    gotoNextStep() {
+      if (this.stepper) {
+        this.stepper.goNext(); // go next step
+      }
+    },
+    gotopreviousStep() {
+      if (this.stepper) {
+        this.stepper.goPrevious(); // go next step
+      }
+    },
+  },
+};
 </script>
