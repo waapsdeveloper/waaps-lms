@@ -23,7 +23,7 @@
 						<!--begin::Card body-->
 						<div class="card-body p-10 p-lg-20">
 							<!--begin::Form-->
-							<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form" data-kt-redirect-url="../../demo1/dist/authentication/layouts/creative/sign-in.html" action="#">
+							<form class="form w-100" novalidate="novalidate" id="kt_sign_up_form">
 								<!--begin::Heading-->
 								<div class="text-center mb-11">
 									<!--begin::Title-->
@@ -95,7 +95,7 @@
 								<div class="d-grid mb-10">
 									<button type="submit" id="kt_sign_up_submit" class="btn btn-primary">
 										<!--begin::Indicator label-->
-										<span class="indicator-label" @click="instructor-dashboard" >Sign up</span>
+										<span class="indicator-label" @click="validate" >Sign up</span>
 										<!--end::Indicator label-->
 										<!--begin::Indicator progress-->
 										<span class="indicator-progress">Please wait...
