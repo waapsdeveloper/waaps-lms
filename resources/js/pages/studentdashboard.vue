@@ -6135,40 +6135,8 @@ export default {
   extends: Base,
   name: "studentdashboard",
   mounted() {
-    // this.redirectToOnboarding();
-    // this.isProfileCompleted()
+
   },
-  // methods: {
-  //     redirectToOnboarding(){
-  //         this.route('/onboarding')
-  //     },
-  //     isProfileCompleted() {
-
-  //         return new Promise(async resolve => {
-  //             const res = await this.network().getUser();
-  //             console.log(res)
-  //             let user = res[0];
-
-  //             // check if its profile is incomplete
-  //             if (!user.profile) {
-  //                 // incomplete
-  //                 this.redirectToIncomplete()
-  //             }
-
-  //             if (user.profile && !user.profile.phone) {
-  //                 // incomplete
-  //                 this.redirectToIncomplete()
-
-  //             }
-
-  //         })
-
-  //     },
-  //     redirectToIncomplete() {
-  //         this.route('/profile')
-  //     }
-
-  // }
 };
 </script>
 <style>

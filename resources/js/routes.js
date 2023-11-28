@@ -33,6 +33,7 @@ import webdevelopment from './pages/webdevelopment.vue';
 import profile from './pages/profile.vue';
 import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
+import addcampaign from './pages/addcampaign.vue';
 
 // services
 import UserService from './services/user.service';
@@ -110,8 +111,9 @@ export const routes = [
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
 
 
-            { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard, beforeEnter: StudentAuthGuard },
-            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard, beforeEnter: InstructorAuthGuard },
+            { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
+            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard  },
+            { path: '/addcampaign', name: 'addcampaign', component: addcampaign  },
 
 
 
