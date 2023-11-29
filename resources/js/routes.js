@@ -37,6 +37,10 @@ import addcampaign from './pages/addcampaign.vue';
 import campaign from './pages/campaign.vue';
 import profileoverview from './pages/profile/profile-overview.vue';
 import profilecampaigns from './pages/profile/profile-campaigns.vue';
+import profileprojects from './pages/profile/profile-projects.vue';
+import profiledocuments from './pages/profile/profile-documents.vue';
+import profileactivity from './pages/profile/profile-activity.vue';
+import profilefollowers from './pages/profile/profile-followers.vue';
 
 // services
 import UserService from './services/user.service';
@@ -118,6 +122,10 @@ export const routes = [
                 children: [
                     { path: "", name: 'overview', component: profileoverview  },
                     { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
+                    { path: "projects", name: 'projects', component: profileprojects  },
+                    { path: "documents", name: 'documents', component: profiledocuments  },
+                    { path: "activity", name: 'activity', component:  profileactivity  },
+                    { path: "followers", name: 'followers', component:  profilefollowers  },
 
 
 

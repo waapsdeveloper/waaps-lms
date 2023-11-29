@@ -356,7 +356,7 @@
 																	</div>
 																	<!--end::Number-->
 																	<!--begin::Label-->
-																	<div class="fw-semibold fs-6 text-gray-400">Projects</div>
+																	<div class="fw-semibold fs-6 text-gray-400" >Projects</div>
 																	<!--end::Label-->
 																</div>
 																<!--end::Stat-->
@@ -410,7 +410,7 @@
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="../../demo1/dist/pages/user-profile/projects.html">Projects</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="javascript:void(0)" @click="goto('/profile/projects')">Projects</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
@@ -420,17 +420,17 @@
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="../../demo1/dist/pages/user-profile/documents.html">Documents</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5"  href="javascript:void(0)" @click="goto('/profile/documents')">Documents</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="../../demo1/dist/pages/user-profile/followers.html">Followers</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="javascript:void(0)" @click="goto('/profile/followers')">Followers</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item mt-2">
-													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="../../demo1/dist/pages/user-profile/activity.html">Activity</a>
+													<a class="nav-link text-active-primary ms-0 me-10 py-5" href="javascript:void(0)" @click="goto('/profile/activity')">Activity</a>
 												</li>
 												<!--end::Nav item-->
 											</ul>
@@ -458,14 +458,10 @@
 <script>
 import Base from "../base.vue";
 import { reactive, ref } from "vue";
-import profileCampaigns from "./profile-campaigns.vue";
 
 export default {
   extends: Base,
   name: "profile",
-  components: {
-    profileCampaigns
-  },
   setup(){
 
     let profile = ref({
