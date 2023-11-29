@@ -3068,9 +3068,9 @@
                                 id="kt_header_search_toggle">
                                 <div
                                     class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
-                                    <!--begin::Svg Icon | path: icons/duotune/general/gen021.svg-->
+                                   
                                     <span class="svg-icon svg-icon-1">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        <svg  width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1"
                                                 transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
@@ -3079,7 +3079,6 @@
                                                 fill="currentColor" />
                                         </svg>
                                     </span>
-                                    <!--end::Svg Icon-->
                                 </div>
                             </div>
                             <!--end::Search toggle-->
@@ -4977,10 +4976,10 @@
 
 
 
-                        <div class="d-flex align-items-center" @click="gotoLogin()">
+                        <div class="d-flex align-items-center" @click="gotoLogin()" >
                             <div
                                 class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
-                                <img src="/assets/svg/avatars/blank.svg" style="width: 100%" />
+                                <img src="/assets/media/avatars/300-1.jpg" style="width: 100%" />
                             </div>
                         </div>
 

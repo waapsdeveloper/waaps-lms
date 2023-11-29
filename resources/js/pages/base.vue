@@ -5,7 +5,6 @@ import { Publisher, Subscriber } from './../services/events/publishers.js'
 
 export default {
   name: "base",
-  data() {},
   methods: {
     route(path, query = {}) {
       return this.$router.push({ path: path, query: query });

@@ -46,9 +46,9 @@
 												</div>
 												<!--end:: Card header-->
 												<!--begin:: Card body-->
-												<div class="card-body p-9">
+												<div class="card-body p-9" @click="navigateToViewProject">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Fitnes App</div>
+													<div class="fs-3 fw-bold text-dark"  >Fitnes App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -124,7 +124,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Leaf CRM</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Leaf CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -195,7 +195,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Atica Banking</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Atica Banking</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -271,7 +271,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Finance Dispatch</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Finance Dispatch</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -342,7 +342,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">9 Degree</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">9 Degree</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -418,7 +418,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">GoPro App</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">GoPro App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -489,7 +489,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Buldozer CRM</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Buldozer CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -565,7 +565,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Aviasales App</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Aviasales App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -636,7 +636,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark">Oppo CRM</div>
+													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Oppo CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -698,6 +698,12 @@ export default {
     mounted() {
 
     },
+	methods: {
+    navigateToViewProject() {
+      // Use Vue Router to navigate to the 'viewproject' route
+      this.$router.push({ name: 'viewproject' }); // Replace 'name' with the name of your route
+    }
+  }
 
 
 

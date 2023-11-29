@@ -35,13 +35,15 @@ import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
 import addcampaign from './pages/addcampaign.vue';
 import campaign from './pages/campaign.vue';
-import profileoverview from './pages/profile/profile-overview.vue';
 import profilecampaigns from './pages/profile/profile-campaigns.vue';
+import profileoverview from './pages/profile/profile-overview.vue';
 import profileprojects from './pages/profile/profile-projects.vue';
 import profiledocuments from './pages/profile/profile-documents.vue';
 import profileactivity from './pages/profile/profile-activity.vue';
 import profilefollowers from './pages/profile/profile-followers.vue';
 
+
+import viewproject from './pages/viewproject.vue';
 // services
 import UserService from './services/user.service';
 const userService = new UserService();
@@ -57,7 +59,7 @@ async function inverseDashAuthGuard(to, from, next) {
     } if (flag && role_id == 3) {
         next('/instructor-dashboard'); // allow to enter route
     } else {
-        next(); // go to '/login';
+        // next(); // go to '/login';
     }
 }
 
@@ -69,7 +71,7 @@ async function AuthGuard(to, from, next) {
     if (flag) {
         next(); // allow to enter route
     } else {
-        next('/'); // go to '/login';
+        next('/login'); // go to '/login';
     }
 }
 
@@ -83,7 +85,7 @@ async function StudentAuthGuard(to, from, next) {
     if (flag && role_id == 4) {
         next(); // allow to enter route
     } else {
-        next('/'); // go to '/login';
+        next('/login'); // go to '/login';
     }
 }
 
@@ -97,7 +99,7 @@ async function InstructorAuthGuard(to, from, next) {
     if (flag && role_id == 3) {
         next(); // allow to enter route
     } else {
-        next('/'); // go to '/login';
+        next('/login'); // go to '/login';
     }
 }
 
@@ -126,14 +128,15 @@ export const routes = [
                     { path: "documents", name: 'documents', component: profiledocuments  },
                     { path: "activity", name: 'activity', component:  profileactivity  },
                     { path: "followers", name: 'followers', component:  profilefollowers  },
-
-
-
+                    
+                    
+                    
                 ]
-             },
-
-
-
+            },
+            
+            
+            
+            { path: '/viewproject', name: 'viewproject', component: viewproject  },
 
 
 
