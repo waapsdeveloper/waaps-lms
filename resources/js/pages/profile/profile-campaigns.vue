@@ -34,7 +34,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -43,7 +43,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitch Posts</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitch Posts</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -184,7 +184,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -193,7 +193,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitter Followers</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitter Followers</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -333,7 +333,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -342,7 +342,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Spotify Listeners</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Spotify Listeners</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -484,7 +484,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -493,7 +493,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Pinterest Posts</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Pinterest Posts</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -633,7 +633,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -642,7 +642,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Github Contributes</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Github Contributes</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -784,7 +784,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -793,7 +793,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Youtube Subscribers</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Youtube Subscribers</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -933,7 +933,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -942,7 +942,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Telegram Posts</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Telegram Posts</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -1082,7 +1082,7 @@
             <!--begin::Card-->
             <div class="card h-100">
                 <!--begin::Card header-->
-                <div class="card-header flex-nowrap border-0 pt-9">
+                <div class="card-header flex-nowrap border-0 pt-9" @click="navigateToViewCampaign">
                     <!--begin::Card title-->
                     <div class="card-title m-0">
                         <!--begin::Icon-->
@@ -1091,7 +1091,7 @@
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
-                        <a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Reddit Awards</a>
+                        <a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Reddit Awards</a>
                         <!--end::Title-->
                     </div>
                     <!--end::Card title-->
@@ -1801,6 +1801,12 @@ export default {
     mounted() {
 
     },
+	methods: {
+	navigateToViewCampaign() {
+      // Use Vue Router to navigate to the 'viewproject' route
+      this.$router.push({ name: 'viewcampaign' }); // Replace 'name' with the name of your route
+    }
+  }
 
 
 

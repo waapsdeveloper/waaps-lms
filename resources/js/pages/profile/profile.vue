@@ -127,7 +127,8 @@
 										<!--begin::Secondary button-->
 										<!--end::Secondary button-->
 										<!--begin::Primary button-->
-										<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Create</a>
+										<a class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app" @click="signOut">Sign Out</a>
+
 										<!--end::Primary button-->
 									</div>
 									<!--end::Actions-->
@@ -486,6 +487,13 @@ export default {
   methods: {
     async goto(url){
         this.route(url);
+    },
+	signOut() {
+      // Clear local storage
+      localStorage.clear();
+
+      // Navigate to the login page
+      window.location.href = '/logout';
     },
 
     async getProfile(){

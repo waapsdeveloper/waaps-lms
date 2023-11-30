@@ -195,9 +195,8 @@ export default {
         if (user.role_id == 3) {
           this.route("/instructor-dashboard");
         } else {
-          this.route("/student-dashboard");
+          window.location.href = '/';
         }
-        //point to taken
       });
     },
   },

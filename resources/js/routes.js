@@ -44,6 +44,7 @@ import profilefollowers from './pages/profile/profile-followers.vue';
 
 
 import viewproject from './pages/viewproject.vue';
+import viewcampaign from './pages/viewcampaign.vue';
 // services
 import UserService from './services/user.service';
 const userService = new UserService();
@@ -59,7 +60,7 @@ async function inverseDashAuthGuard(to, from, next) {
     } if (flag && role_id == 3) {
         next('/instructor-dashboard'); // allow to enter route
     } else {
-        // next(); // go to '/login';
+        next(); // go to '/login';
     }
 }
 
@@ -137,6 +138,7 @@ export const routes = [
             
             
             { path: '/viewproject', name: 'viewproject', component: viewproject  },
+            { path: '/viewcampaign', name: 'viewcampaign', component: viewcampaign },
 
 
 

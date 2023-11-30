@@ -3068,9 +3068,9 @@
                                 id="kt_header_search_toggle">
                                 <div
                                     class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
-                                   
+
                                     <span class="svg-icon svg-icon-1">
-                                        <svg  width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <rect opacity="0.5" x="17.0365" y="15.1223" width="8.15546" height="2" rx="1"
                                                 transform="rotate(45 17.0365 15.1223)" fill="currentColor" />
@@ -4974,12 +4974,29 @@
                             <!-- <img src="assets/media/avatars/300-1.jpg" alt="user" /> -->
                         </div>
 
-
+                        <!-- 
 
                         <div class="d-flex align-items-center" @click="gotoLogin()" >
                             <div
                                 class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
                                 <img src="/assets/media/avatars/300-1.jpg" style="width: 100%" />
+                            </div>
+                        </div> -->
+                        <div>
+                            <div v-if="isLoggedIn" class="d-flex align-items-center">
+                                <div
+                                    class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
+                                    <img src="/assets/media/avatars/300-1.jpg" style="width: 100%"  @click="route('/profile')"/>
+                                </div>
+                            </div>
+
+                            <div v-else class="d-flex align-items-center" @click="gotoLogin()">
+                                <!-- Add your login button or other content when the user is not logged in -->
+                                <div
+                                    class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
+                                    <!-- <img src="/assets/media/avatars/300-1.jpg" style="width: 100%" /> -->
+                                    <img src="/assets/media/avatars/blank.png" style="width: 100%" />
+                                </div>
                             </div>
                         </div>
 
@@ -5195,8 +5212,11 @@ import { reactive, ref } from "vue";
 
 export default {
     extends: Base,
-    name: "cheader",
+    name: "cheader",    
     setup() {
+
+        const token = localStorage.getItem("_token");
+        const isLoggedIn = token !== null;
         let auth = ref({
             role_id: null,
             user_id: null,
@@ -5205,6 +5225,7 @@ export default {
 
         return {
             auth,
+            isLoggedIn
         };
     },
     mounted() {
@@ -5213,7 +5234,7 @@ export default {
         this.auth.token = localStorage.getItem("_token");
     },
     methods: {
-        gotoLogin(){
+        gotoLogin() {
             this.$router.push({ name: "login" });
         },
         toggleMenu() {
