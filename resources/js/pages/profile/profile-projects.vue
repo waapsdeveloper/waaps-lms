@@ -26,7 +26,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -102,7 +102,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -124,10 +124,10 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Leaf CRM</div>
+													<div class="fs-3 fw-bold text-dark" >Leaf CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
-													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
+													<p class="text-gray-400 	w-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
 													<!--end::Description-->
 													<!--begin::Info-->
 													<div class="d-flex flex-wrap mb-5">
@@ -173,7 +173,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -195,7 +195,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Atica Banking</div>
+													<div class="fs-3 fw-bold text-dark" >Atica Banking</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -249,7 +249,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -271,7 +271,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Finance Dispatch</div>
+													<div class="fs-3 fw-bold text-dark" >Finance Dispatch</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -320,7 +320,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -342,7 +342,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">9 Degree</div>
+													<div class="fs-3 fw-bold text-dark" >9 Degree</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -396,7 +396,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -418,7 +418,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">GoPro App</div>
+													<div class="fs-3 fw-bold text-dark" >GoPro App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -467,7 +467,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -489,7 +489,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Buldozer CRM</div>
+													<div class="fs-3 fw-bold text-dark" >Buldozer CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -543,7 +543,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewProject">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -565,7 +565,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Aviasales App</div>
+													<div class="fs-3 fw-bold text-dark" >Aviasales App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -614,7 +614,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a href="#" class="card border-hover-primary">
+											<a  class="card border-hover-primary" @click="navigateToViewCampaign">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -636,7 +636,7 @@
 												<!--begin:: Card body-->
 												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark" @click="navigateToViewProject">Oppo CRM</div>
+													<div class="fs-3 fw-bold text-dark" >Oppo CRM</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
