@@ -42,7 +42,8 @@ import profiledocuments from './pages/profile/profile-documents.vue';
 import profileactivity from './pages/profile/profile-activity.vue';
 import profilefollowers from './pages/profile/profile-followers.vue';
 
-import projectdetails from './pages/projectdetails/projectdetails.vue';
+import projectdetail from './pages/project-details/project-detail.vue';
+import projectdetailoverview from './pages/project-details/project-detail-overview.vue'
 
 // import projectdetails from './pages/projectdetails/projectdetails.vue';
 // import projecttarget from './pages/projecttarget.vue';
@@ -131,23 +132,23 @@ export const routes = [
                     { path: "projects", name: 'projects', component: profileprojects  },
                     { path: "documents", name: 'documents', component: profiledocuments  },
                     { path: "activity", name: 'activity', component:  profileactivity  },
-                    { path: "followers", name: 'followers', component:  profilefollowers  }, 
+                    { path: "followers", name: 'followers', component:  profilefollowers  },
                 ]
             },
 
 
             {
-                path: '/project-details',
-                name: 'projectdetails',
-                component: projectdetails,
+                path: '/project-detail',
+                name: 'project-detail',
+                component: projectdetail,
                 // beforeEnter: AuthGuard,
                 children: [
-                    { path: "", name: 'projectdetails', component: projectdetails  },
+                    { path: "", name: 'overview', component: projectdetailoverview  },
                     // { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
                     // { path: "projects", name: 'projects', component: profileprojects  },
                 ]
             },
-            
+
             // { path: '/projecttarget', name: 'projecttarget', component: projecttarget  },
             // { path: '/viewproject', name: 'viewproject', component: viewproject  },
 
