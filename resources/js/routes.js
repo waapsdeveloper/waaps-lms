@@ -42,8 +42,11 @@ import profiledocuments from './pages/profile/profile-documents.vue';
 import profileactivity from './pages/profile/profile-activity.vue';
 import profilefollowers from './pages/profile/profile-followers.vue';
 
+import projectdetails from './pages/projectdetails/projectdetails.vue';
 
-import viewproject from './pages/viewproject.vue';
+// import projectdetails from './pages/projectdetails/projectdetails.vue';
+// import projecttarget from './pages/projecttarget.vue';
+// import viewproject from './pages/viewproject.vue';
 // services
 import UserService from './services/user.service';
 const userService = new UserService();
@@ -116,6 +119,7 @@ export const routes = [
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
+
             {
                 path: '/profile',
                 name: 'profile',
@@ -127,29 +131,33 @@ export const routes = [
                     { path: "projects", name: 'projects', component: profileprojects  },
                     { path: "documents", name: 'documents', component: profiledocuments  },
                     { path: "activity", name: 'activity', component:  profileactivity  },
-                    { path: "followers", name: 'followers', component:  profilefollowers  },
-                    
-                    
-                    
+                    { path: "followers", name: 'followers', component:  profilefollowers  }, 
+                ]
+            },
+
+
+            {
+                path: '/project-details',
+                name: 'projectdetails',
+                component: projectdetails,
+                // beforeEnter: AuthGuard,
+                children: [
+                    { path: "", name: 'projectdetails', component: projectdetails  },
+                    // { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
+                    // { path: "projects", name: 'projects', component: profileprojects  },
                 ]
             },
             
-            
-            
-            { path: '/viewproject', name: 'viewproject', component: viewproject  },
-
-
-
+            // { path: '/projecttarget', name: 'projecttarget', component: projecttarget  },
+            // { path: '/viewproject', name: 'viewproject', component: viewproject  },
 
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
 
-
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
+
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard  },
             { path: '/addcampaign', name: 'addcampaign', component: addcampaign  },
             { path: '/campaign', name: 'campaign', component: campaign  },
-
-
 
             { path: '/category', name: 'category', component: category },
             { path: '/course', name: 'course', component: course },
@@ -172,7 +180,6 @@ export const routes = [
             { path: '/packages', name: 'packages', component: packages },
             { path: '/photography', name: 'photography', component: photography },
             { path: '/purchase', name: 'purchase', component: purchase },
-
             { path: '/web-development', name: 'webdevelopment', component: webdevelopment },
 
 

@@ -376,7 +376,7 @@
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
 												<li class="nav-item">
-													<a class="nav-link text-active-primary py-5 me-6" href="../../demo1/dist/apps/projects/targets.html">Targets</a>
+													<a class="nav-link text-active-primary py-5 me-6" href="./pages/projecttarget.vue">Targets</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->
@@ -3752,7 +3752,7 @@
 
 
 export default{
-    name: 'viewproject',
+    name: 'projectdetails',
     mounted(){
       
     }

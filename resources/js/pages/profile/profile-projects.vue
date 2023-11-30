@@ -46,7 +46,7 @@
 												</div>
 												<!--end:: Card header-->
 												<!--begin:: Card body-->
-												<div class="card-body p-9" @click="navigateToViewProject">
+												<div class="card-body p-9" href="javascript:void(0)" @click="goto('/projectdetails/projectdetails')">
 													<!--begin::Name-->
 													<div class="fs-3 fw-bold text-dark"  >Fitnes App</div>
 													<!--end::Name-->
@@ -699,9 +699,9 @@ export default {
 
     },
 	methods: {
-    navigateToViewProject() {
+    navigateToprojectdetails() {
       // Use Vue Router to navigate to the 'viewproject' route
-      this.$router.push({ name: 'viewproject' }); // Replace 'name' with the name of your route
+      this.$router.push({ name: 'projectdetails' }); // Replace 'name' with the name of your route
     }
   }
 
