@@ -477,7 +477,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitch Posts</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Twitch Posts</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -622,7 +622,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Twitter Followers</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Twitter Followers</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -911,7 +911,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Pinterest Posts</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Pinterest Posts</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -1055,7 +1055,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Github Contributes</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Github Contributes</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -1200,7 +1200,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Youtube Subscribers</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Youtube Subscribers</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -1344,7 +1344,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Telegram Posts</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Telegram Posts</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->
@@ -1488,7 +1488,7 @@
 														</div>
 														<!--end::Icon-->
 														<!--begin::Title-->
-														<a href="#" class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0">Reddit Awards</a>
+														<a  class="fs-4 fw-semibold text-hover-primary text-gray-600 m-0" @click="route('/viewcampaign')">Reddit Awards</a>
 														<!--end::Title-->
 													</div>
 													<!--end::Card title-->

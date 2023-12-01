@@ -51,7 +51,7 @@ import projectdetailfile from './pages/project-details/project-detail-file.vue';
 import projectdetailactivity from './pages/project-details/project-detail-activity.vue';
 import projectdetailsetting from './pages/project-details/project-detail-setting.vue';
 
-// import viewproject from './pages/viewproject.vue';
+import viewcampaign from './pages/viewcampaign.vue';
 // services
 import UserService from './services/user.service';
 const userService = new UserService();
@@ -157,10 +157,11 @@ export const routes = [
 
             },
 
+            { path: '/viewcampaign', name: 'viewcampaign', component: viewcampaign, },
 
 
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
-
+            
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
 
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard },
