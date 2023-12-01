@@ -107,7 +107,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -179,7 +179,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -256,7 +256,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -328,7 +328,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -405,7 +405,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -477,7 +477,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -554,7 +554,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewProject">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
@@ -626,7 +626,7 @@
 		<!--begin::Col-->
 		<div class="col-md-6 col-xl-4">
 			<!--begin::Card-->
-			<a class="card border-hover-primary" @click="navigateToViewCampaign">
+			<a class="card border-hover-primary" @click="goto('/project-detail')">
 				<!--begin::Card header-->
 				<div class="card-header border-0 pt-9">
 					<!--begin::Card Title-->
