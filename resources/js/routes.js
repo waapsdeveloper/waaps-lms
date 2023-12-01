@@ -45,6 +45,11 @@ import profilefollowers from './pages/profile/profile-followers.vue';
 import projectdetail from './pages/project-details/project-detail.vue';
 import projectdetailoverview from './pages/project-details/project-detail-overview.vue'
 import projectdetailtarget from './pages/project-details/project-detail-target.vue';
+import projectdetailuser from './pages/project-details/project-detail-user.vue';
+import projectdetailbudget from './pages/project-details/project-detail-budget.vue';
+import projectdetailfile from './pages/project-details/project-detail-file.vue';
+import projectdetailactivity from './pages/project-details/project-detail-activity.vue';
+import projectdetailsetting from './pages/project-details/project-detail-setting.vue';
 
 // import viewproject from './pages/viewproject.vue';
 // services
@@ -136,12 +141,18 @@ export const routes = [
                 ]
             },
             {
-                path: 'project-detail',
+                path: '/project-detail',
                 name: 'project-detail',
                 component: projectdetail,
+                beforeEnter: AuthGuard,
                 children: [
-                    { path: 'overview', name: 'overview', component: projectdetailoverview },
+                    { path: "", name: 'overview', component: projectdetailoverview },
                     { path: 'target', name: 'target', component: projectdetailtarget },
+                    { path: 'budget', name: 'budget', component: projectdetailbudget },
+                    { path: 'user', name: 'user', component: projectdetailuser },
+                    { path: 'file', name: 'file', component: projectdetailfile },
+                    { path: 'activity', name: 'activity', component: projectdetailactivity },
+                    { path: 'setting', name: 'setting', component: projectdetailsetting },
                 ]
 
             },
