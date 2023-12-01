@@ -448,7 +448,7 @@
 						<!--begin::Nav item-->
 						<li class="nav-item">
 							<a class="nav-link text-active-primary py-5 me-6" href="javascript:void(0)"
-								@click="goto('/project-detail/files')">Files</a>
+								@click="goto('/project-detail/file')">Files</a>
 						</li>
 						<!--end::Nav item-->
 						<!--begin::Nav item-->
