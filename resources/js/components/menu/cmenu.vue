@@ -72,6 +72,49 @@ export default {
     setup() {
 
         let menu = ref([
+
+         {
+                title: 'Instructors',
+                icon: 'icons/duotune/general/gen002.svg',
+                link: '#',
+                submenu: [
+                {
+                        title: 'Campaign',
+                        icon: '/build/assets/svg/campaing2.png',
+                        link: 'viewcampaign',
+                    },
+                    {
+                        title: 'Courses',
+                        icon: '/assets/svg/avatars/courses.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Batches',
+                        icon: '/assets/svg/avatars/batch.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Schedules',
+                        icon: '/assets/svg/avatars/schedule.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Activities',
+                        icon: '/assets/svg/avatars/form.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Tests',
+                        icon: '/assets/svg/avatars/tests.png',
+                        link: '#',
+                    },
+                    {
+                        title: 'Results',
+                        icon: '/assets/svg/avatars/analytics.png',
+                        link: '#',
+                    },
+                ]
+            },
             {
                 title: 'Features',
                 icon: '/assets/svg/coins/coin.svg',
@@ -151,43 +194,7 @@ export default {
                     },
                 ]
             },
-            {
-                title: 'Instructors',
-                icon: 'icons/duotune/general/gen002.svg',
-                link: '#',
-                submenu: [
-                    {
-                        title: 'Courses',
-                        icon: '/assets/svg/avatars/courses.png',
-                        link: '#',
-                    },
-                    {
-                        title: 'Batches',
-                        icon: '/assets/svg/avatars/batch.png',
-                        link: '#',
-                    },
-                    {
-                        title: 'Schedules',
-                        icon: '/assets/svg/avatars/schedule.png',
-                        link: '#',
-                    },
-                    {
-                        title: 'Activities',
-                        icon: '/assets/svg/avatars/form.png',
-                        link: '#',
-                    },
-                    {
-                        title: 'Tests',
-                        icon: '/assets/svg/avatars/tests.png',
-                        link: '#',
-                    },
-                    {
-                        title: 'Results',
-                        icon: '/assets/svg/avatars/analytics.png',
-                        link: '#',
-                    },
-                ]
-            },
+           
             {
                 title: 'Utilities',
                 icon: 'icons/duotune/general/gen002.svg',
