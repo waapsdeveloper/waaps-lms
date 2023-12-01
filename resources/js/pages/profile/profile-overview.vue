@@ -13,7 +13,7 @@
 														<div class="d-flex align-items-center flex-grow-1">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-6.jpg" alt="" />
+																<img src="/assets/media/avatars/300-6.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -158,7 +158,7 @@
 														<div class="d-flex align-items-center flex-grow-1">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-23.jpg" alt="" />
+																<img src="/assets/media/avatars/300-23.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -328,7 +328,7 @@
 														<div class="d-flex align-items-center flex-grow-1">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-21.jpg" alt="" />
+																<img src="/assets/media/avatars/300-21.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -460,7 +460,7 @@
 														<div class="d-flex mb-5">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-14.jpg" alt="" />
+																<img src="/assets/media/avatars/300-14.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -483,7 +483,7 @@
 														<div class="d-flex">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-9.jpg" alt="" />
+																<img src="/assets/media/avatars/300-9.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -548,7 +548,7 @@
 														<div class="d-flex align-items-center flex-grow-1">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-7.jpg" alt="" />
+																<img src="/assets/media/avatars/300-7.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->
@@ -728,7 +728,7 @@
 														<div class="d-flex align-items-center flex-grow-1">
 															<!--begin::Avatar-->
 															<div class="symbol symbol-45px me-5">
-																<img src="assets/media/avatars/300-7.jpg" alt="" />
+																<img src="/assets/media/avatars/300-7.jpg" alt="" />
 															</div>
 															<!--end::Avatar-->
 															<!--begin::Info-->

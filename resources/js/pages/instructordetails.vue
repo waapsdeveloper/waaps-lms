@@ -2,8 +2,8 @@
     <!-- Breadcrumb Section Starts -->
     <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -24,7 +24,7 @@
                     <div class="row">
                         <div class="col-lg-4">
                             <div class="instructor-image">
-                                <img src="assets/images/instructor-details-image.jpg" alt="instructor">
+                                <img src="/assets/images/instructor-details-image.jpg" alt="instructor">
                             </div>
                         </div>
                         <div class="col-lg-8">
@@ -50,7 +50,7 @@
                                 <div class="instructor-asset margin-top-30">
                                     <div class="single-asset">
                                         <div class="asset-image">
-                                            <img src="assets/images/category-icon-3.png" alt="image">
+                                            <img src="/assets/images/category-icon-3.png" alt="image">
                                         </div>
                                         <div class="assets-content">
                                             <h4>500</h4>
@@ -59,7 +59,7 @@
                                     </div>
                                     <div class="single-asset">
                                         <div class="asset-image">
-                                            <img src="assets/images/counter-image-2.png" alt="image">
+                                            <img src="/assets/images/counter-image-2.png" alt="image">
                                         </div>
                                         <div class="assets-content">
                                             <h4>20</h4>
@@ -68,7 +68,7 @@
                                     </div>
                                     <div class="single-asset">
                                         <div class="asset-image">
-                                            <img src="assets/images/counter-image-1.png" alt="image">
+                                            <img src="/assets/images/counter-image-1.png" alt="image">
                                         </div>
                                         <div class="assets-content">
                                             <h4>4.4</h4>
@@ -178,7 +178,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-course-item">
                             <div class="course-image">
-                                <img src="assets/images/course-image-1.png" alt="image">
+                                <img src="/assets/images/course-image-1.png" alt="image">
                             </div>
                             <div class="course-content margin-top-30">
                                 <div class="course-title">
@@ -186,7 +186,7 @@
                                 </div>
                                 <div class="course-instructor-rating margin-top-20">
                                     <div class="course-instructor">
-                                        <img src="assets/images/course-instructor-1.png" alt="instructor">
+                                        <img src="/assets/images/course-instructor-1.png" alt="instructor">
                                         <h6>john doe</h6>
                                     </div>
                                     <div class="course-rating">
@@ -261,7 +261,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-course-item diffrent-bg-color">
                             <div class="course-image">
-                                <img src="assets/images/course-image-2.png" alt="image">
+                                <img src="/assets/images/course-image-2.png" alt="image">
                             </div>
                             <div class="course-content margin-top-30">
                                 <div class="course-title">
@@ -269,7 +269,7 @@
                                 </div>
                                 <div class="course-instructor-rating margin-top-20">
                                     <div class="course-instructor">
-                                        <img src="assets/images/course-instructor-2.png" alt="instructor">
+                                        <img src="/assets/images/course-instructor-2.png" alt="instructor">
                                         <h6>chris doe</h6>
                                     </div>
                                     <div class="course-rating">
@@ -344,7 +344,7 @@
                     <div class="col-lg-4 col-md-6">
                         <div class="single-course-item">
                             <div class="course-image">
-                                <img src="assets/images/course-image-4.png" alt="image">
+                                <img src="/assets/images/course-image-4.png" alt="image">
                             </div>
                             <div class="course-content margin-top-30">
                                 <div class="course-title">
@@ -352,7 +352,7 @@
                                 </div>
                                 <div class="course-instructor-rating margin-top-20">
                                     <div class="course-instructor">
-                                        <img src="assets/images/course-instructor-1.png" alt="instructor">
+                                        <img src="/assets/images/course-instructor-1.png" alt="instructor">
                                         <h6>john doe</h6>
                                     </div>
                                     <div class="course-rating">
@@ -431,7 +431,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -446,7 +446,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

@@ -39,7 +39,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/twitch.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/twitch.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -189,7 +189,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/twitter.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/twitter.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -338,7 +338,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/spotify.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/spotify.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -489,7 +489,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/pinterest-p.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/pinterest-p.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -638,7 +638,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/github.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/github.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -789,7 +789,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/youtube-play.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/youtube-play.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -938,7 +938,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/telegram.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/telegram.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -1087,7 +1087,7 @@
                     <div class="card-title m-0">
                         <!--begin::Icon-->
                         <div class="symbol symbol-45px w-45px bg-light me-5">
-                            <img src="assets/media/svg/brand-logos/reddit.svg" alt="image" class="p-3" />
+                            <img src="/assets/media/svg/brand-logos/reddit.svg" alt="image" class="p-3" />
                         </div>
                         <!--end::Icon-->
                         <!--begin::Title-->
@@ -1775,7 +1775,7 @@
                                 <!--end::Actions-->
                                 <!--begin::Illustration-->
                                 <div class="text-center px-4">
-                                    <img src="assets/media/illustrations/sketchy-1/20.png" alt=""
+                                    <img src="/assets/media/illustrations/sketchy-1/20.png" alt=""
                                         class="mw-100 mh-300px" />
                                 </div>
                                 <!--end::Illustration-->

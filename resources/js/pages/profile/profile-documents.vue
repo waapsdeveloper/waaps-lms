@@ -34,8 +34,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-75px mb-5">
-															<img src="assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -62,8 +62,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-75px mb-5">
-															<img src="assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -90,8 +90,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-75px mb-5">
-															<img src="assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/folder-document-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -120,8 +120,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/pdf.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/pdf-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/pdf.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/pdf-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -148,8 +148,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/doc.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/doc-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/doc.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/doc-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -176,8 +176,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/css.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/css-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/css.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/css-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -204,8 +204,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/ai.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/ai-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/ai.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/ai-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -232,8 +232,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/sql.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/sql-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/sql.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/sql-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -260,8 +260,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/xml.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/xml-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/xml.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/xml-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->
@@ -288,8 +288,8 @@
 													<a href="../../demo1/dist/apps/file-manager/files.html" class="text-gray-800 text-hover-primary d-flex flex-column">
 														<!--begin::Image-->
 														<div class="symbol symbol-60px mb-5">
-															<img src="assets/media/svg/files/tif.svg" class="theme-light-show" alt="" />
-															<img src="assets/media/svg/files/tif-dark.svg" class="theme-dark-show" alt="" />
+															<img src="/assets/media/svg/files/tif.svg" class="theme-light-show" alt="" />
+															<img src="/assets/media/svg/files/tif-dark.svg" class="theme-dark-show" alt="" />
 														</div>
 														<!--end::Image-->
 														<!--begin::Title-->

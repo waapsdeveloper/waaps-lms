@@ -2,8 +2,8 @@
      <!-- Breadcrumb Section Starts -->
      <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -31,8 +31,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-contact-info">
                             <div class="contact-info-icon">
-                                <img src="assets/images/contact-info-1.png" alt="icon">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/contact-info-1.png" alt="icon">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="contact-info-title margin-bottom-10">
                                 <h4>phone us 24/7</h4>
@@ -43,8 +43,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-contact-info">
                             <div class="contact-info-icon">
-                                <img src="assets/images/contact-info-2.png" alt="icon">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/contact-info-2.png" alt="icon">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="contact-info-title margin-bottom-10">
                                 <h4>visit us daily</h4>
@@ -55,8 +55,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-contact-info">
                             <div class="contact-info-icon">
-                                <img src="assets/images/contact-info-3.png" alt="icon">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/contact-info-3.png" alt="icon">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="contact-info-title margin-bottom-10">
                                 <h4>mail us 24/7</h4>
@@ -67,8 +67,8 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="single-contact-info">
                             <div class="contact-info-icon">
-                                <img src="assets/images/contact-info-4.png" alt="icon">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/contact-info-4.png" alt="icon">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="contact-info-title margin-bottom-10">
                                 <h4>contact us</h4>
@@ -112,7 +112,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -127,7 +127,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

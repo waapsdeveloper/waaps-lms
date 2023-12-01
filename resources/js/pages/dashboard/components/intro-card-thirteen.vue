@@ -40,7 +40,7 @@
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="symbol symbol-50px me-3">
-                                                            <img src="assets/media/stock/600x600/img-49.jpg" class=""
+                                                            <img src="/assets/media/stock/600x600/img-49.jpg" class=""
                                                                 alt="" />
                                                         </div>
                                                         <div class="d-flex justify-content-start flex-column">
@@ -103,7 +103,7 @@
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="symbol symbol-50px me-3">
-                                                            <img src="assets/media/stock/600x600/img-40.jpg" class=""
+                                                            <img src="/assets/media/stock/600x600/img-40.jpg" class=""
                                                                 alt="" />
                                                         </div>
                                                         <div class="d-flex justify-content-start flex-column">
@@ -165,7 +165,7 @@
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="symbol symbol-50px me-3">
-                                                            <img src="assets/media/stock/600x600/img-39.jpg" class=""
+                                                            <img src="/assets/media/stock/600x600/img-39.jpg" class=""
                                                                 alt="" />
                                                         </div>
                                                         <div class="d-flex justify-content-start flex-column">
@@ -228,7 +228,7 @@
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="symbol symbol-50px me-3">
-                                                            <img src="assets/media/stock/600x600/img-47.jpg" class=""
+                                                            <img src="/assets/media/stock/600x600/img-47.jpg" class=""
                                                                 alt="" />
                                                         </div>
                                                         <div class="d-flex justify-content-start flex-column">
@@ -291,7 +291,7 @@
                                                 <td>
                                                     <div class="d-flex align-items-center">
                                                         <div class="symbol symbol-50px me-3">
-                                                            <img src="assets/media/stock/600x600/img-48.jpg" class=""
+                                                            <img src="/assets/media/stock/600x600/img-48.jpg" class=""
                                                                 alt="" />
                                                         </div>
                                                         <div class="d-flex justify-content-start flex-column">

@@ -923,7 +923,7 @@
 													</div>
 													<!--begin::Wrapper-->
 													<!--begin::Illustration-->
-													<img src="assets/media/illustrations/sigma-1/17-dark.png" class="position-absolute me-3 bottom-0 end-0 h-200px" alt="" />
+													<img src="/assets/media/illustrations/sigma-1/17-dark.png" class="position-absolute me-3 bottom-0 end-0 h-200px" alt="" />
 													<!--end::Illustration-->
 												</div>
 												<!--end::Body-->
@@ -1259,7 +1259,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/laravel-2.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/laravel-2.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">
@@ -1295,7 +1295,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/vue-9.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/vue-9.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">
@@ -1331,7 +1331,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/bootstrap5.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/bootstrap5.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">
@@ -1367,7 +1367,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/angular-icon.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/angular-icon.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">
@@ -1403,7 +1403,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/spring-3.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/spring-3.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">
@@ -1439,7 +1439,7 @@
 														<!--begin::Wrapper-->
 														<div class="d-flex align-items-center me-3">
 															<!--begin::Logo-->
-															<img src="assets/media/svg/brand-logos/typescript-1.svg" class="me-4 w-30px" alt="" />
+															<img src="/assets/media/svg/brand-logos/typescript-1.svg" class="me-4 w-30px" alt="" />
 															<!--end::Logo-->
 															<!--begin::Section-->
 															<div class="flex-grow-1">

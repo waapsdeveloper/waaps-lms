@@ -6,7 +6,7 @@
 					<div class="d-flex flex-column">
 						<!--begin::Logo-->
 						<a href="../../demo1/dist/index.html" class="mb-7">
-							<img alt="Logo" src="assets/media/logos/custom-3.svg" />
+							<img alt="Logo" src="/assets/media/logos/custom-3.svg" />
 						</a>
 						<!--end::Logo-->
 						<!--begin::Title-->

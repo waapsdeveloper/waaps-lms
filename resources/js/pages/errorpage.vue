@@ -2,8 +2,8 @@
      <!-- Breadcrumb Section Starts -->
      <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -23,7 +23,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="content-404 text-center">
-                            <img src="assets/images/404.png" alt="404">
+                            <img src="/assets/images/404.png" alt="404">
                             <a href="/dashboard" class="template-button margin-top-60">back to home</a>
                         </div>
                     </div>
@@ -34,7 +34,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -49,7 +49,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

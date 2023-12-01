@@ -33,7 +33,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/plurk.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/plurk.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -78,12 +78,12 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Emma Smith">
-															<img alt="Pic" src="assets/media/avatars/300-6.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-6.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Rudy Stone">
-															<img alt="Pic" src="assets/media/avatars/300-1.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-1.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
@@ -109,7 +109,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/disqus.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/disqus.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -159,7 +159,7 @@
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-															<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-5.jpg" />
 														</div>
 														<!--begin::User-->
 													</div>
@@ -180,7 +180,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/figma-1.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/figma-1.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -225,12 +225,12 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Mad Macy">
-															<img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Cris Willson">
-															<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-9.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
@@ -256,7 +256,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/sentry-3.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/sentry-3.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -327,7 +327,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/xing-icon.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/xing-icon.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -372,12 +372,12 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Francis Mitcham">
-															<img alt="Pic" src="assets/media/avatars/300-20.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-20.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Michelle Swanston">
-															<img alt="Pic" src="assets/media/avatars/300-7.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-7.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
@@ -403,7 +403,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/tvit.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/tvit.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -448,7 +448,7 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-															<img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
@@ -474,7 +474,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/aven.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -519,12 +519,12 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Melody Macy">
-															<img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="John Mixin">
-															<img alt="Pic" src="assets/media/avatars/300-14.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-14.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
@@ -550,7 +550,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/treva.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/treva.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -600,7 +600,7 @@
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Brian Cox">
-															<img alt="Pic" src="assets/media/avatars/300-5.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-5.jpg" />
 														</div>
 														<!--begin::User-->
 													</div>
@@ -621,7 +621,7 @@
 													<div class="card-title m-0">
 														<!--begin::Avatar-->
 														<div class="symbol symbol-50px w-50px bg-light">
-															<img src="assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
+															<img src="/assets/media/svg/brand-logos/kanba.svg" alt="image" class="p-3" />
 														</div>
 														<!--end::Avatar-->
 													</div>
@@ -666,12 +666,12 @@
 													<div class="symbol-group symbol-hover">
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Nick Macy">
-															<img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->
 														<div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip" title="Sean Paul">
-															<img alt="Pic" src="assets/media/avatars/300-9.jpg" />
+															<img alt="Pic" src="/assets/media/avatars/300-9.jpg" />
 														</div>
 														<!--begin::User-->
 														<!--begin::User-->

@@ -12,8 +12,8 @@
                 <!--end::Title-->
                 <!--begin::Illustration-->
                 <div class="py-10 text-center">
-                    <img src="assets/media/svg/illustrations/easy/1.svg" class="theme-light-show w-200px" alt="" />
-                    <img src="assets/media/svg/illustrations/easy/1-dark.svg" class="theme-dark-show w-200px" alt="" />
+                    <img src="/assets/media/svg/illustrations/easy/1.svg" class="theme-light-show w-200px" alt="" />
+                    <img src="/assets/media/svg/illustrations/easy/1-dark.svg" class="theme-dark-show w-200px" alt="" />
                 </div>
                 <!--end::Illustration-->
             </div>

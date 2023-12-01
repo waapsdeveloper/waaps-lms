@@ -2,8 +2,8 @@
             <!-- Breadcrumb Section Starts -->
             <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -39,7 +39,7 @@
                                 </div>
                             </div>
                             <div class="package-image">
-                                <img src="assets/images/course-image-2.png" alt="image">
+                                <img src="/assets/images/course-image-2.png" alt="image">
                             </div>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                             <div class="package-image">
-                                <img src="assets/images/course-image-1.png" alt="image">
+                                <img src="/assets/images/course-image-1.png" alt="image">
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 </div>
                             </div>
                             <div class="package-image">
-                                <img src="assets/images/course-image-5.png" alt="image">
+                                <img src="/assets/images/course-image-5.png" alt="image">
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -149,7 +149,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

@@ -410,7 +410,7 @@
                     <div class="d-flex align-items-center">
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
-                        <img src="assets/media/svg/files/pdf.svg" alt="icon" />
+                        <img src="/assets/media/svg/files/pdf.svg" alt="icon" />
                       </div>
                       <!--end::Avatar-->
                       <!--begin::Details-->
@@ -448,7 +448,7 @@
                     <div class="d-flex align-items-center">
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
-                        <img src="assets/media/svg/files/tif.svg" alt="icon" />
+                        <img src="/assets/media/svg/files/tif.svg" alt="icon" />
                       </div>
                       <!--end::Avatar-->
                       <!--begin::Details-->
@@ -487,7 +487,7 @@
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
                         <img
-                          src="assets/media/svg/files/folder-document.svg"
+                          src="/assets/media/svg/files/folder-document.svg"
                           alt="icon"
                         />
                       </div>
@@ -527,7 +527,7 @@
                     <div class="d-flex align-items-center">
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
-                        <img src="assets/media/svg/files/css.svg" alt="icon" />
+                        <img src="/assets/media/svg/files/css.svg" alt="icon" />
                       </div>
                       <!--end::Avatar-->
                       <!--begin::Details-->
@@ -565,7 +565,7 @@
                     <div class="d-flex align-items-center">
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
-                        <img src="assets/media/svg/files/ai.svg" alt="icon" />
+                        <img src="/assets/media/svg/files/ai.svg" alt="icon" />
                       </div>
                       <!--end::Avatar-->
                       <!--begin::Details-->
@@ -601,7 +601,7 @@
                     <div class="d-flex align-items-center">
                       <!--begin::Avatar-->
                       <div class="symbol symbol-35px">
-                        <img src="assets/media/svg/files/doc.svg" alt="icon" />
+                        <img src="/assets/media/svg/files/doc.svg" alt="icon" />
                       </div>
                       <!--end::Avatar-->
                       <!--begin::Details-->
@@ -968,7 +968,7 @@
               <!--begin::Illustration-->
               <div class="text-center px-4">
                 <img
-                  src="assets/media/illustrations/sketchy-1/9.png"
+                  src="/assets/media/illustrations/sketchy-1/9.png"
                   alt=""
                   class="mww-100 mh-350px"
                 />
