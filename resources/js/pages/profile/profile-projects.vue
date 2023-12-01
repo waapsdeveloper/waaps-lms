@@ -26,7 +26,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary"  @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -46,9 +46,9 @@
 												</div>
 												<!--end:: Card header-->
 												<!--begin:: Card body-->
-												<div class="card-body p-9" href="javascript:void(0)" @click="goto('/projectdetails/projectdetails')">
+												<div class="card-body p-9" >
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark"  >Fitnes App</div>
+													<div class="fs-3 fw-bold text-dark" >Fitnes App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -102,7 +102,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -173,7 +173,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -249,7 +249,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -320,7 +320,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a class="card border-hover-primary" @click="navigateToViewProject">
+											<a class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -396,7 +396,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -467,7 +467,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -543,7 +543,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -614,7 +614,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewCampaign">
+											<a  class="card border-hover-primary" @click="navigateToProjectDetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -696,16 +696,13 @@
 export default {
     name: 'profile-projects',
     mounted() {
-
+        // ...
     },
-	methods: {
-    navigateToprojectdetails() {
-      // Use Vue Router to navigate to the 'viewproject' route
-      this.$router.push({ name: 'projectdetails' }); // Replace 'name' with the name of your route
+    methods: {
+        navigateToProjectDetails() {
+            // Use Vue Router to navigate to the 'project-detail' route
+            this.$router.push({ name: 'project-detail' }); // Replace 'name' with the name of your route
+        }
     }
-  }
-
-
-
 }
 </script>

@@ -137,20 +137,19 @@ export const routes = [
             },
 
 
-            {
-                path: '/project-detail',
-                name: 'project-detail',
-                component: projectdetail,
-                // beforeEnter: AuthGuard,
-                children: [
-                    { path: "", name: 'overview', component: projectdetailoverview  },
-                    // { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
-                    // { path: "projects", name: 'projects', component: profileprojects  },
-                ]
+         
+                {
+                        path: 'project-detail',
+                        name: 'project-detail',
+                        component: projectdetail,
+                        children: [
+                            { path: 'overview', name: 'overview', component: projectdetailoverview },
+                            { path: 'detail', name: 'detail', component: projectdetail },
+                        ]
+                
             },
 
-            // { path: '/projecttarget', name: 'projecttarget', component: projecttarget  },
-            // { path: '/viewproject', name: 'viewproject', component: viewproject  },
+    
 
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
 
