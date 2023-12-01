@@ -2,8 +2,8 @@
     <!-- Breadcrumb Section Starts -->
     <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -131,7 +131,7 @@
                                     <h4>course description</h4>
                                     <p class="margin-top-20">This course is aimed at teaching photographers what it takes to improve your techniques to earn more money.You'll start with the basics and tackle how a camera operates, the types of cameras and lenses available, and equipment you'll need for accomplishing your goals.</p>
                                     <div class="overview-video margin-top-30">
-                                        <img src="assets/images/blog-image-2.jpg" alt="thumbnail">
+                                        <img src="/assets/images/blog-image-2.jpg" alt="thumbnail">
                                         <div class="video-play-button">
                                             <a href="https://www.youtube.com/watch?v=8AGgbIQyqR8" class="button-video">
                                                 <i class="fa fa-play"></i>
@@ -354,7 +354,7 @@
                                                 <div class="single-instructor">
                                                     <span class="instructor-sign">chris</span>
                                                     <div class="instructor-image">
-                                                        <a href="#"><img src="assets/images/instructor-2.png" alt="image"></a>
+                                                        <a href="#"><img src="/assets/images/instructor-2.png" alt="image"></a>
                                                     </div>
                                                     <div class="instructor-content">
                                                         <h4><a href="#">chris wokes</a></h4>
@@ -579,7 +579,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -594,7 +594,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

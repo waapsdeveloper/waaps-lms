@@ -172,7 +172,7 @@
                       data-bs-toggle="tooltip"
                       title="Michael Eberon"
                     >
-                      <img alt="Pic" src="assets/media/avatars/300-11.jpg" />
+                      <img alt="Pic" src="/assets/media/avatars/300-11.jpg" />
                     </div>
                     <div
                       class="symbol symbol-35px symbol-circle"
@@ -189,7 +189,7 @@
                       data-bs-toggle="tooltip"
                       title="Melody Macy"
                     >
-                      <img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+                      <img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
                     </div>
                     <div
                       class="symbol symbol-35px symbol-circle"
@@ -206,7 +206,7 @@
                       data-bs-toggle="tooltip"
                       title="Barry Walter"
                     >
-                      <img alt="Pic" src="assets/media/avatars/300-12.jpg" />
+                      <img alt="Pic" src="/assets/media/avatars/300-12.jpg" />
                     </div>
                     <a
                       href="#"
@@ -4174,7 +4174,7 @@
                                 class="symbol symbol-30px symbol-circle me-3"
                               >
                                 <img
-                                  src="assets/media/avatars/300-3.jpg"
+                                  src="/assets/media/avatars/300-3.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -4310,7 +4310,7 @@
                             >
                               <img
                                 alt="Pic"
-                                src="assets/media/avatars/300-2.jpg"
+                                src="/assets/media/avatars/300-2.jpg"
                               />
                             </div>
                             <div
@@ -4320,7 +4320,7 @@
                             >
                               <img
                                 alt="Pic"
-                                src="assets/media/avatars/300-3.jpg"
+                                src="/assets/media/avatars/300-3.jpg"
                               />
                             </div>
                             <div
@@ -5327,7 +5327,7 @@
                             <div class="d-flex align-items-center">
                               <div class="symbol symbol-50px me-3">
                                 <img
-                                  src="assets/media/stock/600x600/img-49.jpg"
+                                  src="/assets/media/stock/600x600/img-49.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -5435,7 +5435,7 @@
                             <div class="d-flex align-items-center">
                               <div class="symbol symbol-50px me-3">
                                 <img
-                                  src="assets/media/stock/600x600/img-40.jpg"
+                                  src="/assets/media/stock/600x600/img-40.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -5543,7 +5543,7 @@
                             <div class="d-flex align-items-center">
                               <div class="symbol symbol-50px me-3">
                                 <img
-                                  src="assets/media/stock/600x600/img-39.jpg"
+                                  src="/assets/media/stock/600x600/img-39.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -5651,7 +5651,7 @@
                             <div class="d-flex align-items-center">
                               <div class="symbol symbol-50px me-3">
                                 <img
-                                  src="assets/media/stock/600x600/img-47.jpg"
+                                  src="/assets/media/stock/600x600/img-47.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -5759,7 +5759,7 @@
                             <div class="d-flex align-items-center">
                               <div class="symbol symbol-50px me-3">
                                 <img
-                                  src="assets/media/stock/600x600/img-48.jpg"
+                                  src="/assets/media/stock/600x600/img-48.jpg"
                                   class=""
                                   alt=""
                                 />
@@ -5894,12 +5894,12 @@
                     <!--begin::Illustration-->
                     <div class="py-10 text-center">
                       <img
-                        src="assets/media/svg/illustrations/easy/2.svg"
+                        src="/assets/media/svg/illustrations/easy/2.svg"
                         class="theme-light-show w-200px"
                         alt=""
                       />
                       <img
-                        src="assets/media/svg/illustrations/easy/2-dark.svg"
+                        src="/assets/media/svg/illustrations/easy/2-dark.svg"
                         class="theme-dark-show w-200px"
                         alt=""
                       />

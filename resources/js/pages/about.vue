@@ -3,8 +3,8 @@
         <!-- Breadcrumb Section Starts -->
         <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -24,12 +24,12 @@
                 <div class="row">
                     <div class="col-lg-3 align-self-end">
                         <div class="welcome-image welcome-image-1">
-                            <img src="assets/images/welcome-image-1.jpg" alt="image">
+                            <img src="/assets/images/welcome-image-1.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="welcome-image welcome-image-2">
-                            <img src="assets/images/welcome-image-2.jpg" alt="image">
+                            <img src="/assets/images/welcome-image-2.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-12 align-self-center">
@@ -44,12 +44,12 @@
                 <div class="row">
                     <div class="col-lg-5 col-md-6">
                         <div class="welcome-image welcome-image-3">
-                            <img src="assets/images/welcome-image-3.jpg" alt="image">
+                            <img src="/assets/images/welcome-image-3.jpg" alt="image">
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6">
                         <div class="welcome-image welcome-image-4">
-                            <img src="assets/images/welcome-image-4.jpg" alt="image">
+                            <img src="/assets/images/welcome-image-4.jpg" alt="image">
                         </div>
                     </div>
                 </div>
@@ -80,15 +80,15 @@
             <div class="container">
                 <div class="counterup-content common-section padding-top-60 padding-bottom-30">
                     <div class="counter-shape">
-                        <img src="assets/images/round-shape-2.png" alt="shape" class="round-shape-2">
-                        <img src="assets/images/plus-sign.png" alt="shape" class="plus-sign item-rotate">
-                        <img src="assets/images/round-shape-3.png" alt="shape" class="round-shape-3">
+                        <img src="/assets/images/round-shape-2.png" alt="shape" class="round-shape-2">
+                        <img src="/assets/images/plus-sign.png" alt="shape" class="plus-sign item-rotate">
+                        <img src="/assets/images/round-shape-3.png" alt="shape" class="round-shape-3">
                     </div>
                     <div class="row align-items-center">
                         <div class="col-xl-3 col-sm-6">
                             <div class="single-counterup">
                                 <div class="single-counterup-image">
-                                    <img src="assets/images/counter-image-1.png" alt="image">
+                                    <img src="/assets/images/counter-image-1.png" alt="image">
                                 </div>
                                 <div class="single-counterup-content">
                                     <div class="counter-number">
@@ -102,7 +102,7 @@
                         <div class="col-xl-3 col-sm-6">
                             <div class="single-counterup">
                                 <div class="single-counterup-image">
-                                    <img src="assets/images/category-icon-3.png" alt="image">
+                                    <img src="/assets/images/category-icon-3.png" alt="image">
                                 </div>
                                 <div class="single-counterup-content">
                                     <div class="counter-number">
@@ -116,7 +116,7 @@
                         <div class="col-xl-3 col-sm-6">
                             <div class="single-counterup">
                                 <div class="single-counterup-image">
-                                    <img src="assets/images/counter-image-2.png" alt="image">
+                                    <img src="/assets/images/counter-image-2.png" alt="image">
                                 </div>
                                 <div class="single-counterup-content">
                                     <div class="counter-number">
@@ -130,7 +130,7 @@
                         <div class="col-xl-3 col-sm-6">
                             <div class="single-counterup">
                                 <div class="single-counterup-image">
-                                    <img src="assets/images/category-icon-6.png" alt="image">
+                                    <img src="/assets/images/category-icon-6.png" alt="image">
                                 </div>
                                 <div class="single-counterup-content">
                                     <div class="counter-number">
@@ -160,8 +160,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/web-development"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-1.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-1.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>web design</h4>
@@ -172,8 +172,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/marketing"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-2.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-2.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>marketing</h4>
@@ -184,8 +184,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/education"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-3.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-3.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>education</h4>
@@ -196,8 +196,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/business"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-4.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-4.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>business</h4>
@@ -208,8 +208,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="#"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-5.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-5.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>psychology</h4>
@@ -220,8 +220,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/web-development"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-6.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-6.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>UI & UX design</h4>
@@ -232,8 +232,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/banking"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-7.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-7.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>technology</h4>
@@ -244,8 +244,8 @@
                     <div class="col-lg-3 col-md-6">
                         <a href="/photography"><div class="single-category-item">
                             <div class="category-image">
-                                <img src="assets/images/category-icon-8.png" alt="image">
-                                <img src="assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
+                                <img src="/assets/images/category-icon-8.png" alt="image">
+                                <img src="/assets/images/round-shape-3.png" alt="shape" class="feature-round-shape-3">
                             </div>
                             <div class="category-title margin-bottom-10">
                                 <h4>photography</h4>
@@ -278,7 +278,7 @@
                                     <span class="course-category">web design</span>
                                     <span class="course-price">$ 200.00</span>
                                     <div class="course-instructor">
-                                        <img src="assets/images/course-instructor-2.png" alt="instructor">
+                                        <img src="/assets/images/course-instructor-2.png" alt="instructor">
                                         <h6>john doe</h6>
                                     </div>
                                 </div>
@@ -304,10 +304,10 @@
                                         <i class="fa fa-play"></i>
                                     </a>
                                 </div>
-                                <img src="assets/images/about-image.png" alt="image">
+                                <img src="/assets/images/about-image.png" alt="image">
                                 <div class="image-absolute">
-                                    <img src="assets/images/hero-small-image-4.png" alt="image" class="top-absolute">
-                                    <img src="assets/images/hero-small-image-2.png" alt="image" class="bottom-absolute">
+                                    <img src="/assets/images/hero-small-image-4.png" alt="image" class="top-absolute">
+                                    <img src="/assets/images/hero-small-image-2.png" alt="image" class="bottom-absolute">
                                 </div>
                             </div>
                         </div>
@@ -331,7 +331,7 @@
                         <div class="single-instructor">
                             <span class="instructor-sign">john</span>
                             <div class="instructor-image">
-                                <a href="#"><img src="assets/images/instructor-1.png" alt="image"></a>
+                                <a href="#"><img src="/assets/images/instructor-1.png" alt="image"></a>
                             </div>
                             <div class="instructor-content">
                                 <h4><a href="#">john doe</a></h4>
@@ -351,7 +351,7 @@
                         <div class="single-instructor diffrent-bg-color">
                             <span class="instructor-sign">arya</span>
                             <div class="instructor-image">
-                                <a href="#"><img src="assets/images/instructor-3.png" alt="image"></a>
+                                <a href="#"><img src="/assets/images/instructor-3.png" alt="image"></a>
                             </div>
                             <div class="instructor-content">
                                 <h4><a href="#">arya stark</a></h4>
@@ -371,7 +371,7 @@
                         <div class="single-instructor">
                             <span class="instructor-sign">chris</span>
                             <div class="instructor-image">
-                                <a href="#"><img src="assets/images/instructor-2.png" alt="image"></a>
+                                <a href="#"><img src="/assets/images/instructor-2.png" alt="image"></a>
                             </div>
                             <div class="instructor-content">
                                 <h4><a href="#">chris wokes</a></h4>
@@ -391,7 +391,7 @@
                         <div class="single-instructor diffrent-bg-color">
                             <span class="instructor-sign">devid</span>
                             <div class="instructor-image">
-                                <a href="#"><img src="assets/images/instructor-4.png" alt="image"></a>
+                                <a href="#"><img src="/assets/images/instructor-4.png" alt="image"></a>
                             </div>
                             <div class="instructor-content">
                                 <h4><a href="#">devid walter</a></h4>
@@ -421,7 +421,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -436,7 +436,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

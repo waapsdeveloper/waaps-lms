@@ -29,7 +29,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-11.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-11.jpg" alt="image" />
 														<div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
 													</div>
 													<!--end::Avatar-->
@@ -80,7 +80,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-6.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-6.jpg" alt="image" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Name-->
@@ -333,7 +333,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-1.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-1.jpg" alt="image" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Name-->
@@ -383,7 +383,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-14.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-14.jpg" alt="image" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Name-->
@@ -433,7 +433,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-12.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-12.jpg" alt="image" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Name-->
@@ -483,7 +483,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-7.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-7.jpg" alt="image" />
 														<div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
 													</div>
 													<!--end::Avatar-->
@@ -534,7 +534,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-11.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-11.jpg" alt="image" />
 														<div class="bg-success position-absolute rounded-circle translate-middle start-100 top-100 border border-4 border-body h-15px w-15px ms-n3 mt-n3"></div>
 													</div>
 													<!--end::Avatar-->
@@ -585,7 +585,7 @@
 												<div class="card-body d-flex flex-center flex-column py-9 px-5">
 													<!--begin::Avatar-->
 													<div class="symbol symbol-65px symbol-circle mb-5">
-														<img src="assets/media//avatars/300-6.jpg" alt="image" />
+														<img src="/assets/media//avatars/300-6.jpg" alt="image" />
 													</div>
 													<!--end::Avatar-->
 													<!--begin::Name-->

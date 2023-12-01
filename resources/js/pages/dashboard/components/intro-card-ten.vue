@@ -41,7 +41,7 @@
                                                     <div class="d-flex align-items-center me-5 me-xl-13">
                                                         <!--begin::Symbol-->
                                                         <div class="symbol symbol-30px symbol-circle me-3">
-                                                            <img src="assets/media/avatars/300-3.jpg" class="" alt="" />
+                                                            <img src="/assets/media/avatars/300-3.jpg" class="" alt="" />
                                                         </div>
                                                         <!--end::Symbol-->
                                                         <!--begin::Info-->
@@ -132,11 +132,11 @@
                                                 <div class="symbol-group symbol-hover flex-nowrap">
                                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                                         title="Melody Macy">
-                                                        <img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+                                                        <img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
                                                     </div>
                                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                                         title="Michael Eberon">
-                                                        <img alt="Pic" src="assets/media/avatars/300-3.jpg" />
+                                                        <img alt="Pic" src="/assets/media/avatars/300-3.jpg" />
                                                     </div>
                                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                                         title="Susan Redwood">

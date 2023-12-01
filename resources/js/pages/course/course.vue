@@ -3,12 +3,12 @@
   <section class="breadcrumb-section">
     <div class="breadcrumb-shape">
       <img
-        src="assets/images/round-shape-2.png"
+        src="/assets/images/round-shape-2.png"
         alt="shape"
         class="hero-round-shape-2 item-moveTwo"
       />
       <img
-        src="assets/images/plus-sign.png"
+        src="/assets/images/plus-sign.png"
         alt="shape"
         class="hero-plus-sign item-rotate"
       />
@@ -54,7 +54,7 @@
         <div class="col-lg-4 col-sm-6 grid-item collection">
           <div class="course-single-item" @click="openDetails()" >
             <div class="course-image">
-              <img src="assets/images/course-image-3.png" alt="image" />
+              <img src="/assets/images/course-image-3.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -118,7 +118,7 @@
         <div class="col-lg-4 col-sm-6 grid-item archived">
           <div class="course-single-item diffrent-bg">
             <div class="course-image">
-              <img src="assets/images/course-image-2.png" alt="image" />
+              <img src="/assets/images/course-image-2.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -182,7 +182,7 @@
         <div class="col-lg-4 col-sm-6 grid-item wishlist">
           <div class="course-single-item">
             <div class="course-image">
-              <img src="assets/images/course-image-6.png" alt="image" />
+              <img src="/assets/images/course-image-6.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -246,7 +246,7 @@
         <div class="col-lg-4 col-sm-6 grid-item archived">
           <div class="course-single-item diffrent-bg">
             <div class="course-image">
-              <img src="assets/images/course-image-4.png" alt="image" />
+              <img src="/assets/images/course-image-4.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -310,7 +310,7 @@
         <div class="col-lg-4 col-sm-6 grid-item collection">
           <div class="course-single-item">
             <div class="course-image">
-              <img src="assets/images/course-image-5.png" alt="image" />
+              <img src="/assets/images/course-image-5.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -374,7 +374,7 @@
         <div class="col-lg-4 col-sm-6 grid-item wishlist">
           <div class="course-single-item diffrent-bg">
             <div class="course-image">
-              <img src="assets/images/course-image-1.png" alt="image" />
+              <img src="/assets/images/course-image-1.png" alt="image" />
               <div class="course-video-part">
                 <div class="video-play-button">
                   <a
@@ -461,7 +461,7 @@
   <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
     <div class="cta-shape">
       <img
-        src="assets/images/plus-sign.png"
+        src="/assets/images/plus-sign.png"
         alt="image"
         class="plus-sign item-rotate"
       />
@@ -481,7 +481,7 @@
         </div>
         <div class="col-xl-4 offset-xl-2 col-lg-6">
           <div class="cta-image">
-            <img src="assets/images/cta-image.png" alt="image" />
+            <img src="/assets/images/cta-image.png" alt="image" />
           </div>
         </div>
       </div>

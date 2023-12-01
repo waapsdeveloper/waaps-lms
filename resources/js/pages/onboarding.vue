@@ -17,7 +17,7 @@
             <a href="../../demo1/dist/index.html">
               <img
                 alt="Logo"
-                src="assets/media/logos/custom-1.png"
+                src="/assets/media/logos/custom-1.png"
                 class="h-70px"
               />
             </a>

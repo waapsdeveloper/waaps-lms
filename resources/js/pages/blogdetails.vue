@@ -2,8 +2,8 @@
      <!-- Breadcrumb Section Starts -->
      <section class="breadcrumb-section">
             <div class="breadcrumb-shape">
-                <img src="assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
-                <img src="assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
+                <img src="/assets/images/round-shape-2.png" alt="shape" class="hero-round-shape-2 item-moveTwo">
+                <img src="/assets/images/plus-sign.png" alt="shape" class="hero-plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row">
@@ -25,7 +25,7 @@
                         <div class="blog-posts">
                             <div class="blog-single-post">
                                 <div class="blog-thumbnail">
-                                    <img src="assets/images/blog-details-image-1.jpg" alt="thumbnail">
+                                    <img src="/assets/images/blog-details-image-1.jpg" alt="thumbnail">
                                 </div>
                                 <div class="blog-content-part">
                                     <div class="blog-content-top">
@@ -65,12 +65,12 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div class="single-image">
-                                                    <img src="assets/images/blog-details-image-2.jpg" alt="image">
+                                                    <img src="/assets/images/blog-details-image-2.jpg" alt="image">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6">
                                                 <div class="single-image image-2">
-                                                    <img src="assets/images/blog-details-image-3.jpg" alt="image">
+                                                    <img src="/assets/images/blog-details-image-3.jpg" alt="image">
                                                 </div>
                                             </div>
                                         </div>
@@ -89,7 +89,7 @@
                                         <p class="margin-top-20">We’ve identified four attributes they have in spades: aspiration, self-awareness,curiosity, and vulnerability. They truly want to understand and master new skills; they see themselves very clearly.</p>
                                     </div>
                                     <div class="blog-thumbnail margin-top-30">
-                                        <img src="assets/images/blog-details-image-4.jpg" alt="image">
+                                        <img src="/assets/images/blog-details-image-4.jpg" alt="image">
                                     </div>
                                     <div class="blog-contnet margin-top-30">
                                         <p>We’ve identified four attributes they have in spades: aspiration, self-awareness, curiosity, and vulnerability. They truly want to understand and master new skills; they see themselves very clearly; they constantly think of and ask good questions; and they tolerate their own mistakes as they move up the learning curve.</p>
@@ -139,7 +139,7 @@
                                     <div class="col-md-6">
                                         <div class="blog-single-item">
                                             <div class="single-blog-image">
-                                                <img src="assets/images/news-1.jpg" alt="blog">
+                                                <img src="/assets/images/news-1.jpg" alt="blog">
                                             </div>
                                             <div class="blog-meta">
                                                 <ul>
@@ -155,7 +155,7 @@
                                     <div class="col-md-6">
                                         <div class="blog-single-item">
                                             <div class="single-blog-image">
-                                                <img src="assets/images/news-2.jpg" alt="blog">
+                                                <img src="/assets/images/news-2.jpg" alt="blog">
                                             </div>
                                             <div class="blog-meta">
                                                 <ul>
@@ -176,7 +176,7 @@
                                 </div>
                                 <div class="single-comment">
                                     <div class="comment-image">
-                                        <img src="assets/images/blog-details-comment-1.png" alt="author">
+                                        <img src="/assets/images/blog-details-comment-1.png" alt="author">
                                     </div>
                                     <div class="comment-content">
                                         <div class="comment-content-top">
@@ -193,7 +193,7 @@
                                 </div>
                                 <div class="single-comment comment-left-margin">
                                     <div class="comment-image">
-                                        <img src="assets/images/blog-details-comment-2.png" alt="author">
+                                        <img src="/assets/images/blog-details-comment-2.png" alt="author">
                                     </div>
                                     <div class="comment-content">
                                         <div class="comment-content-top">
@@ -225,7 +225,7 @@
                     <div class="col-lg-4">
                         <div class="blog-sidebar">
                             <div class="single-widget author-widget">
-                                <img src="assets/images/instructor-2.png" alt="image">
+                                <img src="/assets/images/instructor-2.png" alt="image">
                                 <div class="author-name margin-top-20">
                                     <h4>john doe</h4>
                                 </div>
@@ -255,7 +255,7 @@
                                 </div>
                                 <div class="single-recent-post">
                                     <div class="recent-post-image">
-                                        <a href="/blog-details"><img src="assets/images/recent-post-1.jpg" alt="image"></a>
+                                        <a href="/blog-details"><img src="/assets/images/recent-post-1.jpg" alt="image"></a>
                                     </div>
                                     <div class="recent-post-title">
                                         <div class="post-date">
@@ -266,7 +266,7 @@
                                 </div>
                                 <div class="single-recent-post">
                                     <div class="recent-post-image">
-                                        <a href="/blog-details"><img src="assets/images/recent-post-2.jpg" alt="image"></a>
+                                        <a href="/blog-details"><img src="/assets/images/recent-post-2.jpg" alt="image"></a>
                                     </div>
                                     <div class="recent-post-title">
                                         <div class="post-date">
@@ -277,7 +277,7 @@
                                 </div>
                                 <div class="single-recent-post">
                                     <div class="recent-post-image">
-                                        <a href="/blog-details"><img src="assets/images/recent-post-3.jpg" alt="image"></a>
+                                        <a href="/blog-details"><img src="/assets/images/recent-post-3.jpg" alt="image"></a>
                                     </div>
                                     <div class="recent-post-title">
                                         <div class="post-date">
@@ -288,7 +288,7 @@
                                 </div>
                                 <div class="single-recent-post">
                                     <div class="recent-post-image">
-                                        <a href="/blog-details"><img src="assets/images/recent-post-4.jpg" alt="image"></a>
+                                        <a href="/blog-details"><img src="/assets/images/recent-post-4.jpg" alt="image"></a>
                                     </div>
                                     <div class="recent-post-title">
                                         <div class="post-date">
@@ -337,7 +337,7 @@
                             </div>
                             <div class="single-widget banner-widget">
                                 <div class="banner-widget-logo">
-                                    <a href="/"><img src="assets/images/logo-white.png" alt="logo"></a>
+                                    <a href="/"><img src="/assets/images/logo-white.png" alt="logo"></a>
                                 </div>
                                 <div class="banner-widget-title text-center margin-top-20">
                                     <h4>start course in yourself today</h4>
@@ -355,7 +355,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -370,7 +370,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

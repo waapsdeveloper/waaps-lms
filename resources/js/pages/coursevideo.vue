@@ -6,7 +6,7 @@
                     <div class="col-lg-8 p-0 order-2 order-lg-1">
                         <div class="course-video-part">
                             <video controls>
-                                <source src="assets/video/html.mp4" type="video/mp4"/>
+                                <source src="/assets/video/html.mp4" type="video/mp4"/>
                             </video>
                         </div>
 
@@ -115,7 +115,7 @@
                                     <div class="hr-line"></div>
                                     <div class="single-question">
                                         <div class="question-image">
-                                            <img src="assets/images/question-image.png" alt="image">
+                                            <img src="/assets/images/question-image.png" alt="image">
                                         </div>
                                         <div class="question-content">
                                             <h6>how to install wordpress in cpanel?</h6>
@@ -129,7 +129,7 @@
                                     </div>
                                     <div class="single-question">
                                         <div class="question-image">
-                                            <img src="assets/images/question-image.png" alt="image">
+                                            <img src="/assets/images/question-image.png" alt="image">
                                         </div>
                                         <div class="question-content">
                                             <h6>how to install wordpress in cpanel?</h6>
@@ -143,7 +143,7 @@
                                     </div>
                                     <div class="single-question">
                                         <div class="question-image">
-                                            <img src="assets/images/question-image.png" alt="image">
+                                            <img src="/assets/images/question-image.png" alt="image">
                                         </div>
                                         <div class="question-content">
                                             <h6>how to install wordpress in cpanel?</h6>
@@ -157,7 +157,7 @@
                                     </div>
                                     <div class="single-question">
                                         <div class="question-image">
-                                            <img src="assets/images/question-image.png" alt="image">
+                                            <img src="/assets/images/question-image.png" alt="image">
                                         </div>
                                         <div class="question-content">
                                             <h6>how to install wordpress in cpanel?</h6>
@@ -184,7 +184,7 @@
                                 <div class="tab-four-content tab-content-bg announcement-content lost">
                                     <div class="announcement-top">
                                         <div class="top-image">
-                                            <img src="assets/images/course-instructor-2.png" alt="image">
+                                            <img src="/assets/images/course-instructor-2.png" alt="image">
                                         </div>
                                         <div class="top-name">
                                             <h6>john doe</h6>
@@ -201,7 +201,7 @@
                                     <p class="margin-top-20">I will continue to do my best to respond to as many questions as possible but only one person, regularly I spend 4-5 hours daily on this and with over 440000 students as you can image that its a lot of work.</p>
                                     <div class="announcement-comment margin-top-30">
                                         <div class="comment-image">
-                                            <img src="assets/images/course-instructor-3.png" alt="image">
+                                            <img src="/assets/images/course-instructor-3.png" alt="image">
                                         </div>
                                         <div class="comment-box">
                                             <form action="#">
@@ -370,7 +370,7 @@
         <!-- CTA Section Starts -->
         <section class="cta-section gradient-bg padding-top-60 padding-bottom-30">
             <div class="cta-shape">
-                <img src="assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
+                <img src="/assets/images/plus-sign.png" alt="image" class="plus-sign item-rotate">
             </div>
             <div class="container">
                 <div class="row align-items-center">
@@ -385,7 +385,7 @@
                     </div>
                     <div class="col-xl-4 offset-xl-2 col-lg-6">
                         <div class="cta-image">
-                            <img src="assets/images/cta-image.png" alt="image">
+                            <img src="/assets/images/cta-image.png" alt="image">
                         </div>
                     </div>
                 </div>

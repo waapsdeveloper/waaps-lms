@@ -25,7 +25,7 @@
                                     </div>
                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                         title="Michael Eberon">
-                                        <img alt="Pic" src="assets/media/avatars/300-11.jpg" />
+                                        <img alt="Pic" src="/assets/media/avatars/300-11.jpg" />
                                     </div>
                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                         title="Susan Redwood">
@@ -33,7 +33,7 @@
                                     </div>
                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                         title="Melody Macy">
-                                        <img alt="Pic" src="assets/media/avatars/300-2.jpg" />
+                                        <img alt="Pic" src="/assets/media/avatars/300-2.jpg" />
                                     </div>
                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                         title="Perry Matthew">
@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="symbol symbol-35px symbol-circle" data-bs-toggle="tooltip"
                                         title="Barry Walter">
-                                        <img alt="Pic" src="assets/media/avatars/300-12.jpg" />
+                                        <img alt="Pic" src="/assets/media/avatars/300-12.jpg" />
                                     </div>
                                     <a href="#" class="symbol symbol-35px symbol-circle" data-bs-toggle="modal"
                                         data-bs-target="#kt_modal_view_users">
