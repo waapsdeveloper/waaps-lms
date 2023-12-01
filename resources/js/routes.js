@@ -144,6 +144,7 @@ export const routes = [
                 // beforeEnter: AuthGuard,
                 children: [
                     { path: "", name: 'overview', component: projectdetailoverview  },
+                    { path: "/project-detail", name: 'project-detail', component: projectdetail  },
                     // { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
                     // { path: "projects", name: 'projects', component: profileprojects  },
                 ]

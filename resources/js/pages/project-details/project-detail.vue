@@ -371,7 +371,7 @@
 											<ul class="nav nav-stretch nav-line-tabs nav-line-tabs-2x border-transparent fs-5 fw-bold">
 												<!--begin::Nav item-->
 												<li class="nav-item">
-													<a class="nav-link text-active-primary py-5 me-6 active" href="../../demo1/dist/apps/projects/project.html">Overview</a>
+													<a class="nav-link text-active-primary py-5 me-6 active" href="./pages/projectdetail.vue">Overview</a>
 												</li>
 												<!--end::Nav item-->
 												<!--begin::Nav item-->

@@ -26,7 +26,7 @@
 										<!--begin::Col-->
 										<div class="col-md-6 col-xl-4">
 											<!--begin::Card-->
-											<a  class="card border-hover-primary" @click="navigateToViewProject">
+											<a  class="card border-hover-primary" @click="navigateToprojectdetails">
 												<!--begin::Card header-->
 												<div class="card-header border-0 pt-9">
 													<!--begin::Card Title-->
@@ -699,9 +699,9 @@ export default {
 
     },
 	methods: {
-    navigateToprojectdetails() {
+    navigateToprojectdetail() {
       // Use Vue Router to navigate to the 'viewproject' route
-      this.$router.push({ name: 'projectdetails' }); // Replace 'name' with the name of your route
+      this.$router.push({ name: 'project-detail' }); // Replace 'name' with the name of your route
     }
   }
 
