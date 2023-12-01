@@ -46,9 +46,9 @@
 												</div>
 												<!--end:: Card header-->
 												<!--begin:: Card body-->
-												<div class="card-body p-9" href="javascript:void(0)" @click="goto('/projectdetails/projectdetails')">
+												<div class="card-body p-9">
 													<!--begin::Name-->
-													<div class="fs-3 fw-bold text-dark"  >Fitnes App</div>
+													<div class="fs-3 fw-bold text-dark"  href="javascript:void(0)" @click="goto('/project-details/project-detail-target.vue')" >Fitnes App</div>
 													<!--end::Name-->
 													<!--begin::Description-->
 													<p class="text-gray-400 fw-semibold fs-5 mt-1 mb-7">CRM App application to HR efficiency</p>
@@ -699,13 +699,17 @@ export default {
 
     },
 	methods: {
-    navigateToprojectdetail() {
-      // Use Vue Router to navigate to the 'viewproject' route
-      this.$router.push({ name: 'project-detail' }); // Replace 'name' with the name of your route
-    }
+
+		async goto(url){
+        // this.route(url);
+    },
+
+    // navigateToprojectdetail() {
+    //   // Use Vue Router to navigate to the 'viewproject' route
+    //   this.$router.push({ name: 'project-detail' }); // Replace 'name' with the name of your route
+    // }
+	
   }
-
-
 
 }
 </script>

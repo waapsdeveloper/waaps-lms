@@ -44,9 +44,8 @@ import profilefollowers from './pages/profile/profile-followers.vue';
 
 import projectdetail from './pages/project-details/project-detail.vue';
 import projectdetailoverview from './pages/project-details/project-detail-overview.vue'
+import projectdetailtarget from './pages/project-details/project-detail-target.vue';
 
-// import projectdetails from './pages/projectdetails/projectdetails.vue';
-// import projecttarget from './pages/projecttarget.vue';
 // import viewproject from './pages/viewproject.vue';
 // services
 import UserService from './services/user.service';
@@ -112,11 +111,12 @@ async function InstructorAuthGuard(to, from, next) {
 
 export const routes = [
     // { path: '/', component: require('./login/login').default },
-    {   path: '/',
+    {
+        path: '/',
         name: 'parent',
         component: parent,
         children: [
-            { path: "", name: 'dashboard', component: dashboard, beforeEnter: inverseDashAuthGuard  }, //
+            { path: "", name: 'dashboard', component: dashboard, beforeEnter: inverseDashAuthGuard }, //
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
@@ -127,39 +127,34 @@ export const routes = [
                 component: profile,
                 beforeEnter: AuthGuard,
                 children: [
-                    { path: "", name: 'overview', component: profileoverview  },
-                    { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
-                    { path: "projects", name: 'projects', component: profileprojects  },
-                    { path: "documents", name: 'documents', component: profiledocuments  },
-                    { path: "activity", name: 'activity', component:  profileactivity  },
-                    { path: "followers", name: 'followers', component:  profilefollowers  },
+                    { path: "", name: 'overview', component: profileoverview },
+                    { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns },
+                    { path: "projects", name: 'projects', component: profileprojects },
+                    { path: "documents", name: 'documents', component: profiledocuments },
+                    { path: "activity", name: 'activity', component: profileactivity },
+                    { path: "followers", name: 'followers', component: profilefollowers },
                 ]
             },
-
-
             {
-                path: '/project-detail',
+                path: 'project-detail',
                 name: 'project-detail',
                 component: projectdetail,
-                // beforeEnter: AuthGuard,
                 children: [
-                    { path: "", name: 'overview', component: projectdetailoverview  },
-                    { path: "/project-detail", name: 'project-detail', component: projectdetail  },
-                    // { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns  },
-                    // { path: "projects", name: 'projects', component: profileprojects  },
+                    { path: 'overview', name: 'overview', component: projectdetailoverview },
+                    { path: 'target', name: 'target', component: projectdetailtarget },
                 ]
+
             },
 
-            // { path: '/projecttarget', name: 'projecttarget', component: projecttarget  },
-            // { path: '/viewproject', name: 'viewproject', component: viewproject  },
+
 
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
 
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
 
-            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard  },
-            { path: '/addcampaign', name: 'addcampaign', component: addcampaign  },
-            { path: '/campaign', name: 'campaign', component: campaign  },
+            { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard },
+            { path: '/addcampaign', name: 'addcampaign', component: addcampaign },
+            { path: '/campaign', name: 'campaign', component: campaign },
 
             { path: '/category', name: 'category', component: category },
             { path: '/course', name: 'course', component: course },

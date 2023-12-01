@@ -1659,7 +1659,7 @@
 <script>
 
 export default{
-    name: 'projecttarget',
+    name: 'project-detail-target',
     mounted(){
       
     }

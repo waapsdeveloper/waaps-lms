@@ -376,10 +376,12 @@
 												  <!--end::Nav item-->
 												  <!--begin::Nav item-->
 												  <li class="nav-item">
-													  <a class="nav-link text-active-primary py-5 me-6" href="./pages/projecttarget.vue">Targets</a>
+													  <a class="nav-link text-active-primary py-5 me-6" href="javascript:void(0)" @click="goto('./pages/project-details/project-detail-target.vue')">Targets </a>
 												  </li>
+
 												  <!--end::Nav item-->
 												  <!--begin::Nav item-->
+
 												  <li class="nav-item">
 													  <a class="nav-link text-active-primary py-5 me-6" href="../../demo1/dist/apps/projects/budget.html">Budget</a>
 												  </li>
@@ -3746,11 +3748,6 @@
 							  </div>
 							  <!--end::Content-->
 						  </div>
-  </template>
-=======
-
-
-									<!--begin::Row-->
 									<div class="row g-6 g-xl-9">
 										<!--begin::Col-->
 										<div class="col-lg-6">
