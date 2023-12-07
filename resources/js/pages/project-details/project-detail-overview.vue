@@ -1,7 +1,30 @@
 <template>
-
-
-									<!--begin::Row-->
+	<div class="d-flex flex-column flex-column-fluid">
+							  <!--begin::Toolbar-->
+							  <div id="kt_app_toolbar" class="app-toolbar py-3 py-lg-6">
+								  <!--begin::Toolbar container-->
+								  <!--end::Toolbar container-->
+							  </div>
+							  <!--end::Toolbar-->
+							  <!--begin::Content-->
+							  <div id="kt_app_content" class="app-content flex-column-fluid">
+								  <!--begin::Content container-->
+								  <div id="kt_app_content_container" class="app-container container-xxl">
+									  <!--begin::Navbar-->
+									  <div class="card mb-6 mb-xl-9">
+										
+									  </div>
+									  <!--end::Navbar-->
+									  <!--begin::Row-->
+									
+									  <!--end::Row-->
+									  <!--begin::Table-->
+									  <!--end::Card-->
+								  </div>
+								  <!--end::Content container-->
+							  </div>
+							  <!--end::Content-->
+						  </div>
 									<div class="row g-6 g-xl-9">
 										<!--begin::Col-->
 										<div class="col-lg-6">

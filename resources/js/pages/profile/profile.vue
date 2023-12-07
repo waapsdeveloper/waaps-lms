@@ -449,6 +449,7 @@
 						<!--end::Content wrapper-->
 		</div>
   </div>
+  
 </template>
 
 
