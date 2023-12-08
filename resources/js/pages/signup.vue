@@ -230,6 +230,7 @@ export default {
             };
 
 
+
             if (!this.auth.name) {
                 this.errors.name.push("Name is required.");
             }
@@ -257,6 +258,7 @@ export default {
         async signup() {
             let self = this;
             console.log(this.auth, "REQUEST DATA!");
+
             const res = await this.network().signup(this.auth);
             //   console.log(res, "check");
             this.processRequest(res);
@@ -268,6 +270,7 @@ export default {
                 localStorage.setItem("_user_id", user.id);
                 localStorage.setItem("_role_id", user.role_id);
                 localStorage.setItem("_token", res.token);
+
                 console.log(user, "USER DATA");
 
                 if (user.role_id == 3) {
@@ -287,6 +290,8 @@ export default {
         },
     },
 };
+
+
 </script>
 <style>
 .template-button-2:active {

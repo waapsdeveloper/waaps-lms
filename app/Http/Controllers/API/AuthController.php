@@ -30,6 +30,8 @@ class AuthController extends Controller
             return self::failure($validator->errors()->first());
         }
 
+
+
         $obj = [
             'name' => $data['name'],
             'email' => $data['email'],

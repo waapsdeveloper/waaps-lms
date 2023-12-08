@@ -4995,7 +4995,7 @@
                                 <div
                                     class="btn btn-icon btn-custom btn-icon-muted btn-active-light btn-active-color-primary w-35px h-35px w-md-40px h-md-40px">
                                     <!-- <img src="/assets/media/avatars/300-1.jpg" style="width: 100%" /> -->
-                                    <img src="/assets/media/avatars/blank.png" style="width: 100%" />
+                                    <img src="/assets/media/avatars/blank.png" style="width: 100%"  @click="route('/profile')"/>
                                 </div>
                             </div>
                         </div>
