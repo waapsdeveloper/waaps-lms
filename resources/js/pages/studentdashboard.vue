@@ -6135,10 +6135,43 @@ export default {
   extends: Base,
   name: "studentdashboard",
   mounted() {
-
+    this.getProfile();
   },
+  methods: {
+    async getProfile(){
+        const res = await this.network().getUser();
+        console.log('aaaaaaaaaa', res);
+        if(res[0]){
+            let obj = res[0];
+            /* this.profile.name=obj.name; */
+
+            if(!obj.profile){
+                this.route('/onboarding')
+                return;
+            }
+
+            if(obj.profile){
+                this.profile.cnic = obj.profile.nic
+                this.profile.address = obj.profile.address
+                this.profile.phone = obj.profile.phone
+                this.profile.qualification = obj.profile.qualification
+            }
+
+
+        }
+    },
+async getUser() {
+    // Assuming this is a method that returns a Promise
+    return this.axiosGetResponse('/users/profile', null, false, true);
+},
+async axiosGetResponse(url, params, customHeader, withCredentials) {
+
+    return { completed: true, /* other profile data */ };
+},
+},
 };
 </script>
+
 <style>
 .modal-body {
   max-height: 700px;

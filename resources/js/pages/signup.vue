@@ -52,7 +52,7 @@
                                         <span
                                             class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
                                             <input class="form-check-input" type="radio" name="student" value="student"
-                                                  v-model="auth.role" />
+                                                v-model="auth.role" />
                                         </span>
                                         <!--end::Radio-->
                                         <!--begin::Info-->
@@ -73,7 +73,8 @@
                                         <!--begin::Radio-->
                                         <span
                                             class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                            <input class="form-check-input" type="radio" name="instructor" value="instructor"  v-model="auth.role" />
+                                            <input class="form-check-input" type="radio" name="instructor"
+                                                value="instructor" v-model="auth.role" />
                                         </span>
                                         <!--end::Radio-->
                                         <!--begin::Info-->
