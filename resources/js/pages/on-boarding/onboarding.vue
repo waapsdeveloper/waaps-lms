@@ -612,19 +612,15 @@ export default {
         let stepper = ref(null);
 
         let profile = ref({
-            role: "",  // Add other form fields here
-            qualification: "",
-            cvLink: "",
-            phoneNo: "",
-            cnic: "",
-            address: "",
-            expectedTechnology: "",
-            previousExperienceTechnologies: "",
-            previousExperienceTechnologiesYears: "",
-            joiningDate: "",
-            timeShedule: ""
+            id:"",
+            user_id:"",
+            cv_link:"",
+            nic:"",
+            phone:"",
+            address:"",
+            qualification:""
         });
-        console.log("noor", formData)
+        // console.log("noor", formData)
         return {
             pageNav,
             stepper,
