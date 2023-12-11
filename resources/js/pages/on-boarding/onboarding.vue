@@ -288,7 +288,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="qualification" placeholder="" value="" />
+                                            name="qualification" placeholder="" v-model="profile.qualification" />
                                         <!--end::Input-->
                                     </div>
 
@@ -299,7 +299,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="cv_link" placeholder="" value="" />
+                                            name="cv_link" placeholder="" v-model="profile.cv_link" />
                                         <!--end::Input-->
                                     </div>
 
@@ -309,8 +309,8 @@
                                         <label class="form-label mb-3 required">Phone no</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="number" class="form-control form-control-lg form-control-solid"
-                                            name="Phone_no" placeholder="" value="" />
+                                        <input type="text" class="form-control form-control-lg form-control-solid"
+                                            name="Phone_no" placeholder="" v-model="profile.phone" />
                                         <!--end::Input-->
                                     </div>
 
@@ -320,8 +320,8 @@
                                         <label class="form-label mb-3 required">CNIC</label>
                                         <!--end::Label-->
                                         <!--begin::Input-->
-                                        <input type="number" class="form-control form-control-lg form-control-solid"
-                                            name="cnic" placeholder="" value="" />
+                                        <input type="text" class="form-control form-control-lg form-control-solid"
+                                            name="cnic" placeholder=""  v-model="profile.nic" />
                                         <!--end::Input-->
                                     </div>
 
@@ -331,7 +331,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="address" placeholder="" value="" />
+                                            name="address" placeholder=""  v-model="profile.address" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -612,13 +612,14 @@ export default {
         let stepper = ref(null);
 
         let profile = ref({
-            id:"",
-            user_id:"",
-            cv_link:"",
-            nic:"",
-            phone:"",
-            address:"",
-            qualification:""
+            role: 'student',
+            id: "",
+            user_id: "",
+            cv_link: "",
+            nic: "",
+            phone: "",
+            address: "",
+            qualification: ""
         });
         // console.log("noor", formData)
         return {
@@ -634,11 +635,38 @@ export default {
     methods: {
         validate: function (e) {
             e.preventDefault();
-
         },
         gotoNextStep() {
             if (this.stepper) {
-                this.stepper.goNext();
+
+                let index = this.stepper.getCurrentStepIndex();
+
+                if(index == 1){
+                    // account type
+                    console.log( this.profile.role);
+                    this.stepper.goNext();
+                }
+
+                if(index == 2){
+                    // account type
+                    console.log( this.profile)
+
+                    if(this.profile.qualification
+                    && this.profile.cv_link
+                    && this.profile.phone
+                    && this.profile.nic
+                    && this.profile.address
+                    ){
+                        this.stepper.goNext();
+                    } else {
+                        this.message("Please fill all required fields")
+                    }
+                }
+
+
+
+
+                // this.stepper.goNext();
             }
         },
         gotopreviousStep() {
@@ -648,7 +676,7 @@ export default {
         },
         submitForm() {
             // Log the form data to the console
-            console.log("Form Data:", this.formData);
+            console.log("Form Data:", this.profile);
 
             // You can add your logic to send the form data to the server here
         },

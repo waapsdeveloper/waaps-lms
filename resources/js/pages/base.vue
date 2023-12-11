@@ -3,6 +3,9 @@ import NetworkService from "../services/network.service";
 const networkService = new NetworkService();
 import { Publisher, Subscriber } from './../services/events/publishers.js'
 
+import { toast } from "vue3-toastify";
+import 'vue3-toastify/dist/index.css';
+
 export default {
   name: "base",
   methods: {
@@ -21,6 +24,12 @@ export default {
         sub.subscribe();
         return sub;
     },
+    message(msg, type){
+
+        toast(msg, {
+            autoClose: 1000,
+        });
+    }
   },
 };
 </script>
