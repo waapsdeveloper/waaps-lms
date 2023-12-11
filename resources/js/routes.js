@@ -2,7 +2,7 @@
 
 import splash from './pages/splash.vue';
 import logout from './pages/logout.vue';
-import onboarding from './pages/onboarding.vue';
+import onboarding from './pages/on-boarding/onboarding.vue';
 
 import parent from './pages/parent.vue';
 import login from './pages/login.vue';
@@ -161,7 +161,7 @@ export const routes = [
 
 
             { path: '/onboarding', name: 'onboarding', component: onboarding, beforeEnter: AuthGuard },
-            
+
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
 
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard },

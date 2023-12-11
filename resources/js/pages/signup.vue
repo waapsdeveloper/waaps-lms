@@ -31,66 +31,8 @@
                             <h1 class="text-dark fw-bolder mb-3">Sign Up</h1>
                             <!--end::Title-->
                             <!--begin::Subtitle-->
-                            <div class="text-gray-500 fw-semibold fs-6">Your Social Campaigns</div>
+                            <div class="text-gray-500 fw-semibold fs-6">Start Your Future !!</div>
                             <!--end::Subtitle=-->
-                        </div>
-                        <div class="fv-row mb-10">
-                            <!--begin::Label-->
-                            <label class="fs-6 fw-semibold mb-2">As a:
-                                <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                    title="Show your ads to either men or women, or select 'All' for both"></i></label>
-                            <!--End::Label-->
-                            <!--begin::Row-->
-                            <div class="row g-9" data-kt-buttons="true" data-kt-buttons-target="[data-kt-button='true']">
-                                <!--begin::Col-->
-                                <div class="col">
-                                    <!--begin::Option-->
-                                    <label
-                                        class="btn btn-outline btn-outline-dashed btn-active-light-primary active d-flex text-start p-6"
-                                        data-kt-button="true">
-                                        <!--begin::Radio-->
-                                        <span
-                                            class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                            <input class="form-check-input" type="radio" name="student" value="student"
-                                                v-model="auth.role" />
-                                        </span>
-                                        <!--end::Radio-->
-                                        <!--begin::Info-->
-                                        <span class="ms-5">
-                                            <span class="fs-4 fw-bold text-gray-800 d-block">Student</span>
-                                        </span>
-                                        <!--end::Info-->
-                                    </label>
-                                    <!--end::Option-->
-                                </div>
-                                <!--end::Col-->
-                                <!--begin::Col-->
-                                <div class="col">
-                                    <!--begin::Option-->
-                                    <label
-                                        class="btn btn-outline btn-outline-dashed btn-active-light-primary d-flex text-start p-6"
-                                        data-kt-button="true">
-                                        <!--begin::Radio-->
-                                        <span
-                                            class="form-check form-check-custom form-check-solid form-check-sm align-items-start mt-1">
-                                            <input class="form-check-input" type="radio" name="instructor"
-                                                value="instructor" v-model="auth.role" />
-                                        </span>
-                                        <!--end::Radio-->
-                                        <!--begin::Info-->
-                                        <span class="ms-5">
-                                            <span class="fs-4 fw-bold text-gray-800 d-block">Instructor</span>
-                                        </span>
-                                        <!--end::Info-->
-                                    </label>
-                                    <!--end::Option-->
-                                </div>
-                                <!--end::Col-->
-                                <!--begin::Col-->
-
-                                <!--end::Col-->
-                            </div>
-                            <!--end::Row-->
                         </div>
 
                         <!--begin::Heading-->

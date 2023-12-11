@@ -190,8 +190,9 @@
                                             <!--begin::Col-->
                                             <div class="col-lg-6">
                                                 <!--begin::Option-->
-                                                <input type="radio" class="btn-check" name="account_type" value="personal"
-                                                    checked="checked" id="kt_create_account_form_account_type_personal" />
+                                                <input type="radio" class="btn-check" name="account_type" value="student"
+                                                    checked="checked" id="kt_create_account_form_account_type_personal"
+                                                    v-model="profile.role" />
                                                 <label
                                                     class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center mb-10"
                                                     for="kt_create_account_form_account_type_personal">
@@ -210,9 +211,9 @@
                                                     <!--end::Svg Icon-->
                                                     <!--begin::Info-->
                                                     <span class="d-block fw-semibold text-start">
-                                                        <span class="text-dark fw-bold d-block fs-4 mb-2">Internee
+                                                        <span class="text-dark fw-bold d-block fs-4 mb-2">Learner
                                                             Account</span>
-                                                        <span>Press Continue, to become a Internee</span>
+                                                        <span>Press Continue, to become a Learner</span>
                                                     </span>
                                                     <!--end::Info-->
                                                 </label>
@@ -222,8 +223,9 @@
                                             <!--begin::Col-->
                                             <div class="col-lg-6">
                                                 <!--begin::Option-->
-                                                <input type="radio" class="btn-check" name="account_type" value="corporate"
-                                                    id="kt_create_account_form_account_type_corporate" />
+                                                <input type="radio" class="btn-check" name="account_type" value="instructor"
+                                                    id="kt_create_account_form_account_type_corporate"
+                                                    v-model="profile.role" />
                                                 <label
                                                     class="btn btn-outline btn-outline-dashed btn-active-light-primary p-7 d-flex align-items-center"
                                                     for="kt_create_account_form_account_type_corporate">
@@ -595,36 +597,22 @@
 <!-- Your existing script -->
 
 <script>
-import Base from "./base.vue";
+import Base from "../base.vue";
 import { reactive, ref } from "vue";
 
 export default {
     extends: Base,
     name: "onboarding",
     setup() {
+
         let pageNav = ref({
             step: 1,
         });
 
         let stepper = ref(null);
 
-        // Data for form fields
-        let formData = ref({
-            accountType: [],  // Add other form fields here
-            qualification: [],
-            cvLink: [],
-            phoneNo: [],
-            cnic: [],
-            address: [],
-            expectedTechnology: [],
-            previousExperienceTechnologies: [],
-            previousExperienceTechnologiesYears: [],
-            joiningDate: [],
-            timeShedule: []
-        });
-
-        let auth = ref({
-            accountType: "",  // Add other form fields here
+        let profile = ref({
+            role: "",  // Add other form fields here
             qualification: "",
             cvLink: "",
             phoneNo: "",
@@ -640,8 +628,7 @@ export default {
         return {
             pageNav,
             stepper,
-            formData,
-            auth,
+            profile,
         };
     },
     mounted() {
@@ -649,21 +636,9 @@ export default {
         this.stepper = new KTStepper(element);
     },
     methods: {
-        validate: function(e){
+        validate: function (e) {
             e.preventDefault();
-            this.formData = {
-                accountType: [],  // Add other form fields here
-            qualification: [],
-            cvLink: [],
-            phoneNo: [],
-            cnic: [],
-            address: [],
-            expectedTechnology: [],
-            previousExperienceTechnologies: [],
-            previousExperienceTechnologiesYears: [],
-            joiningDate: [],
-            timeShedule: []
-            }
+
         },
         gotoNextStep() {
             if (this.stepper) {
