@@ -345,54 +345,7 @@
                             <div class="" data-kt-stepper-element="content">
                                 <!--begin::Wrapper-->
                                 <div class="w-100">
-                                    <!--begin::Heading-->
-                                    <div class="pb-10 pb-lg-12">
-                                        <!--begin::Title-->
-                                        <h2 class="fw-bold text-dark">Professional Details</h2>
-                                        <!--end::Title-->
-                                        <!--begin::Notice-->
-                                        <div class="text-muted fw-semibold fs-6">
-                                            Complete your Professional Details
-                                            <a href="#" class="link-primary fw-bold">Help Page</a>.
-                                        </div>
-                                        <!--end::Notice-->
-                                    </div>
-                                    <!--end::Heading-->
-                                    <!--begin::Input group-->
-                                    <div class="fv-row mb-10">
-                                        <!--begin::Label-->
-                                        <label class="form-label required">Expected Technology</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="expected_technology"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
-                                    </div>
-
-
-
-                                    <div class="fv-row mb-10">
-                                        <!--begin::Label-->
-                                        <label class="form-label required">Previous Experience Technologies</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="previous_experience_technologies"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
-                                    </div>
-
-
-
-                                    <div class="fv-row mb-10">
-                                        <!--begin::Label-->
-                                        <label class="form-label required">Previous Experience Technologies <i>(no.of
-                                                years)</i></label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="previous_experience_technologies_years"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
-                                    </div>
+                                    <on-boarding-terms></on-boarding-terms>
                                 </div>
                                 <!--end::Wrapper-->
                             </div>
@@ -599,10 +552,14 @@
 <script>
 import Base from "../base.vue";
 import { reactive, ref } from "vue";
+import OnBoardingTerms from './on-boarding-terms.vue'
 
 export default {
     extends: Base,
     name: "onboarding",
+    components: {
+        'on-boarding-terms': OnBoardingTerms
+    },
     setup() {
 
         let pageNav = ref({
