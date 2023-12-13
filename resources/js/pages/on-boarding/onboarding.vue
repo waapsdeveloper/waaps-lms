@@ -346,6 +346,20 @@
                                 <!--begin::Wrapper-->
                                 <div class="w-100">
                                     <on-boarding-terms></on-boarding-terms>
+                                    <!--begin::Option-->
+                                    <div class="d-flex flex-column mb-5 fv-row rounded-3 p-7 border border-dashed border-gray-300">
+                                        <!--begin::Label-->
+                                        <div class="fs-5 fw-bold form-label mb-3">Have You Read?
+                                        <i tabindex="0" class="cursor-pointer fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-html="true" data-bs-delay-hide="1000" data-bs-content="Thresholds help manage risk by limiting the unpaid usage balance a customer can accrue. Thresholds only measure and bill for metered usage (including discounts but excluding tax). &lt;a href='#'&gt;Learn more&lt;/a&gt;."></i></div>
+                                        <!--end::Label-->
+                                        <!--begin::Checkbox-->
+                                        <label class="form-check form-check-custom form-check-solid">
+                                            <input class="form-check-input" type="checkbox" v-model="extras.read_terms" />
+                                            <span class="form-check-label text-gray-600">I have read and understand the terms written above and I shall follow the keypoints inshallah</span>
+                                        </label>
+                                        <!--end::Checkbox-->
+                                    </div>
+                                    <!--end::Option-->
                                 </div>
                                 <!--end::Wrapper-->
                             </div>
@@ -562,8 +576,8 @@ export default {
     },
     setup() {
 
-        let pageNav = ref({
-            step: 1,
+        let extras = ref({
+            read_terms: false,
         });
 
         let stepper = ref(null);
@@ -580,7 +594,7 @@ export default {
         });
         // console.log("noor", formData)
         return {
-            pageNav,
+            extras,
             stepper,
             profile,
         };
@@ -618,6 +632,16 @@ export default {
                     } else {
                         this.message("Please fill all required fields")
                     }
+                }
+
+                if(index == 3){
+
+                    if(this.extras.read_terms){
+                        this.stepper.goNext();
+                    } else {
+                        this.message("Please read terms and conditions")
+                    }
+
                 }
 
 
