@@ -67,7 +67,12 @@ async function inverseDashAuthGuard(to, from, next) {
     } if (flag && role_id == 3) {
         next('/instructor-dashboard'); // allow to enter route
     } else {
-        next(); // go to '/login';
+
+        let url = window.location.href;
+
+        if(!url.includes('student-dashboard') && !url.includes('instructor-dashboard')){
+            next();
+        }
     }
 }
 

@@ -14,7 +14,8 @@ class Profile extends Model
         'nic',
         'phone',
         'address',
-        'qualification'
+        'qualification',
+        'points',
     ];
 
     public function user()

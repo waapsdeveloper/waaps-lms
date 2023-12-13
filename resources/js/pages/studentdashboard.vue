@@ -6151,10 +6151,26 @@ export default {
             }
 
             if(obj.profile){
-                this.profile.cnic = obj.profile.nic
-                this.profile.address = obj.profile.address
-                this.profile.phone = obj.profile.phone
-                this.profile.qualification = obj.profile.qualification
+
+                if(!obj.profile.nic){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.address){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.phone){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.qualification){
+                    this.route('/onboarding')
+                    return;
+                }
             }
 
 

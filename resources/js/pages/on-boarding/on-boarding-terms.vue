@@ -23,7 +23,7 @@
 import { ref } from 'vue'
 
 import CollapseTitle from './../../components/common/collapse-title.vue'
-import terms  from './../../data/on-boarding.json';
+import terms  from './data/on-boarding.json';
 
 export default {
     name: 'on-boarding-terms',
