@@ -1,0 +1,29 @@
+[
+    {
+        "pid": "pid-1",
+        "title": "Why shoud we use this LMS ?",
+        "content": "This is not another site that teach you coding via computerized programs. This is a portal that let you work on your own.   You will be given a project and you will be asked to complete it. You will be given a deadline and you will be asked to complete it before the deadline. You will be given a mentor and you will be asked to work with him/her to complete the project."
+    },
+    {
+        "pid": "pid-2",
+        "title": "Is this like a remote programming intermship?",
+        "content": "For students who are learning basics, we start with learning programs. For those who learned already and work on projects with us, then Yes, It is an internship for those who have learned pre-basis a remote internship that we offer for students that has basic knowledge of what is programmming and we hook you from there. Any student that is either a beginner, or having some experience of programming can apply to join any one of our mentor in their project. If your application accepts, mentor will have one interview and then allocate you task and training links"
+    },
+    {
+        "pid": "pid-3",
+        "title": "How much is training duration?",
+        "content": "Training duration is 3 months. You will be given a project and you will be asked to complete it. It is decided that your positive recorded training hours must be 300 hours. Your progress will be shown on your dashboard, Formula for calculating hours will be detail there as well. "
+    },
+    {
+        "pid": "pid-4",
+        "title": "Is It Free? or Paid?",
+        "content": "2500 points are free on signup. You can use these points to apply for any project. If you are selected, you will be given a project and you will be asked to complete it. If you are not selected, you can buy more points to apply for more projects. "
+    },
+    {
+        "pid": "pid-5",
+        "title": "Will I get a certificate for my career reference?",
+        "content": "Yes, you will get a certificate after completing your training. You will be given a project and you will be asked to complete it. It is decided that your positive recorded training hours must be 300 hours. Your progress will be shown on your dashboard, Formula for calculating hours will be detail there as well. "
+    }
+
+]
+

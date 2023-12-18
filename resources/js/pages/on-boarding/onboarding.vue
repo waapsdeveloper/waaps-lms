@@ -82,9 +82,9 @@
                                     <!--end::Icon-->
                                     <!--begin::Label-->
                                     <div class="stepper-label">
-                                        <h3 class="stepper-title fs-2">Professional Details</h3>
+                                        <h3 class="stepper-title fs-2">Important Details</h3>
                                         <div class="stepper-desc fw-normal">
-                                            Setup your Professional details
+                                            Read a bit details
                                         </div>
                                     </div>
                                     <!--end::Label-->
@@ -125,7 +125,7 @@
                                     <!--begin::Icon-->
                                     <div class="stepper-icon">
                                         <i class="stepper-check fas fa-check"></i>
-                                        <span class="stepper-number">5</span>
+                                        <span class="stepper-number">4</span>
                                     </div>
                                     <!--end::Icon-->
                                     <!--begin::Label-->
@@ -288,7 +288,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="qualification" placeholder="" v-model="profile.qualification" />
+                                            name="qualification" placeholder="Bachlors" v-model="profile.qualification" />
                                         <!--end::Input-->
                                     </div>
 
@@ -299,7 +299,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="cv_link" placeholder="" v-model="profile.cv_link" />
+                                            name="cv_link" placeholder="Best is to put a google drive link of your Resume" v-model="profile.cv_link" />
                                         <!--end::Input-->
                                     </div>
 
@@ -310,7 +310,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="Phone_no" placeholder="" v-model="profile.phone" />
+                                            name="Phone_no" placeholder="+92 000000000" v-model="profile.phone" />
                                         <!--end::Input-->
                                     </div>
 
@@ -321,7 +321,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="cnic" placeholder=""  v-model="profile.nic" />
+                                            name="cnic" placeholder="42000-0000000-9"  v-model="profile.nic" />
                                         <!--end::Input-->
                                     </div>
 
@@ -331,7 +331,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="address" placeholder=""  v-model="profile.address" />
+                                            name="address" placeholder="Street Address"  v-model="profile.address" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -345,117 +345,26 @@
                             <div class="" data-kt-stepper-element="content">
                                 <!--begin::Wrapper-->
                                 <div class="w-100">
-                                    <!--begin::Heading-->
-                                    <div class="pb-10 pb-lg-12">
-                                        <!--begin::Title-->
-                                        <h2 class="fw-bold text-dark">Professional Details</h2>
-                                        <!--end::Title-->
-                                        <!--begin::Notice-->
-                                        <div class="text-muted fw-semibold fs-6">
-                                            Complete your Professional Details
-                                            <a href="#" class="link-primary fw-bold">Help Page</a>.
-                                        </div>
-                                        <!--end::Notice-->
-                                    </div>
-                                    <!--end::Heading-->
-                                    <!--begin::Input group-->
-                                    <div class="fv-row mb-10">
+                                    <on-boarding-terms></on-boarding-terms>
+                                    <!--begin::Option-->
+                                    <div class="d-flex flex-column mb-5 fv-row rounded-3 p-7 border border-dashed border-gray-300">
                                         <!--begin::Label-->
-                                        <label class="form-label required">Expected Technology</label>
+                                        <div class="fs-5 fw-bold form-label mb-3">Have You Read?
+                                        <i tabindex="0" class="cursor-pointer fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-html="true" data-bs-delay-hide="1000" data-bs-content="Thresholds help manage risk by limiting the unpaid usage balance a customer can accrue. Thresholds only measure and bill for metered usage (including discounts but excluding tax). &lt;a href='#'&gt;Learn more&lt;/a&gt;."></i></div>
                                         <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="expected_technology"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
+                                        <!--begin::Checkbox-->
+                                        <label class="form-check form-check-custom form-check-solid">
+                                            <input class="form-check-input" type="checkbox" v-model="extras.read_terms" />
+                                            <span class="form-check-label text-gray-600">I have read and understand the terms written above and I shall follow the keypoints inshallah</span>
+                                        </label>
+                                        <!--end::Checkbox-->
                                     </div>
-
-
-
-                                    <div class="fv-row mb-10">
-                                        <!--begin::Label-->
-                                        <label class="form-label required">Previous Experience Technologies</label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="previous_experience_technologies"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
-                                    </div>
-
-
-
-                                    <div class="fv-row mb-10">
-                                        <!--begin::Label-->
-                                        <label class="form-label required">Previous Experience Technologies <i>(no.of
-                                                years)</i></label>
-                                        <!--end::Label-->
-                                        <!--begin::Input-->
-                                        <input name="previous_experience_technologies_years"
-                                            class="form-control form-control-lg form-control-solid" value="" />
-                                        <!--end::Input-->
-                                    </div>
+                                    <!--end::Option-->
                                 </div>
                                 <!--end::Wrapper-->
                             </div>
                             <!--end::Step 3-->
-                            <!--begin::Step 4-->
-                            <div class="" data-kt-stepper-element="content">
-                                <!--begin::Wrapper-->
-                                <div class="w-100">
-                                    <!--begin::Heading-->
-                                    <div class="pb-10 pb-lg-15">
-                                        <!--begin::Title-->
-                                        <h2 class="fw-bold text-dark">Time Schedules</h2>
-                                        <!--end::Title-->
-                                        <!--begin::Notice-->
-                                        <div class="text-muted fw-semibold fs-6">
-                                            complete your Time Schedules
-                                            <a href="#" class="text-primary fw-bold">Help Page</a>.
-                                        </div>
-                                        <!--end::Notice-->
-                                    </div>
-                                    <!--end::Heading-->
-                                    <!--begin::Input group-->
-                                    <div class="d-flex flex-column mb-7 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
-                                            <span class="required">Your Expected Joining Date To Start</span>
-                                            <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                title="Specify a card holder's name"></i>
-                                        </label>
-                                        <!--end::Label-->
-                                        <input type="text" class="form-control form-control-solid" placeholder=""
-                                            name="joining_date" value="" />
-                                    </div>
 
-
-                                    <div class="d-flex flex-column mb-7 fv-row">
-                                        <!--begin::Label-->
-                                        <label class="d-flex align-items-center fs-6 fw-semibold form-label mb-2">
-                                            <span class="required">Time Schedule</span>
-                                            <i class="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip"
-                                                title="Specify a card holder's name"></i>
-                                        </label>
-                                        <!--end::Label-->
-                                        <input type="text" class="form-control form-control-solid" placeholder=""
-                                            name="time_shedule" value="" />
-                                    </div>
-                                    <!--end::Input group-->
-                                    <!--begin::Input group-->
-
-                                    <!--end::Input group-->
-                                    <!--begin::Input group-->
-                                    <div class="row mb-10">
-                                        <!--begin::Col-->
-
-                                        <!--end::Col-->
-                                        <!--begin::Col-->
-
-                                        <!--end::Col-->
-                                    </div>
-                                </div>
-                                <!--end::Wrapper-->
-                            </div>
-                            <!--end::Step 4-->
                             <!--begin::Step 5-->
                             <div class="" data-kt-stepper-element="content">
                                 <!--begin::Wrapper-->
@@ -463,17 +372,11 @@
                                     <!--begin::Heading-->
                                     <div class="pb-8 pb-lg-10">
                                         <!--begin::Title-->
-                                        <h2 class="fw-bold text-dark">Your Are Done!</h2>
+                                        <h2 class="fw-bold text-dark">Thank you for information!</h2>
                                         <!--end::Title-->
                                         <!--begin::Notice-->
                                         <div class="text-muted fw-semibold fs-6">
-                                            Your detail has been in review,<br>
-                                            verification Email be sent soon.
-                                            <!-- <a
-                        href="../../demo1/dist/authentication/sign-in/basic.html"
-                        class="link-primary fw-bold"
-                        >Sign In</a
-                      >. -->
+                                            Your detail has been in review, your verification Email be sent soon, untill then you can use features of LMS as a guest.
                                         </div>
                                         <!--end::Notice-->
                                     </div>
@@ -512,11 +415,10 @@
                                                 <!--begin::Content-->
                                                 <div class="fw-semibold">
                                                     <h1 class="text-gray-900 fw-bold">
-                                                        We need your attention!
+                                                        CONGRATS! 2500 Points Added
                                                     </h1>
-                                                    <div class="fs-6 text-gray-700 " style="margin-left: 110px;">
-                                                        <h2>Registration Fees is Rs.1500/- </h2>
-                                                        <h4> <a href="#" class="fw-bold"> Send Before Joining Date</a></h4>
+                                                    <div class="fs-6 text-gray-700 ">
+                                                        <p>A Gift of 2500 Points are now added into your account, you can use it to use different features and sections of LMS   </p>
                                                     </div>
                                                 </div>
                                                 <!--end::Content-->
@@ -599,14 +501,18 @@
 <script>
 import Base from "../base.vue";
 import { reactive, ref } from "vue";
+import OnBoardingTerms from './on-boarding-terms.vue'
 
 export default {
     extends: Base,
     name: "onboarding",
+    components: {
+        'on-boarding-terms': OnBoardingTerms
+    },
     setup() {
 
-        let pageNav = ref({
-            step: 1,
+        let extras = ref({
+            read_terms: false,
         });
 
         let stepper = ref(null);
@@ -623,7 +529,7 @@ export default {
         });
         // console.log("noor", formData)
         return {
-            pageNav,
+            extras,
             stepper,
             profile,
         };
@@ -636,7 +542,7 @@ export default {
         validate: function (e) {
             e.preventDefault();
         },
-        gotoNextStep() {
+        async gotoNextStep() {
             if (this.stepper) {
 
                 let index = this.stepper.getCurrentStepIndex();
@@ -657,11 +563,28 @@ export default {
                     && this.profile.nic
                     && this.profile.address
                     ){
+
+                        const res = await this.network().saveProfile(this.profile)
+                        console.log(res)
+
+
                         this.stepper.goNext();
                     } else {
                         this.message("Please fill all required fields")
                     }
                 }
+
+                if(index == 3){
+
+                    if(this.extras.read_terms){
+                        this.stepper.goNext();
+                    } else {
+                        this.message("Please read terms and conditions")
+                    }
+
+                }
+
+
 
 
 
@@ -674,9 +597,15 @@ export default {
                 this.stepper.goPrevious();
             }
         },
-        submitForm() {
+        async submitForm() {
             // Log the form data to the console
             console.log("Form Data:", this.profile);
+            let data = {
+                points: 2500,
+            }
+            const res = await this.network().profilePointsUpdate(data)
+            console.log(res)
+            this.route('/')
 
             // You can add your logic to send the form data to the server here
         },

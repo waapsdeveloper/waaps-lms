@@ -192,11 +192,11 @@ class UserController extends Controller
         $data = $request->all();
 
         $validator = Validator::make($data, [
-            'name' => 'required',
-            'cnic' => 'required',
-            'phone' => 'required',
-            'address' => 'required',
             'qualification' => 'required',
+            'cv_link' => 'required',
+            'phone' => 'required',
+            'nic' => 'required',
+            'address' => 'required',
 
         ]);
 
@@ -205,16 +205,16 @@ class UserController extends Controller
         }
 
         $user = Auth::user();
-        if($data['name']){
+        if($data['role']){
             $user->update([
-                'name' => $data['name']
+                'role_id' => $data['role'] == 'instructor' ? 3 : 4,
             ]);
         }
 
         $profile = Profile::updateOrCreate(
             ['user_id' => $user->id],
             [
-                'nic' => $data['cnic'],
+                'nic' => $data['nic'],
                 'phone' => $data['phone'],
                 'address' => $data['address'],
                 'qualification' => $data['qualification'],
@@ -227,6 +227,20 @@ class UserController extends Controller
         return self::success('User Terms updated', ['data' => $user ]);
 
 
+    }
+
+    public function profilePointsUpdate(Request $request){
+
+            $data = $request->all();
+            $points = isset($data['points']) ? $data['points'] : 0;
+
+            $user = Auth::user();
+            $profile = Profile::where(['user_id' => $user->id])->first();
+
+            $profile->points = $profile->points + $points;
+            $profile->save();
+
+            return self::success('User Points updated', ['data' => $profile ]);
     }
 
 }

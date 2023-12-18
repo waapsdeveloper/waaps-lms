@@ -37,6 +37,10 @@ export default class NetworkService {
         return this.axiosPostResponse('/users/profile-details', data, null, false, true);
     }
 
+    profilePointsUpdate(data){
+        return this.axiosPostResponse('/users/profile-points-update', data, null, false, true);
+    }
+
 
 
     // Generic Functions
