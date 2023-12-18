@@ -93,10 +93,33 @@
                         <!--begin::Accept-->
                         <div class="fv-row mb-8">
                             <label class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox" name="toc" value="1" />
+                                <input class="form-check-input" type="checkbox" name="acceptterms" value="1" v-model="acceptterms"  />
                                 <span class="form-check-label fw-semibold text-gray-700 fs-base ms-1">I Accept the
-                                    <a href="#" class="ms-1 link-primary">Terms</a></span>
+                                    <a  data-bs-toggle="modal" data-bs-target="#exampleModal" class="ms-1 link-primary" style="cursor: pointer;">Terms</a></span>
                             </label>
+                            <!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Terms and Conditions</h5>
+        <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis qui illo consequatur doloribus, dicta et.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <!-- <button type="button" class="btn btn-primary">Save changes</button -->
+      </div>
+    </div>
+  </div>
+</div>
                         </div>
                         <!--end::Accept-->
                         <!--begin::Submit button-->
@@ -155,10 +178,12 @@ export default {
             confirm_password: "",
         });
 
+        let acceptterms = ref(false);
 
         return {
             errors,
             auth,
+            acceptterms,
 
         };
     },
@@ -170,6 +195,7 @@ export default {
                 email: [],
                 password: [],
                 confirm_password: [],
+
             };
 
 
@@ -186,14 +212,17 @@ export default {
             if (!this.auth.confirm_password) {
                 this.errors.confirm_password.push("Enter Password.");
             }
-
+            if (!this.acceptterms) {
+                this.errors.acceptterms = "Please accept the terms and conditions.";
+            }
             console.log(this.errors);
 
             if (
                 this.auth.name &&
                 this.auth.email &&
                 this.auth.password &&
-                this.auth.confirm_password
+                this.auth.confirm_password &&
+                this.acceptterms
             ) {
                 return this.signup();
             }
@@ -231,6 +260,7 @@ export default {
                 //point to taken
             });
         },
+
     },
 };
 
