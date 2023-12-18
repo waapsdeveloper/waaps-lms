@@ -162,6 +162,20 @@ export const routes = [
 
             },
 
+            {
+                path: '/instructor',
+                name: 'instructor',
+                beforeEnter: AuthGuard,
+                children: [
+                    { path: "campaign/add", name: 'addcampaign', component: addcampaign },
+                    { path: "campaigns", name: 'profile-campaigns', component: profilecampaigns },
+                    { path: "projects", name: 'projects', component: profileprojects },
+                    { path: "documents", name: 'documents', component: profiledocuments },
+                    { path: "activity", name: 'activity', component: profileactivity },
+                    { path: "followers", name: 'followers', component: profilefollowers },
+                ]
+            },
+
             { path: '/viewcampaign', name: 'viewcampaign', component: viewcampaign, },
 
 
@@ -170,7 +184,7 @@ export const routes = [
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
 
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard },
-            { path: '/addcampaign', name: 'addcampaign', component: addcampaign },
+            { path: '/addcampaign' },
             { path: '/campaign', name: 'campaign', component: campaign },
 
             { path: '/category', name: 'category', component: category },

@@ -34,7 +34,7 @@
 										<a href="#" class="btn btn-sm fw-bold bg-body btn-color-gray-700 btn-active-color-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_app">Rollover</a>
 										<!--end::Secondary button-->
 										<!--begin::Primary button-->
-										<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign" @click="route('/addcampaign')">Add Campaign</a>
+										<a href="#" class="btn btn-sm fw-bold btn-primary" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign" @click="route('/instructor/campaign/add')">Add Campaign</a>
 										<!--end::Primary button-->
 									</div>
 									<!--end::Actions-->
