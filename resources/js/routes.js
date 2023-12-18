@@ -33,7 +33,7 @@ import webdevelopment from './pages/webdevelopment.vue';
 import profile from './pages/profile/profile.vue';
 import studentdashboard from './pages/studentdashboard.vue';
 import instructordashboard from './pages/instructordashboard.vue';
-import addcampaign from './pages/addcampaign.vue';
+import addcampaign from './pages/Campaigns/addcampaign.vue';
 import campaign from './pages/campaign.vue';
 import profilecampaigns from './pages/profile/profile-campaigns.vue';
 import profileoverview from './pages/profile/profile-overview.vue';
