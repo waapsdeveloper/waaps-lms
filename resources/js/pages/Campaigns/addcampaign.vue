@@ -1114,7 +1114,7 @@
 </style>
 
 <script>
-import Base from "./base.vue";
+import Base from "../base.vue";
 import { reactive, ref } from "vue";
 
 export default {
