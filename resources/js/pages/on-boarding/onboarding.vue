@@ -107,7 +107,7 @@
                                     <!--end::Icon-->
                                     <!--begin::Label-->
                                     <div class="stepper-label">
-                                        <h3 class="stepper-title">Time Sshedule</h3>
+                                        <h3 class="stepper-title">Time Shedule</h3>
                                         <div class="stepper-desc fw-normal">
                                             Setup yor time schedule
                                         </div>
