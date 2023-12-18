@@ -1527,29 +1527,62 @@
 						</div>
 </template>
 
-<script>import Base from './base.vue';
+<script>
+import Base from "./base.vue";
 
-export default{
-    extends: Base,
-    name: 'instructordashboard',
-    mounted(){
-     //   isProfileCompleted()
-    }
-//     methods: {
-//         isProfileCompleted(){
+export default {
+  extends: Base,
+  name: "instructordashboard",
+  mounted() {
+    this.getProfile();
+  },
+  methods: {
+    async getProfile(){
+        const res = await this.network().getUser();
+        console.log('aaaaaaaaaa', res);
+        if(res[0]){
+            let obj = res[0];
+            /* this.profile.name=obj.name; */
 
-//             return new Promise( async resolve => {
-//                 const res = await this.network().getUser();
-//                 console.log(res)
+            if(!obj.profile){
+                this.route('/onboarding')
+                return;
+            }
 
-//             })
+            if(obj.profile){
+
+                if(!obj.profile.nic){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.address){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.phone){
+                    this.route('/onboarding')
+                    return;
+                }
+
+                if(!obj.profile.qualification){
+                    this.route('/onboarding')
+                    return;
+                }
+            }
 
 
-//         }
-//     }
+        }
+    },
+async getUser() {
+    // Assuming this is a method that returns a Promise
+    return this.axiosGetResponse('/users/profile', null, false, true);
+},
+async axiosGetResponse(url, params, customHeader, withCredentials) {
 
-
-
-// }
-}
+    return { completed: true, /* other profile data */ };
+},
+},
+};
 </script>
