@@ -35,6 +35,7 @@ class CampaignController extends Controller
     {
         // Validation rules
         $validator = Validator::make($request->all(), [
+            'user_id' => 'required|integer',
             'project_id' => 'required|integer',
             'title' => 'required|string|max:255',
             'description' => 'required|string|max:255',
@@ -54,6 +55,7 @@ class CampaignController extends Controller
 
         // Create a new campaign
         $campaign = Campaign::create([
+            'user_id' => $request->input('user_id'),
             'project_id' => $request->input('project_id'),
             'title' => $request->input('title'),
             'description' => $request->input('description'),
