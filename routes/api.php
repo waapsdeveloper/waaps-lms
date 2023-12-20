@@ -32,6 +32,8 @@ use App\Http\Controllers\API\UserInstructorSessionController;
 use App\Http\Controllers\API\UserTaskSubmissionController;
 use App\Http\Controllers\API\UserTaskTrackerController;
 use App\Http\Controllers\API\UserTaskTrackerTimeController;
+use App\Http\Controllers\API\ProjectController;
+use App\Http\Controllers\API\CampaignController;
 
 /*
 |--------------------------------------------------------------------------
@@ -544,6 +546,37 @@ Route::group(['prefix' => 'result'], function () {
 });
 
 
+Route::group(['prefix' => 'projects'], function () {
+    // Index - List all roles
+    Route::get('/', [ProjectController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [ProjectController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [ProjectController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [ProjectController::class, 'destroy']);
+
+});
+
+
+
+Route::group(['prefix' => 'campaigns'], function () {
+    // Index - List all roles
+    Route::get('/', [CampaignController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [CampaignController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [CampaignController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [CampaignController::class, 'destroy']);
+
+});
 // Route::post('/register', 'App\Http\Controllers\API\AuthController@register');
 
 // Route::get('/users', 'App\Http\Controllers\API\AuthController@getAllUsers');
