@@ -766,7 +766,7 @@ export default {
     };
   },
   mounted() {
-    let element = document.querySelector("#modal_addcampaign");
+    let element = document.querySelector("#kt_modal_create_campaign_stepper");
     this.stepper = new KTStepper(element);
   },
   methods: {
