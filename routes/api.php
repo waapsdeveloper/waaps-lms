@@ -34,6 +34,9 @@ use App\Http\Controllers\API\UserTaskTrackerController;
 use App\Http\Controllers\API\UserTaskTrackerTimeController;
 use App\Http\Controllers\API\ProjectController;
 use App\Http\Controllers\API\CampaignController;
+use App\Http\Controllers\API\CampaignJoinerController;
+use App\Http\Controllers\API\CampaignCertificationController;
+use App\Http\Controllers\API\CertificateController;
 
 /*
 |--------------------------------------------------------------------------
@@ -575,6 +578,59 @@ Route::group(['prefix' => 'campaigns'], function () {
 
     // Destroy - Remove the specified role from the database
     Route::delete('/{id}', [CampaignController::class, 'destroy']);
+
+});
+
+
+Route::group(['prefix' => 'campaign_joiners'], function () {
+    // Index - List all roles
+    Route::get('/', [CampaignJoinerController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [CampaignJoinerController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [CampaignJoinerController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [CampaignJoinerController::class, 'destroy']);
+
+});
+
+
+
+
+
+Route::group(['prefix' => 'campaign_certification'], function () {
+    // Index - List all roles
+    Route::get('/', [CampaignCertificationController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [CampaignCertificationController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [CampaignCertificationController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [CampaignCertificationController::class, 'destroy']);
+
+});
+
+
+
+
+Route::group(['prefix' => 'Certificates'], function () {
+    // Index - List all roles
+    Route::get('/', [CertificateController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [CertificateController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [CertificateController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [CertificateController::class, 'destroy']);
 
 });
 // Route::post('/register', 'App\Http\Controllers\API\AuthController@register');
