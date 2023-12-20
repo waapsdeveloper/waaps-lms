@@ -581,43 +581,45 @@
               <!--end::Heading-->
               <!--begin::Actions-->
               <div class="d-flex flex-center pb-20">
-                <button
+                  <button
                   id="kt_modal_create_campaign_create_new"
                   type="button"
                   class="btn btn-lg btn-light me-3"
                   data-kt-element="complete-start"
-                >
+                  >
                   Create New Campaign
                 </button>
                 <a
-                  href=""
-                  class="btn btn-lg btn-primary"
-                  data-bs-toggle="tooltip"
-                  title="Coming Soon"
-                  >View Campaign</a
+                href=""
+                class="btn btn-lg btn-primary"
+                data-bs-toggle="tooltip"
+                title="Coming Soon"
+                >View Campaign</a
                 >
-              </div>
-              <!--end::Actions-->
-              <!--begin::Illustration-->
-              <div class="text-center px-4">
-                <img
-                  src="/assets/media/illustrations/sketchy-1/9.png"
-                  alt=""
-                  class="mww-100 mh-350px"
-                />
-              </div>
-              <!--end::Illustration-->
             </div>
-          </div>
-          <!--end::Step 5-->
-          <!--begin::Actions-->
-          <div class="d-flex flex-stack pt-10">
-            <!--begin::Wrapper-->
-            <div class="me-2">
-              <button
-                type="button"
-                class="btn btn-lg btn-light-primary me-3"
-                data-kt-stepper-action="previous"
+            <!--end::Actions-->
+            <!--begin::Illustration-->
+            <div class="text-center px-4">
+                <img
+                src="/assets/media/illustrations/sketchy-1/9.png"
+                alt=""
+                class="mww-100 mh-350px"
+                />
+            </div>
+            <!--end::Illustration-->
+        </div>
+    </div>
+    <!--end::Step 5-->
+    <!--begin::Actions-->
+    <div class="d-flex flex-stack pt-10">
+        <!--begin::Wrapper-->
+        <div class="me-2">
+            <button
+            type="button"
+            class="btn btn-lg btn-light-primary me-3"
+            data-kt-stepper-action="previous"
+            @click="gotopreviousStep()"
+
               >
                 <!--begin::Svg Icon | path: icons/duotune/arrows/arr063.svg-->
                 <span class="svg-icon svg-icon-3 me-1">
