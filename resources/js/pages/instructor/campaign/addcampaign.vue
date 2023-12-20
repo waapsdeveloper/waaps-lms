@@ -71,7 +71,7 @@
                 <!--begin::Notice-->
                 <div class="text-muted fw-semibold fs-6">
                   If you need more info, please check out
-                  <a href="#" class="link-primary fw-bold">Help Page</a>.
+                  <a href="/help" class="link-primary fw-bold">Help Page</a>.
                 </div>
                 <!--end::Notice-->
               </div>

@@ -50,6 +50,7 @@ import projectdetailbudget from './pages/project-details/project-detail-budget.v
 import projectdetailfile from './pages/project-details/project-detail-file.vue';
 import projectdetailactivity from './pages/project-details/project-detail-activity.vue';
 import projectdetailsetting from './pages/project-details/project-detail-setting.vue';
+import help from './pages/help/help.vue';
 
 import viewcampaign from './pages/viewcampaign.vue';
 // services
@@ -130,6 +131,7 @@ export const routes = [
             { path: '/login', name: 'login', component: login },
             { path: '/signup', name: 'signup', component: signup },
             { path: '/logout', name: 'logout', component: logout },
+            { path: '/help', name: 'help', component: help },
 
             {
                 path: '/profile',
