@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\API\TaskController;
+use App\Http\Controllers\API\LevelController;
+use App\Http\Controllers\API\StudentLevelController;
 use App\Http\Controllers\API\TaskLinkController;
 use App\Http\Controllers\API\UserSelectedTechnologyController;
 use App\Http\Controllers\API\UserTaskController;
@@ -649,6 +651,38 @@ Route::group(['prefix' => 'Campaign_pictures'], function () {
 
     // Destroy - Remove the specified role from the database
     Route::delete('/{id}', [CampaignPictureController::class, 'destroy']);
+
+});
+
+
+
+Route::group(['prefix' => 'levels'], function () {
+    // Index - List all roles
+    Route::get('/', [LevelController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [LevelController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [LevelController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [LevelController::class, 'destroy']);
+
+});
+
+Route::group(['prefix' => 'student-level'], function () {
+    // Index - List all roles
+    Route::get('/', [StudentLevelController::class, 'index']);
+
+    // Store - Store a newly created role in the database
+    Route::post('/', [StudentLevelController::class, 'store']);
+
+    // Update - Update the specified role in the database
+    Route::post('/{id}', [StudentLevelController::class, 'update']);
+
+    // Destroy - Remove the specified role from the database
+    Route::delete('/{id}', [StudentLevelController::class, 'destroy']);
 
 });
 // Route::post('/register', 'App\Http\Controllers\API\AuthController@register');

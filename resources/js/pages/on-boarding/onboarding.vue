@@ -96,27 +96,7 @@
                             </div>
                             <!--end::Step 3-->
                             <!--begin::Step 4-->
-                            <div class="stepper-item" data-kt-stepper-element="nav">
-                                <!--begin::Wrapper-->
-                                <div class="stepper-wrapper">
-                                    <!--begin::Icon-->
-                                    <div class="stepper-icon">
-                                        <i class="stepper-check fas fa-check"></i>
-                                        <span class="stepper-number">4</span>
-                                    </div>
-                                    <!--end::Icon-->
-                                    <!--begin::Label-->
-                                    <div class="stepper-label">
-                                        <h3 class="stepper-title">Time Shedule</h3>
-                                        <div class="stepper-desc fw-normal">
-                                            Setup yor time schedule
-                                        </div>
-                                    </div>
-                                    <!--end::Label-->
-                                </div>
-                                <!--end::Wrapper-->
-                                <div class="stepper-line h-40px"></div>
-                            </div>
+
                             <!--end::Step 4-->
 
                             <div class="stepper-item" data-kt-stepper-element="nav">
@@ -299,7 +279,8 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="cv_link" placeholder="Best is to put a google drive link of your Resume" v-model="profile.cv_link" />
+                                            name="cv_link" placeholder="Best is to put a google drive link of your Resume"
+                                            v-model="profile.cv_link" />
                                         <!--end::Input-->
                                     </div>
 
@@ -321,7 +302,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="cnic" placeholder="42000-0000000-9"  v-model="profile.nic" />
+                                            name="cnic" placeholder="42000-0000000-9" v-model="profile.nic" />
                                         <!--end::Input-->
                                     </div>
 
@@ -331,7 +312,7 @@
                                         <!--end::Label-->
                                         <!--begin::Input-->
                                         <input type="text" class="form-control form-control-lg form-control-solid"
-                                            name="address" placeholder="Street Address"  v-model="profile.address" />
+                                            name="address" placeholder="Street Address" v-model="profile.address" />
                                         <!--end::Input-->
                                     </div>
                                     <!--end::Input group-->
@@ -347,15 +328,21 @@
                                 <div class="w-100">
                                     <on-boarding-terms></on-boarding-terms>
                                     <!--begin::Option-->
-                                    <div class="d-flex flex-column mb-5 fv-row rounded-3 p-7 border border-dashed border-gray-300">
+                                    <div
+                                        class="d-flex flex-column mb-5 fv-row rounded-3 p-7 border border-dashed border-gray-300">
                                         <!--begin::Label-->
                                         <div class="fs-5 fw-bold form-label mb-3">Have You Read?
-                                        <i tabindex="0" class="cursor-pointer fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-html="true" data-bs-delay-hide="1000" data-bs-content="Thresholds help manage risk by limiting the unpaid usage balance a customer can accrue. Thresholds only measure and bill for metered usage (including discounts but excluding tax). &lt;a href='#'&gt;Learn more&lt;/a&gt;."></i></div>
+                                            <i tabindex="0" class="cursor-pointer fas fa-exclamation-circle ms-2 fs-7"
+                                                data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-html="true"
+                                                data-bs-delay-hide="1000"
+                                                data-bs-content="Thresholds help manage risk by limiting the unpaid usage balance a customer can accrue. Thresholds only measure and bill for metered usage (including discounts but excluding tax). &lt;a href='#'&gt;Learn more&lt;/a&gt;."></i>
+                                        </div>
                                         <!--end::Label-->
                                         <!--begin::Checkbox-->
                                         <label class="form-check form-check-custom form-check-solid">
                                             <input class="form-check-input" type="checkbox" v-model="extras.read_terms" />
-                                            <span class="form-check-label text-gray-600">I have read and understand the terms written above and I shall follow the keypoints inshallah</span>
+                                            <span class="form-check-label text-gray-600">I have read and understand the
+                                                terms written above and I shall follow the keypoints inshallah</span>
                                         </label>
                                         <!--end::Checkbox-->
                                     </div>
@@ -376,23 +363,14 @@
                                         <!--end::Title-->
                                         <!--begin::Notice-->
                                         <div class="text-muted fw-semibold fs-6">
-                                            Your detail has been in review, your verification Email be sent soon, untill then you can use features of LMS as a guest.
+                                            Your detail has been in review, your verification Email be sent soon, untill
+                                            then you can use features of LMS as a guest.
                                         </div>
                                         <!--end::Notice-->
                                     </div>
                                     <!--end::Heading-->
                                     <!--begin::Body-->
                                     <div class="mb-0">
-                                        <!--begin::Text-->
-                                        <!-- <div class="fs-6 text-gray-600 mb-5">
-                      Writing headlines for blog posts is as much an art as it
-                      is a science and probably warrants its own post, but for
-                      all advise is with what works for your great &amp; amazing
-                      audience.
-                    </div> -->
-                                        <!--end::Text-->
-                                        <!--begin::Alert-->
-                                        <!--begin::Notice-->
                                         <div
                                             class="notice d-flex bg-light-warning rounded border-warning border border-dashed p-6">
                                             <!--begin::Icon-->
@@ -418,7 +396,8 @@
                                                         CONGRATS! 2500 Points Added
                                                     </h1>
                                                     <div class="fs-6 text-gray-700 ">
-                                                        <p>A Gift of 2500 Points are now added into your account, you can use it to use different features and sections of LMS   </p>
+                                                        <p>A Gift of 2500 Points are now added into your account, you can
+                                                            use it to use different features and sections of LMS </p>
                                                     </div>
                                                 </div>
                                                 <!--end::Content-->
@@ -547,22 +526,22 @@ export default {
 
                 let index = this.stepper.getCurrentStepIndex();
 
-                if(index == 1){
+                if (index == 1) {
                     // account type
-                    console.log( this.profile.role);
+                    console.log(this.profile.role);
                     this.stepper.goNext();
                 }
 
-                if(index == 2){
+                if (index == 2) {
                     // account type
-                    console.log( this.profile)
+                    console.log(this.profile)
 
-                    if(this.profile.qualification
-                    && this.profile.cv_link
-                    && this.profile.phone
-                    && this.profile.nic
-                    && this.profile.address
-                    ){
+                    if (this.profile.qualification
+                        && this.profile.cv_link
+                        && this.profile.phone
+                        && this.profile.nic
+                        && this.profile.address
+                    ) {
 
                         const res = await this.network().saveProfile(this.profile)
                         console.log(res)
@@ -574,9 +553,9 @@ export default {
                     }
                 }
 
-                if(index == 3){
+                if (index == 3) {
 
-                    if(this.extras.read_terms){
+                    if (this.extras.read_terms) {
                         this.stepper.goNext();
                     } else {
                         this.message("Please read terms and conditions")

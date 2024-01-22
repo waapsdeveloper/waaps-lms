@@ -33,10 +33,13 @@ class TaskController extends Controller
     {
         // Validation rules
         $validator = Validator::make($request->all(), [
+            'user_id' => 'required|integer',
+            'level_id' => 'required|integer',
+            'task_link_id' => 'required|integer',
             'title' => 'required|string|max:255',
             'description' => 'string',
-            'technology_id' => 'required|integer', // Assuming technology_id is an integer
-            'duration' => 'required|integer', // Assuming duration is an integer
+            'duration' => 'required|integer',
+            'status' => 'required|integer',
         ]);
 
         // If validation fails, return failure response
@@ -46,15 +49,19 @@ class TaskController extends Controller
 
         // Create task
         $task = Task::create([
+            'user_id' => $request->input('user_id'),
+            'level_id' => $request->input('level_id'),
+            'task_link_id' => $request->input('task_link_id'),
             'title' => $request->input('title'),
             'description' => $request->input('description'),
-            'technology_id' => $request->input('technology_id'),
             'duration' => $request->input('duration'),
+            'status' => $request->input('status'),
         ]);
 
         // Return success response
         return $this->success('Task created successfully', ['data' => $task]);
     }
+
 
     /**
      * Display the specified resource.
@@ -84,10 +91,13 @@ class TaskController extends Controller
         }
 
         $validator = Validator::make($request->all(), [
+            'user_id' => 'required', // You might need to adjust this validation based on your actual requirements
+            'level_id' => 'required', // You might need to adjust this validation based on your actual requirements
+            'task_link_id' => 'required', // You might need to adjust this validation based on your actual requirements
             'title' => 'required|string|max:255',
             'description' => 'string',
-            'technology_id' => 'required', // You might need to adjust this validation based on your actual requirements
             'duration' => 'required', // You might need to adjust this validation based on your actual requirements
+            'status' => 'required', // You might need to adjust this validation based on your actual requirements
         ]);
 
         if ($validator->fails()) {
@@ -97,14 +107,18 @@ class TaskController extends Controller
         $data = $request->all();
 
         $task->update([
+            'user_id' => $data['user_id'],
+            'level_id' => $data['level_id'],
+            'task_link_id' => $data['task_link_id'],
             'title' => $data['title'],
             'description' => $data['description'],
-            'technology_id' => $data['technology_id'],
             'duration' => $data['duration'],
+            'status' => $data['status'],
         ]);
 
         return $this->success('Task updated successfully', ['data' => $task]);
     }
+
 
     /**
      * Remove the specified resource from storage.
