@@ -115,7 +115,7 @@
                             </div>
                         </div>
                             <div class="col-lg-9  text-center ">
-                                <h3 class="text-hover-primary"> Ask your instructor to asing you a task</h3>
+                                <h3 class="text-hover-primary"> Ask your instructor to assign you a task</h3>
                             </div>
 
                     </div>
