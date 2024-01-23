@@ -1,6 +1,8 @@
 <template>
     <section>
         <div class="container-fluid mt-5">
+            <div class="row">
+
             <div class="col-lg-6">
 
                 <div class="card mb-5 mb-xl-10">
@@ -143,11 +145,21 @@
                             </div>
                         </form>
                     </div>
+                </div>
 
                 </div>
-            </div>
+                <!-- paragraph code heree... -->
+
+                <div class="col-lg-6 card">
+        <label for="paragraphInput" class="form-label" style="display: block; margin: 15px; margin-top: 25px;"><h3><b>Enter Guides Here:</b></h3></label>
+        <textarea name="paragraph" id="paragraphInput" cols="80" rows="10" class="card mb-5 text-light text-bold card-body border-top p-10" style="height: 500px; width: 888px;">
+        </textarea>
+</div>
+
+
 
         </div>
+    </div>
     </section>
     <section>
         <div class="container-fluid">
@@ -212,6 +224,16 @@
                     <h3 class="card-title align-items-start flex-column">
                         <span class="mt-1 fs-4 text-hover-primary">End Time</span>
                         <span class="card-label fw-bold text-dark  fs-2">00</span>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-5 mb-5 ">
+            <div class="card card-flush h-lg-100 d-flex  align-items-center justify-content-center">
+                <div class="card-header pt-5 text-center">
+                    <h3 class="card-title align-items-start flex-column">
+                        <span class="mt-1 fs-4 text-hover-primary">Links</span>
+                        <span class="card-label fw-bold text-dark  fs-4">See the links before start the task</span>
                     </h3>
                 </div>
             </div>
