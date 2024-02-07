@@ -36,6 +36,10 @@ import instructordashboard from './pages/instructordashboard.vue';
 import addcampaign from './pages/instructor/campaign/addcampaign.vue';
 import campaign from './pages/campaign.vue';
 import levelone from './pages/level-one.vue';
+import user from './pages/user.vue';
+import project from './pages/project.vue';
+import addproject from './pages/addproject.vue';
+import addtask from './pages/addtask.vue';
 import detail from './pages/detail.vue';
 import profilecampaigns from './pages/profile/profile-campaigns.vue';
 import profileoverview from './pages/profile/profile-overview.vue';
@@ -188,6 +192,10 @@ export const routes = [
             { path: '/student-dashboard', name: 'studentdashboard', component: studentdashboard },
 
             { path: '/instructor-dashboard', name: 'instructordashboard', component: instructordashboard },
+            { path: '/user', name: 'user', component: user },
+            { path: '/project', name: 'project', component: project },
+            { path: '/addproject', name: 'addproject', component: addproject },
+            { path: '/addtask', name: 'addtask', component: addtask },
             { path: '/addcampaign' },
             { path: '/campaign', name: 'campaign', component: campaign },
             { path: '/level-one', name: 'levelone', component: levelone },
